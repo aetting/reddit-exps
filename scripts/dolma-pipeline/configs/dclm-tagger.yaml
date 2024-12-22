@@ -1,0 +1,11 @@
+experiment: dclmtag
+
+documents:
+    # - s3://ai2-llm/pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/documents/sharded_output-00000-of-34445.jsonl.gz
+    - /home/ec2-user/sample_merged_qa/documents/*.gz
+
+taggers:
+    # - dclm-oh-eli5
+    - comment_bot_author
+
+processes: 192

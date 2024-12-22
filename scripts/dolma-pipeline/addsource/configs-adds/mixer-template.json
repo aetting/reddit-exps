@@ -1,0 +1,37 @@
+{
+    "streams": [
+      {
+        "name": "sample-mix",
+        "documents": [
+          "s3://ai2-llm/pretraining-data/sources/reddit/dolma_raw/source-added/documents/*/*.gz"
+        ],
+        "output": {
+          "path": "/net/nfs.cirrascale/mosaic/allysone/reddit/sample_data/mixed",
+          "max_size_in_bytes": 1000000000
+        },
+        "attributes": [
+          "tagging",
+          "bff_duplicate_subreddit",
+          "bff_duplicate_paragraph_spans"
+        ],
+        "filter": {
+          "include": [
+            "$.attributes[?(@.tagging__char_length_v1__length[0][2] < 1000)]"
+          ],
+          "exclude": [
+            "$.attributes[?(@.tagging__char_length_v1__length[0][2] < 500)]",
+            "$.attributes[?(@.tagging__pii_regex_v2__doc[0][2] > 0)]",
+            "$.attributes[?(@.bff_duplicate_subreddit && @.bff_duplicate_subreddit[0] && @.bff_duplicate_subreddit[0][2] > 0.5)]"
+          ]
+        },
+        "span_replacement": [
+          {
+            "span": "$.attributes.bff_duplicate_paragraph_spans",
+            "min_score": 1,
+            "replacement": "!!!!!!THERE WAS A DUPLICATE PARAGRAPH HERE!!!!!!"
+          }
+        ]
+      }
+    ],
+    "processes": 1
+  }

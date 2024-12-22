@@ -1,0 +1,19 @@
+
+destination: tokens-dd-seq/mmlu-dense-subs
+# batch_size: 1000 
+documents:
+  - s3://ai2-llm/pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_wsubreddit/merged_qa_prefilter/merged_qa_prefilter_densesubs/*.gz
+seed: 3920
+max_size: 3_000_000_000
+processes: 192 
+dtype: uint32
+tokenizer:
+  name_or_path: allenai/dolma2-tokenizer
+  bos_token_id: null
+  eos_token_id: 100257
+  pad_token_id: 100277
+  segment_before_tokenization: false
+  encode_special_tokens: true
+# work_dir:
+#   input: tokstmp/input
+#   output: tokstmp/output

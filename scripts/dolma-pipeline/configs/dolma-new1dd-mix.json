@@ -1,0 +1,41 @@
+{
+  "streams": [
+    {
+      "name": "dolma-new1dd-mix",
+      "documents": [
+        "s3://ai2-llm/pretraining-data/sources/reddit/dolma_raw/documents/*/*.gz"
+      ],
+      "output": {
+        "path": "s3://ai2-llm/pretraining-data/sources/reddit/dolma_raw/mixed/dolma-new1dd-mix",
+        "max_size_in_bytes": 1000000000
+      },
+      "attributes": [
+        "tagset",
+        "rmdel",
+        "dedupe_by_text"
+      ],
+      "filter": {
+        "exclude": [
+          "$.attributes[?(@.tagset__char_length_v1__length[0][2] < 5)]",
+          "$.attributes[?(@.tagset__dolma_v2_tokenizer__length[0][2] > 128)]",
+          "$.attributes[?(@.tagset__longest_string__length[0][2] > 2048)]",
+          "$.attributes[?(@.tagset__len_wo_url__length[0][2] < 100)]",
+          "$.attributes[?(@.rmdel__removed_deleted__doc[0][2] > 0.5)]",
+          "$.metadata[?(@.removed_by_category && @.removed_by_category != null)]",
+          "$.metadata[?(@.over_18 && @.over_18 == true)]",
+          "$.attributes[?(@.tagset__banned_subreddit_membership__doc[0][2] > 0.5)]",
+          "$.attributes[?(@.tagset__bot_author__doc[0][2] > 0.5)]",
+          "$.attributes[?(@.tagset__non_english_subreddit__doc[0][2] > 0.5)]",
+          "$.attributes[?(@.tagset__starts_nonascii__doc[0][2] > 0.5)]",
+          "$.metadata[?(@.thread_depth && @.thread_depth > 6)]",
+          "$@.attributes[?(@.bff_duplicate_text && @.bff_duplicate_text[0] && @.bff_duplicate_text[0][2] > 0.5)]"
+        ]
+      }
+    }
+  ],
+  "processes": 192,
+  "work_dir": {
+    "input": "mixtmpd/dolmamixdd-input",
+    "output": "mixtmpd/dolmamixdd-output"
+  }
+} 

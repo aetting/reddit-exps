@@ -1,0 +1,23 @@
+{
+    "documents": [
+        "s3://ai2-llm/pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/documents/*.gz"
+    ],
+    "dedupe": {
+        "name": "dedupe_by_text",
+        "documents": {
+        "attribute_name": "dedupe_by_text",
+        "key": "$.text"
+        }
+    },
+    "bloom_filter": {
+        "file": "bf/text_bloom_filter.bin",
+        "read_only": false,
+        "estimated_doc_count": 1160000000,
+        "desired_false_positive_rate": 0.1
+    },
+    "processes": 192,
+    "work_dir": {
+      "input": "ddtmp/tmp-input",
+      "output": "ddtmp/tmp-output"
+    }
+}

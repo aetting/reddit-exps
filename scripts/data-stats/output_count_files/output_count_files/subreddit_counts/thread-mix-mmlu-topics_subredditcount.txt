@@ -1,0 +1,1126 @@
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0000.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0001.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0002.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0003.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0004.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0005.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0006.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0007.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0008.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0009.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0010.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0011.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0012.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0013.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0014.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0015.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0016.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0017.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0018.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0019.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0020.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0021.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0022.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0023.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0024.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0025.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0026.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0027.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0028.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0029.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0030.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0031.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0032.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0033.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0034.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0035.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0036.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0037.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0038.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0039.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0040.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0041.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0042.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0043.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0044.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0045.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0046.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0047.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0048.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0049.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0050.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0051.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0052.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0053.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0054.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0055.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0056.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0057.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0058.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0059.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0060.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0061.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0062.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0063.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0064.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0065.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0066.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0067.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0068.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0069.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0070.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0071.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0072.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0073.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0074.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0075.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0076.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0077.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0078.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0079.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0080.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0081.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0082.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0083.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0084.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0085.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0086.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0087.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0088.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0089.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0090.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0091.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0092.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0093.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0094.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0095.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0096.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0097.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0098.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0099.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0100.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0101.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0102.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0103.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0104.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0105.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0106.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0107.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0108.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0109.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0110.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0111.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0112.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0113.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0114.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0115.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0116.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0117.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0118.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0119.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0120.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0121.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0122.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0123.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0124.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0125.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0126.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0127.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0128.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0129.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0130.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0131.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0132.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0133.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0134.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0135.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0136.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0137.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0138.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0139.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0140.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0141.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0142.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0143.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0144.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0145.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0146.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0147.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0148.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0149.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0150.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0151.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0152.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0153.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0154.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0155.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0156.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0157.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0158.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0159.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0160.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0161.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0162.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0163.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0164.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0165.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0166.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0167.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0168.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0169.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0170.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0171.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0172.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0173.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0174.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0175.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0176.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0177.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0178.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0179.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0180.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0181.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0182.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0183.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0184.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0185.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0186.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0187.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0188.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0189.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0190.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0191.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0192.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0193.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0194.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0195.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0196.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0197.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0198.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0199.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0200.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0201.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0202.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0203.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0204.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0205.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0206.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0207.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0208.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0209.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0210.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0211.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0212.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0213.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0214.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0215.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0216.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0217.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0218.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0219.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0220.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0221.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0222.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0223.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0224.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0225.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0226.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0227.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0228.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0229.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0230.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0231.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0232.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0233.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0234.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0235.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0236.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0237.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0238.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0239.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0240.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0241.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0242.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0243.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0244.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0245.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0246.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0247.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0248.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0249.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0250.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0251.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0252.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0253.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0254.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0255.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0256.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0257.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0258.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0259.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0260.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0261.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0262.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0263.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0264.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0265.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0266.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0267.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0268.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0269.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0270.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0271.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0272.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0273.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0274.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0275.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0276.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0277.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0278.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0279.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0280.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0281.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0282.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0283.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0284.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0285.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0286.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0287.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0288.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0289.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0290.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0291.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0292.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0293.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0294.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0295.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0296.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0297.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0298.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0299.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0300.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0301.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0302.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0303.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0304.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0305.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0306.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0307.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0308.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0309.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0310.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0311.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0312.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0313.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0314.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0315.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0316.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0317.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0318.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0319.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0320.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0321.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0322.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0323.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0324.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0325.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0326.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0327.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0328.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0329.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0330.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0331.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0332.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0333.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0334.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0335.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0336.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0337.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0338.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0339.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0340.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0341.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0342.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0343.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0344.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0345.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0346.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0347.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0348.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0349.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0350.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0351.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0352.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0353.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0354.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0355.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0356.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0357.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0358.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0359.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0360.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0361.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0362.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0363.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0364.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0365.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0366.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0367.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0368.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0369.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0370.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0371.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0372.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0373.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0374.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0375.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0376.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0377.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0378.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0379.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0380.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0381.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0382.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0383.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0384.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0385.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0386.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0387.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0388.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0389.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0390.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0391.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0392.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0393.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0394.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0395.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0396.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0397.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0398.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0399.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0400.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0401.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0402.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0403.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0404.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa/mixed/thread-mix-mmlu-topics/thread-mix-mmlu-topics-0405.json.gz
+legaladvice: d = 734978  ; t = 248768726.0
+explainlikeimfive: d = 655668  ; t = 111811166.0
+learnprogramming: d = 224464  ; t = 63686667.0
+askscience: d = 200576  ; t = 39169058.0
+cscareerquestions: d = 199703  ; t = 58189028.0
+AskDocs: d = 192473  ; t = 64047147.0
+Accounting: d = 144868  ; t = 29972636.0
+pregnant: d = 139366  ; t = 36852841.0
+Entrepreneur: d = 136620  ; t = 35774098.0
+AskHistorians: d = 111672  ; t = 53875717.0
+learnmath: d = 102052  ; t = 25591008.0
+LegalAdviceUK: d = 93512  ; t = 33342747.0
+smallbusiness: d = 91250  ; t = 23738708.0
+gardening: d = 86468  ; t = 16392547.0
+webdev: d = 80400  ; t = 19719038.0
+EngineeringStudents: d = 79550  ; t = 18398276.0
+gamedev: d = 78558  ; t = 21538460.0
+AskEngineers: d = 70148  ; t = 17505755.0
+medical: d = 67818  ; t = 17349253.0
+askphilosophy: d = 67498  ; t = 21082398.0
+flying: d = 61673  ; t = 14863751.0
+sales: d = 60701  ; t = 15834211.0
+AskPhysics: d = 58423  ; t = 13360832.0
+networking: d = 52085  ; t = 15133814.0
+Wordpress: d = 49708  ; t = 9248541.0
+math: d = 48985  ; t = 11979018.0
+chemistry: d = 45863  ; t = 9067238.0
+chromeos: d = 45799  ; t = 8017834.0
+marketing: d = 42729  ; t = 10170610.0
+startups: d = 39353  ; t = 11247608.0
+PoliticalDiscussion: d = 39208  ; t = 9604158.0
+arduino: d = 38691  ; t = 9742848.0
+askmath: d = 37497  ; t = 9362800.0
+getdisciplined: d = 37382  ; t = 14939627.0
+CPA: d = 35967  ; t = 5781423.0
+PPC: d = 35674  ; t = 7344514.0
+biology: d = 35191  ; t = 6996778.0
+privacy: d = 34440  ; t = 6749468.0
+flightsim: d = 33892  ; t = 5934906.0
+AskElectronics: d = 33431  ; t = 7555594.0
+chemhelp: d = 32416  ; t = 6404935.0
+AskScienceDiscussion: d = 32260  ; t = 7016856.0
+legaladvicecanada: d = 31499  ; t = 10351916.0
+history: d = 31382  ; t = 8525253.0
+nutrition: d = 30558  ; t = 6095523.0
+androiddev: d = 28483  ; t = 5692261.0
+amateurradio: d = 28483  ; t = 6645549.0
+snakes: d = 28171  ; t = 6242643.0
+raspberry_pi: d = 26758  ; t = 5473123.0
+religion: d = 26487  ; t = 8116242.0
+engineering: d = 25689  ; t = 5920272.0
+theydidthemath: d = 25387  ; t = 6178948.0
+productivity: d = 23549  ; t = 6350774.0
+statistics: d = 23137  ; t = 6478599.0
+ElectricalEngineering: d = 22131  ; t = 4750580.0
+aviation: d = 21236  ; t = 3734471.0
+AskStatistics: d = 20443  ; t = 5644245.0
+SQL: d = 20193  ; t = 6242655.0
+reptiles: d = 20124  ; t = 3948770.0
+MathHelp: d = 19779  ; t = 5270088.0
+datascience: d = 18984  ; t = 4989445.0
+cybersecurity: d = 18860  ; t = 4256565.0
+ecommerce: d = 18859  ; t = 4076506.0
+Python: d = 18676  ; t = 4214679.0
+gis: d = 18608  ; t = 4144467.0
+business: d = 18554  ; t = 3731596.0
+space: d = 18315  ; t = 3481821.0
+philosophy: d = 17504  ; t = 5167959.0
+medlabprofessionals: d = 17274  ; t = 3809743.0
+ChemicalEngineering: d = 17144  ; t = 3900205.0
+medicine: d = 17103  ; t = 4404434.0
+hacking: d = 16286  ; t = 2719516.0
+solar: d = 16215  ; t = 4277876.0
+AusLegal: d = 15639  ; t = 4756006.0
+PLC: d = 15352  ; t = 3504875.0
+AskNetsec: d = 15297  ; t = 3657054.0
+advertising: d = 15217  ; t = 3494845.0
+telescopes: d = 15085  ; t = 3817946.0
+homestead: d = 14563  ; t = 3550014.0
+23andme: d = 14545  ; t = 2681184.0
+tarantulas: d = 14367  ; t = 2812081.0
+learnmachinelearning: d = 14212  ; t = 3297705.0
+Machinists: d = 14211  ; t = 2840782.0
+RPI: d = 14148  ; t = 2168983.0
+DiagnoseMe: d = 13101  ; t = 4667415.0
+django: d = 13087  ; t = 3311238.0
+Physics: d = 12670  ; t = 3013017.0
+ECE: d = 12649  ; t = 3260738.0
+MachineLearning: d = 12270  ; t = 3131176.0
+matlab: d = 12148  ; t = 3334092.0
+geologycareers: d = 12059  ; t = 3072117.0
+AskLGBT: d = 11731  ; t = 3178248.0
+HowToHack: d = 11593  ; t = 1988100.0
+javascript: d = 11318  ; t = 2882750.0
+bioinformatics: d = 11208  ; t = 2928320.0
+TOR: d = 10955  ; t = 1777124.0
+Ask_Lawyers: d = 10862  ; t = 2490295.0
+vim: d = 10473  ; t = 2273863.0
+SolidWorks: d = 10249  ; t = 1884466.0
+education: d = 10175  ; t = 2662998.0
+psychotherapy: d = 9921  ; t = 2952686.0
+askpsychology: d = 9670  ; t = 2431837.0
+geology: d = 9612  ; t = 1923733.0
+law: d = 9304  ; t = 2118470.0
+psychologystudents: d = 9204  ; t = 2085948.0
+Astronomy: d = 9130  ; t = 1869430.0
+dotnet: d = 9120  ; t = 2290489.0
+AskSocialScience: d = 9106  ; t = 2189544.0
+golang: d = 8914  ; t = 2260864.0
+auslaw: d = 7988  ; t = 1798049.0
+rails: d = 7865  ; t = 2312970.0
+mathematics: d = 7775  ; t = 1837426.0
+mycology: d = 7763  ; t = 1218522.0
+compsci: d = 7722  ; t = 1803019.0
+urbanplanning: d = 7678  ; t = 1940449.0
+publichealth: d = 7631  ; t = 1945294.0
+Permaculture: d = 7415  ; t = 1909872.0
+PhysicsStudents: d = 7353  ; t = 1744140.0
+Biochemistry: d = 7327  ; t = 1567157.0
+AcademicPsychology: d = 7271  ; t = 1988117.0
+PHP: d = 7193  ; t = 1849504.0
+java: d = 6986  ; t = 1681374.0
+biotech: d = 6809  ; t = 1683009.0
+rstats: d = 6654  ; t = 2022292.0
+robotics: d = 6446  ; t = 1495081.0
+uklaw: d = 6358  ; t = 1601741.0
+aviationmaintenance: d = 6357  ; t = 1185112.0
+askastronomy: d = 6351  ; t = 1366619.0
+signal: d = 6345  ; t = 942200.0
+programming: d = 6236  ; t = 1041758.0
+ATC: d = 6218  ; t = 1179061.0
+genetics: d = 6217  ; t = 1399484.0
+cad: d = 6198  ; t = 1282327.0
+economy: d = 6188  ; t = 1383838.0
+Affiliatemarketing: d = 6184  ; t = 1173351.0
+FPGA: d = 6056  ; t = 1811593.0
+evolution: d = 6049  ; t = 1524659.0
+farming: d = 6024  ; t = 1259655.0
+neuro: d = 5892  ; t = 1564197.0
+Radiology: d = 5886  ; t = 1234645.0
+Biohackers: d = 5681  ; t = 1083934.0
+haskell: d = 5463  ; t = 1921136.0
+spiders: d = 5384  ; t = 1080849.0
+electronics: d = 5370  ; t = 1109041.0
+RTLSDR: d = 5111  ; t = 1034409.0
+neuroscience: d = 5007  ; t = 1307355.0
+sociology: d = 4994  ; t = 1332939.0
+Anticonsumption: d = 4992  ; t = 1243956.0
+geography: d = 4961  ; t = 805791.0
+chemistryhelp: d = 4911  ; t = 1089009.0
+microbiology: d = 4651  ; t = 986432.0
+foodscience: d = 4632  ; t = 986327.0
+OrganicChemistry: d = 4570  ; t = 687590.0
+botany: d = 4537  ; t = 888897.0
+PublicRelations: d = 4359  ; t = 1061289.0
+VPNTorrents: d = 4294  ; t = 697163.0
+rocketry: d = 4263  ; t = 832323.0
+css: d = 4206  ; t = 797397.0
+environment: d = 4186  ; t = 883047.0
+artificial: d = 4179  ; t = 1039786.0
+geopolitics: d = 4145  ; t = 1388683.0
+datasets: d = 4137  ; t = 529396.0
+Xplane: d = 4106  ; t = 633605.0
+LaTeX: d = 4085  ; t = 984151.0
+Database: d = 4074  ; t = 1133983.0
+ants: d = 3976  ; t = 635231.0
+openwrt: d = 3960  ; t = 985182.0
+ruby: d = 3907  ; t = 1068908.0
+Entomology: d = 3876  ; t = 779251.0
+Hacking_Tutorials: d = 3861  ; t = 548616.0
+environmental_science: d = 3829  ; t = 938339.0
+mantids: d = 3826  ; t = 677856.0
+security: d = 3747  ; t = 839116.0
+Psychiatry: d = 3657  ; t = 1008560.0
+computerforensics: d = 3642  ; t = 808255.0
+deeplearning: d = 3640  ; t = 735071.0
+psychology: d = 3586  ; t = 917525.0
+emergencymedicine: d = 3453  ; t = 950310.0
+nasa: d = 3410  ; t = 656632.0
+netsecstudents: d = 3379  ; t = 787741.0
+cpp: d = 3284  ; t = 946394.0
+aerospace: d = 3278  ; t = 729334.0
+IOPsychology: d = 3135  ; t = 780253.0
+crypto: d = 3130  ; t = 805067.0
+forestry: d = 3069  ; t = 722537.0
+quant: d = 2989  ; t = 621006.0
+PrivacyGuides: d = 2985  ; t = 545536.0
+manufacturing: d = 2977  ; t = 612936.0
+ecology: d = 2969  ; t = 744802.0
+astrophysics: d = 2940  ; t = 659096.0
+spaceengine: d = 2912  ; t = 377171.0
+LanguageTechnology: d = 2911  ; t = 671139.0
+hydro: d = 2888  ; t = 620133.0
+Microbiome: d = 2879  ; t = 672203.0
+marinebiology: d = 2847  ; t = 593884.0
+sustainability: d = 2809  ; t = 637768.0
+zoology: d = 2771  ; t = 615159.0
+econometrics: d = 2715  ; t = 621744.0
+matheducation: d = 2688  ; t = 748148.0
+Helicopters: d = 2670  ; t = 600528.0
+content_marketing: d = 2660  ; t = 638468.0
+energy: d = 2658  ; t = 594915.0
+moraldilemmas: d = 2658  ; t = 1026339.0
+SecurityAnalysis: d = 2624  ; t = 806540.0
+SoftwareEngineering: d = 2604  ; t = 710059.0
+Reprap: d = 2560  ; t = 591036.0
+tDCS: d = 2560  ; t = 576798.0
+rfelectronics: d = 2546  ; t = 599074.0
+Ornithology: d = 2412  ; t = 551247.0
+science: d = 2400  ; t = 486820.0
+reinforcementlearning: d = 2395  ; t = 563031.0
+Anthropology: d = 2364  ; t = 592333.0
+meteorology: d = 2322  ; t = 509305.0
+netsec: d = 2275  ; t = 388312.0
+transhumanism: d = 2249  ; t = 566133.0
+epidemiology: d = 2227  ; t = 583453.0
+Anatomy: d = 2223  ; t = 359358.0
+bioengineering: d = 2166  ; t = 549283.0
+LawCanada: d = 2144  ; t = 538699.0
+organization: d = 2134  ; t = 514190.0
+DSP: d = 2089  ; t = 549312.0
+materials: d = 2084  ; t = 413338.0
+ComputerEngineering: d = 2004  ; t = 447887.0
+MiniPCs: d = 1996  ; t = 444029.0
+Archaeology: d = 1969  ; t = 526319.0
+Neuropsychology: d = 1902  ; t = 540227.0
+ControlTheory: d = 1838  ; t = 483962.0
+Horticulture: d = 1817  ; t = 393891.0
+astrophotography: d = 1814  ; t = 431476.0
+FamilyMedicine: d = 1799  ; t = 385669.0
+whatsthisplant: d = 1760  ; t = 190212.0
+PrintedCircuitBoard: d = 1750  ; t = 396714.0
+herpetology: d = 1721  ; t = 343728.0
+legaladviceireland: d = 1698  ; t = 468041.0
+freeflight: d = 1672  ; t = 405669.0
+managers: d = 1670  ; t = 654640.0
+neurology: d = 1667  ; t = 409862.0
+spacex: d = 1662  ; t = 495429.0
+TropicalWeather: d = 1582  ; t = 277332.0
+gender: d = 1581  ; t = 483038.0
+whatsthisbird: d = 1581  ; t = 263448.0
+stratux: d = 1562  ; t = 313459.0
+perl: d = 1539  ; t = 477525.0
+cosmology: d = 1509  ; t = 356120.0
+climate: d = 1470  ; t = 352178.0
+Malwarebytes: d = 1427  ; t = 215269.0
+Clojure: d = 1410  ; t = 408890.0
+PhilosophyofScience: d = 1393  ; t = 521943.0
+Agriculture: d = 1380  ; t = 266558.0
+pharmacology: d = 1363  ; t = 322595.0
+Pentesting: d = 1340  ; t = 261692.0
+quantum: d = 1336  ; t = 333739.0
+lisp: d = 1312  ; t = 375138.0
+water: d = 1308  ; t = 232091.0
+IOT: d = 1278  ; t = 282118.0
+bigdata: d = 1278  ; t = 296022.0
+WildlifeRehab: d = 1278  ; t = 391318.0
+APChem: d = 1224  ; t = 149573.0
+RenewableEnergy: d = 1195  ; t = 270844.0
+jquery: d = 1188  ; t = 314533.0
+Ethics: d = 1179  ; t = 446954.0
+Mathematica: d = 1171  ; t = 340537.0
+molecularbiology: d = 1138  ; t = 234221.0
+longevity: d = 1137  ; t = 251179.0
+apphysics: d = 1134  ; t = 144556.0
+USHistory: d = 1125  ; t = 238339.0
+electronic_circuits: d = 1107  ; t = 235753.0
+chipdesign: d = 1056  ; t = 265375.0
+Malware: d = 1034  ; t = 197589.0
+html5: d = 1021  ; t = 186038.0
+NuclearPower: d = 1011  ; t = 243724.0
+Maps: d = 1009  ; t = 128189.0
+fallacy: d = 990  ; t = 248001.0
+Virology: d = 971  ; t = 241001.0
+ComputerSecurity: d = 954  ; t = 197889.0
+conservation: d = 940  ; t = 241168.0
+askmedicine: d = 926  ; t = 203070.0
+AcademicPhilosophy: d = 911  ; t = 310522.0
+CasualMath: d = 900  ; t = 261511.0
+PostCollapse: d = 899  ; t = 225875.0
+FluidMechanics: d = 890  ; t = 187311.0
+spacequestions: d = 875  ; t = 217482.0
+thermodynamics: d = 859  ; t = 221901.0
+APHumanGeography: d = 838  ; t = 83916.0
+Cybersecurity101: d = 835  ; t = 199186.0
+overpopulation: d = 829  ; t = 202136.0
+promethease: d = 817  ; t = 187584.0
+Gliding: d = 805  ; t = 208771.0
+AccountingDepartment: d = 783  ; t = 171827.0
+ClinicalGenetics: d = 755  ; t = 217759.0
+phishing: d = 704  ; t = 157657.0
+cogsci: d = 697  ; t = 173521.0
+APEuro: d = 693  ; t = 90855.0
+Hydrology: d = 680  ; t = 151282.0
+clinicalpsych: d = 674  ; t = 196398.0
+themartian: d = 674  ; t = 123802.0
+Geotech: d = 635  ; t = 131595.0
+QuantumPhysics: d = 633  ; t = 171639.0
+spaceflight: d = 629  ; t = 147331.0
+Beetles: d = 604  ; t = 90351.0
+Mars: d = 592  ; t = 142173.0
+Information_Security: d = 592  ; t = 132538.0
+TimeManagement: d = 589  ; t = 180301.0
+Cosmos: d = 587  ; t = 92788.0
+CyberSecurityAdvice: d = 581  ; t = 137516.0
+socialscience: d = 574  ; t = 141158.0
+Soil: d = 561  ; t = 127268.0
+ParticlePhysics: d = 559  ; t = 140374.0
+TheoreticalPhysics: d = 556  ; t = 150005.0
+Transhuman: d = 551  ; t = 152109.0
+SNPedia: d = 548  ; t = 115801.0
+EmDrive: d = 540  ; t = 146861.0
+Wildlife: d = 538  ; t = 136242.0
+blackhat: d = 528  ; t = 83702.0
+BlueOrigin: d = 524  ; t = 105258.0
+cryonics: d = 521  ; t = 164218.0
+Help_with_math: d = 514  ; t = 110026.0
+apchemistry: d = 511  ; t = 67607.0
+elementcollection: d = 504  ; t = 88747.0
+geophysics: d = 501  ; t = 110887.0
+internationallaw: d = 495  ; t = 118583.0
+birdsofprey: d = 495  ; t = 125149.0
+AnatomyandPhysiology: d = 492  ; t = 94097.0
+Earthquakes: d = 488  ; t = 81386.0
+cyber_security: d = 481  ; t = 101435.0
+CSEducation: d = 480  ; t = 131341.0
+Leadership: d = 476  ; t = 146740.0
+Aquaculture: d = 469  ; t = 101329.0
+FighterJets: d = 469  ; t = 72485.0
+Green: d = 465  ; t = 92450.0
+homebuilt: d = 464  ; t = 103349.0
+geothermal: d = 462  ; t = 127743.0
+evopsych: d = 455  ; t = 134413.0
+wind: d = 445  ; t = 96809.0
+visualization: d = 444  ; t = 89113.0
+avionics: d = 420  ; t = 85453.0
+LegalAdviceEU: d = 419  ; t = 144164.0
+physicsjokes: d = 410  ; t = 27205.0
+oceanography: d = 406  ; t = 87279.0
+Astrobiology: d = 404  ; t = 107074.0
+reddithax: d = 399  ; t = 58118.0
+STEM: d = 391  ; t = 94941.0
+techsnap: d = 384  ; t = 100219.0
+OrnithologyUK: d = 382  ; t = 60629.0
+hardwarehacking: d = 374  ; t = 72702.0
+Biophysics: d = 363  ; t = 90367.0
+Colonizemars: d = 355  ; t = 127591.0
+macroeconomics: d = 355  ; t = 70460.0
+neurophilosophy: d = 350  ; t = 114340.0
+eulaw: d = 344  ; t = 88332.0
+digitalforensics: d = 341  ; t = 78650.0
+AnimalBehavior: d = 339  ; t = 82236.0
+homecockpits: d = 335  ; t = 69372.0
+ReverseEngineering: d = 334  ; t = 82219.0
+sportsmedicine: d = 328  ; t = 73996.0
+invasivespecies: d = 328  ; t = 76248.0
+SCADA: d = 324  ; t = 67402.0
+esa: d = 321  ; t = 57037.0
+Social_Psychology: d = 317  ; t = 94443.0
+psychopharmacology: d = 310  ; t = 86562.0
+universe: d = 307  ; t = 64342.0
+fossilid: d = 295  ; t = 38844.0
+SpaceLaunchSystem: d = 294  ; t = 63716.0
+scientificresearch: d = 289  ; t = 72596.0
+EarthScience: d = 286  ; t = 55011.0
+climate_science: d = 279  ; t = 67893.0
+foreignpolicy: d = 265  ; t = 73659.0
+HypotheticalPhysics: d = 260  ; t = 114066.0
+enviroaction: d = 259  ; t = 65038.0
+RocketLab: d = 257  ; t = 49629.0
+ula: d = 255  ; t = 62084.0
+mathpuzzles: d = 255  ; t = 66723.0
+BiologyHelp: d = 254  ; t = 43240.0
+quantummechanics: d = 254  ; t = 59580.0
+geographynow: d = 250  ; t = 28598.0
+geospatial: d = 248  ; t = 53273.0
+moon: d = 246  ; t = 32144.0
+puremathematics: d = 245  ; t = 73767.0
+homechemistry: d = 241  ; t = 46516.0
+datamining: d = 236  ; t = 45042.0
+Agronomy: d = 234  ; t = 50074.0
+AP_Physics: d = 229  ; t = 33221.0
+poverty: d = 227  ; t = 65332.0
+physicsmemes: d = 226  ; t = 18781.0
+Parasitology: d = 223  ; t = 50882.0
+government: d = 220  ; t = 43830.0
+ISS: d = 213  ; t = 32990.0
+ExploitDev: d = 209  ; t = 43900.0
+oceans: d = 209  ; t = 36786.0
+breadboard: d = 208  ; t = 41032.0
+SacredGeometry: d = 208  ; t = 40951.0
+arachnids: d = 205  ; t = 33882.0
+SETI: d = 204  ; t = 49791.0
+InternalMedicine: d = 203  ; t = 35956.0
+PenetrationTesting: d = 200  ; t = 35397.0
+morse: d = 197  ; t = 30144.0
+darksky: d = 180  ; t = 32255.0
+Volcanoes: d = 179  ; t = 42119.0
+whales: d = 178  ; t = 28354.0
+AskSciTech: d = 178  ; t = 42186.0
+PhilosophyofMath: d = 178  ; t = 58003.0
+BehavioralMedicine: d = 174  ; t = 60448.0
+Sexology: d = 172  ; t = 56252.0
+asa_chemistry: d = 166  ; t = 35287.0
+eebooks: d = 163  ; t = 10389.0
+coolmathgames: d = 162  ; t = 12147.0
+PrehistoricLife: d = 159  ; t = 22456.0
+CNCmachining: d = 159  ; t = 29806.0
+genetic_algorithms: d = 152  ; t = 37946.0
+PsychologyTalk: d = 150  ; t = 49864.0
+MapPorn: d = 148  ; t = 23190.0
+curiosityrover: d = 148  ; t = 23561.0
+Ethnobotany: d = 147  ; t = 30584.0
+pmr: d = 146  ; t = 31024.0
+solarpower: d = 145  ; t = 32677.0
+tothemoon: d = 143  ; t = 37745.0
+epigenetics: d = 142  ; t = 30004.0
+blueteamsec: d = 141  ; t = 35932.0
+xss: d = 138  ; t = 22623.0
+amateurastronomy: d = 137  ; t = 38021.0
+physicsforfun: d = 124  ; t = 32986.0
+Hydrogeology: d = 115  ; t = 26501.0
+sens: d = 115  ; t = 23606.0
+Aging: d = 114  ; t = 25361.0
+astrophys: d = 114  ; t = 33083.0
+psychologyofsex: d = 113  ; t = 28230.0
+websecurity: d = 111  ; t = 26887.0
+Airbus: d = 111  ; t = 14949.0
+MalwareAnalysis: d = 110  ; t = 19817.0
+Spaceexploration: d = 108  ; t = 25390.0
+PhysicsGRE: d = 107  ; t = 15296.0
+wp7dev: d = 106  ; t = 20846.0
+cognitivelinguistics: d = 104  ; t = 29358.0
+physicsbooks: d = 103  ; t = 11244.0
+Sociology_Academic: d = 102  ; t = 23092.0
+venus: d = 98  ; t = 23108.0
+animalscience: d = 98  ; t = 20378.0
+paleoanthropology: d = 92  ; t = 17887.0
+biomedicalengineering: d = 92  ; t = 20839.0
+exoplanets: d = 91  ; t = 20388.0
+Restoration_Ecology: d = 90  ; t = 25453.0
+politics2: d = 89  ; t = 24131.0
+CulturalAnthro: d = 89  ; t = 26486.0
+SpeculativeBiology: d = 88  ; t = 22789.0
+GMO: d = 88  ; t = 14406.0
+wetlands: d = 87  ; t = 18252.0
+PRpros: d = 86  ; t = 21071.0
+StringTheory: d = 86  ; t = 24478.0
+HCTriage: d = 85  ; t = 13039.0
+chemicalreactiongifs: d = 83  ; t = 11330.0
+SyntheticBiology: d = 82  ; t = 18106.0
+CADCAM: d = 82  ; t = 15697.0
+geoscience: d = 79  ; t = 21470.0
+microeconomics: d = 76  ; t = 12599.0
+musiccognition: d = 76  ; t = 23686.0
+AboutDopamine: d = 75  ; t = 21437.0
+Renewable: d = 75  ; t = 17618.0
+EndangeredSpecies: d = 74  ; t = 15533.0
+mathstudents: d = 73  ; t = 15871.0
+coding: d = 70  ; t = 18741.0
+dependent_types: d = 70  ; t = 27801.0
+ThermalPerformance: d = 70  ; t = 19389.0
+UrbanStudies: d = 68  ; t = 13276.0
+spaceships: d = 67  ; t = 13438.0
+redteamsec: d = 67  ; t = 16461.0
+pwned: d = 65  ; t = 9588.0
+asteroidmining: d = 63  ; t = 12157.0
+SolvedMathProblems: d = 63  ; t = 17158.0
+Environmental_Policy: d = 62  ; t = 13853.0
+species: d = 60  ; t = 10045.0
+Jurisprudence: d = 60  ; t = 12650.0
+AnimalIntelligence: d = 59  ; t = 17583.0
+abstractalgebra: d = 58  ; t = 11481.0
+plasma: d = 57  ; t = 14136.0
+digitalanthro: d = 57  ; t = 11828.0
+marsone: d = 56  ; t = 13828.0
+ISO27001: d = 56  ; t = 10320.0
+MathTutoring: d = 56  ; t = 7874.0
+rocketlaunches: d = 55  ; t = 10565.0
+ECEComponentExchange: d = 54  ; t = 8401.0
+space_settlement: d = 53  ; t = 15301.0
+phycology: d = 51  ; t = 8428.0
+HealthPhysics: d = 50  ; t = 12190.0
+neurobiology: d = 48  ; t = 9748.0
+sportsmed: d = 47  ; t = 16091.0
+WindowsSecurity: d = 47  ; t = 7341.0
+wildlifeecology: d = 46  ; t = 13382.0
+csbooks: d = 44  ; t = 5995.0
+Foamed: d = 43  ; t = 5575.0
+science2: d = 41  ; t = 8595.0
+geo: d = 39  ; t = 4546.0
+wildlifemanagement: d = 39  ; t = 8229.0
+AlevelPhysics: d = 39  ; t = 3239.0
+linuxboards: d = 38  ; t = 6861.0
+threatintel: d = 38  ; t = 10391.0
+deep_ecology: d = 37  ; t = 12474.0
+datacleaning: d = 37  ; t = 8590.0
+AP_Biology: d = 37  ; t = 3441.0
+oceanengineering: d = 37  ; t = 8365.0
+asteroid: d = 36  ; t = 9411.0
+envirotech: d = 36  ; t = 10933.0
+AskEthics: d = 36  ; t = 10815.0
+comets: d = 35  ; t = 4574.0
+GMOFacts: d = 34  ; t = 6721.0
+Cephalopods: d = 33  ; t = 5048.0
+DieOff: d = 32  ; t = 17550.0
+AgroForestry: d = 32  ; t = 6169.0
+dataviz: d = 32  ; t = 5204.0
+strings: d = 32  ; t = 6878.0
+StormComing: d = 31  ; t = 6194.0
+ELI5math: d = 30  ; t = 8316.0
+AgriTech: d = 30  ; t = 5344.0
+economics2: d = 28  ; t = 5839.0
+nicechips: d = 27  ; t = 4615.0
+starparty: d = 26  ; t = 3436.0
+Arianespace: d = 26  ; t = 5448.0
+Rainforest: d = 26  ; t = 6354.0
+lifeaquatic: d = 25  ; t = 4393.0
+Soils: d = 25  ; t = 5314.0
+biomass: d = 24  ; t = 3331.0
+Hort: d = 23  ; t = 3630.0
+ruby_infosec: d = 22  ; t = 3958.0
+evolutionary: d = 22  ; t = 4871.0
+AskGeography: d = 22  ; t = 3094.0
+glaciology: d = 22  ; t = 3780.0
+ExoLife: d = 22  ; t = 4496.0
+relationship_science: d = 22  ; t = 6546.0
+infographic: d = 22  ; t = 2039.0
+resilientcommunities: d = 20  ; t = 6568.0
+mk808: d = 20  ; t = 3200.0
+Groundwater: d = 20  ; t = 3786.0
+Europa: d = 20  ; t = 3732.0
+physicsgifs: d = 19  ; t = 2890.0
+newhorizons: d = 19  ; t = 2933.0
+Cetacea: d = 19  ; t = 3226.0
+aviationpics: d = 18  ; t = 2364.0
+QuantumFieldTheory: d = 18  ; t = 2944.0
+Biofuel: d = 18  ; t = 3551.0
+bryology: d = 18  ; t = 4400.0
+forensicanthropology: d = 18  ; t = 4145.0
+EMLI5: d = 17  ; t = 2717.0
+AnaerobicDigestion: d = 17  ; t = 3196.0
+PurePhysics: d = 17  ; t = 3610.0
+OpenSourceEcology: d = 16  ; t = 2659.0
+woodgas: d = 16  ; t = 3966.0
+BASINS: d = 16  ; t = 3997.0
+agriscience: d = 16  ; t = 3007.0
+quantumscience: d = 16  ; t = 860.0
+APchemists: d = 15  ; t = 2269.0
+MarineScience: d = 15  ; t = 3275.0
+phytopathology: d = 15  ; t = 4584.0
+funmath: d = 15  ; t = 4246.0
+HumanBiology: d = 15  ; t = 1836.0
+ChemJobs: d = 15  ; t = 4024.0
+AroundTheGlobe: d = 14  ; t = 5694.0
+Arcology: d = 14  ; t = 3320.0
+fireflyspace: d = 14  ; t = 1943.0
+naturalhistory: d = 14  ; t = 3510.0
+SpaceVideos: d = 14  ; t = 2093.0
+ScienceFacts: d = 14  ; t = 1849.0
+Anthroponics: d = 14  ; t = 2525.0
+drought: d = 14  ; t = 1839.0
+Systems_biology: d = 13  ; t = 2752.0
+gerontology: d = 13  ; t = 3113.0
+bioarchaeology: d = 13  ; t = 3775.0
+spaceporn: d = 13  ; t = 1598.0
+deextinction: d = 13  ; t = 3619.0
+regenerativemedicine: d = 13  ; t = 2344.0
+Chemistry101: d = 13  ; t = 1896.0
+paleoclimate: d = 13  ; t = 2315.0
+BiomedE: d = 13  ; t = 2893.0
+MathForAll: d = 12  ; t = 6026.0
+engineteststands: d = 12  ; t = 2415.0
+EvolutionaryBiology: d = 12  ; t = 3796.0
+emresident: d = 12  ; t = 2902.0
+bugkeeping: d = 12  ; t = 1538.0
+cockpits: d = 11  ; t = 1515.0
+infosecurity: d = 11  ; t = 3337.0
+clinicalinformatics: d = 11  ; t = 1934.0
+seaplanes: d = 11  ; t = 2197.0
+PhilosophyOfTech: d = 11  ; t = 2967.0
+GlobalClimateChange: d = 11  ; t = 6285.0
+nano: d = 11  ; t = 2314.0
+electricaircraft: d = 11  ; t = 1555.0
+SpecialRelativity: d = 11  ; t = 14611.0
+PhysicalGeography: d = 11  ; t = 1672.0
+PharmaMedicine: d = 10  ; t = 777.0
+FisheriesBiology: d = 10  ; t = 3512.0
+SocialEcology: d = 10  ; t = 2120.0
+Voyager1: d = 10  ; t = 861.0
+Iwannalearnchemistry: d = 10  ; t = 2165.0
+SpaceGifs: d = 9  ; t = 426.0
+AquaticEcology: d = 9  ; t = 1669.0
+mathpics: d = 9  ; t = 1046.0
+NautiWetArchaeology: d = 8  ; t = 1647.0
+biofuels: d = 8  ; t = 3245.0
+geologyjokes: d = 8  ; t = 315.0
+pteridology: d = 8  ; t = 693.0
+Palynology: d = 8  ; t = 1129.0
+theydidthephysics: d = 8  ; t = 1205.0
+helpmewithphysics: d = 8  ; t = 2015.0
+OrbitalATK: d = 7  ; t = 1227.0
+Enviroment: d = 7  ; t = 2374.0
+Jupiters: d = 7  ; t = 474.0
+IntroToRBP: d = 7  ; t = 953.0
+businessethics: d = 7  ; t = 1968.0
+CulinaryAnthropology: d = 7  ; t = 1402.0
+biogas: d = 7  ; t = 889.0
+BioAnthro: d = 7  ; t = 1984.0
+HighSchoolPhysics: d = 7  ; t = 705.0
+WeatherGifs: d = 7  ; t = 1152.0
+Spacefleet: d = 7  ; t = 1976.0
+neutrinos: d = 7  ; t = 945.0
+Map_Porn: d = 6  ; t = 1194.0
+pulmonary: d = 6  ; t = 1621.0
+BiomedicalResearch: d = 6  ; t = 1160.0
+WOMENEUROPEANHISTORY: d = 6  ; t = 1097.0
+backtothemoon: d = 6  ; t = 1885.0
+Callisto: d = 6  ; t = 970.0
+MedicalBulletin: d = 6  ; t = 727.0
+mathideas: d = 6  ; t = 1119.0
+namethatplane: d = 6  ; t = 483.0
+MediaEcology: d = 5  ; t = 1401.0
+MachinePorn: d = 5  ; t = 341.0
+bioscience: d = 5  ; t = 688.0
+datagangsta: d = 5  ; t = 1236.0
+AnalyticalScience: d = 5  ; t = 1488.0
+Planemakers: d = 5  ; t = 725.0
+MedicalEntomology: d = 5  ; t = 1638.0
+Enzymes: d = 4  ; t = 444.0
+QuantumBiology: d = 4  ; t = 751.0
+MarineBiologyGifs: d = 4  ; t = 273.0
+advancedtechresearch: d = 4  ; t = 790.0
+theydidthegeography: d = 4  ; t = 66.0
+mathgifs: d = 4  ; t = 505.0
+FreshwaterEcology: d = 4  ; t = 892.0
+lava: d = 4  ; t = 233.0
+silage: d = 3  ; t = 262.0
+Sustainable_Energy: d = 3  ; t = 757.0
+youngphysicists: d = 3  ; t = 263.0
+PhilosophyOfBiology: d = 3  ; t = 2331.0
+Ganymede: d = 3  ; t = 431.0
+Subsea: d = 3  ; t = 279.0
+PhysicsJobMarket: d = 3  ; t = 835.0
+gmat_math: d = 3  ; t = 421.0
+PhysicsProblems: d = 3  ; t = 822.0
+PhysicsPhacts: d = 3  ; t = 380.0
+PhysicsHomeworkHelp: d = 3  ; t = 1254.0
+bme: d = 3  ; t = 533.0
+MarineEcology: d = 3  ; t = 451.0
+newtonianphysics: d = 3  ; t = 863.0
+apod: d = 3  ; t = 174.0
+geologyrocks: d = 3  ; t = 417.0
+ImaginaryStarscapes: d = 3  ; t = 159.0
+WhaleSharks: d = 3  ; t = 288.0
+OrbitalSciences: d = 3  ; t = 690.0
+Gasification: d = 3  ; t = 654.0
+AgingBiology: d = 3  ; t = 552.0
+canadiangeography: d = 2  ; t = 167.0
+GeographyCirclejerk: d = 2  ; t = 58.0
+EverythingScience: d = 2  ; t = 1950.0
+socalgeology: d = 2  ; t = 116.0
+Climatology: d = 2  ; t = 184.0
+spaceflightporn: d = 2  ; t = 173.0
+AndroidSecurity: d = 2  ; t = 129.0
+TheoreticalChemistry: d = 2  ; t = 596.0
+biologyhomework: d = 2  ; t = 188.0
+meteorsightings: d = 2  ; t = 121.0
+physicsfordummies: d = 2  ; t = 136.0
+emcases: d = 2  ; t = 806.0
+IBrokePhysics: d = 2  ; t = 136.0
+IntroGeology: d = 2  ; t = 230.0
+precisionmedicine: d = 2  ; t = 208.0
+Botanypapers: d = 2  ; t = 598.0
+mathresources: d = 2  ; t = 186.0
+Interorbital: d = 2  ; t = 109.0
+transgenic: d = 2  ; t = 423.0
+Astrogeology: d = 2  ; t = 386.0
+CoolPhysics: d = 2  ; t = 722.0
+macOSsecurity: d = 2  ; t = 405.0
+MarineBio: d = 2  ; t = 308.0
+androidsecurity: d = 2  ; t = 483.0
+opticalphysics: d = 2  ; t = 193.0
+physicsmemeslol: d = 1  ; t = 5046.0
+EMed: d = 1  ; t = 114.0
+physicsshowerthoughts: d = 1  ; t = 22.0
+Badanthropology: d = 1  ; t = 114.0
+MitochondrialResearch: d = 1  ; t = 170.0
+Edaphology: d = 1  ; t = 296.0
+mbg: d = 1  ; t = 220.0
+principlesofgeology: d = 1  ; t = 253.0
+compbio: d = 1  ; t = 318.0
+biologygifs: d = 1  ; t = 84.0
+physicscomps: d = 1  ; t = 844.0
+philosophyofbiology: d = 1  ; t = 106.0
+ScienceAbuse: d = 1  ; t = 49.0
+PhysicsIntro: d = 1  ; t = 760.0
+telescopefeed: d = 1  ; t = 17.0
+badenergy: d = 1  ; t = 188.0
+GMOscience: d = 1  ; t = 23.0
+uraniumfuel: d = 1  ; t = 224.0
+Physics_AWT: d = 1  ; t = 923.0
+quantumphysicsask: d = 1  ; t = 179.0
+UoRPhysics: d = 1  ; t = 235.0
+organisms: d = 1  ; t = 994.0
+CMPhysics: d = 1  ; t = 24.0
+shittyaskecology: d = 1  ; t = 31.0
+NeutronPhysics: d = 1  ; t = 149.0
+astrogeology: d = 1  ; t = 60.0
+biomed3Dprinting: d = 1  ; t = 88.0
+TrashFoodNation: d = 1  ; t = 85.0
+APhysicsC: d = 1  ; t = 13.0
+StructuralBiology: d = 1  ; t = 355.0
+medabolic: d = 1  ; t = 210.0
+MineralCollecting: d = 1  ; t = 120.0
+futurebiomed: d = 1  ; t = 315.0
+molbiotechniques: d = 1  ; t = 209.0
+mathpapers: d = 1  ; t = 105.0
+benthicecology: d = 1  ; t = 67.0
+meted: d = 1  ; t = 150.0

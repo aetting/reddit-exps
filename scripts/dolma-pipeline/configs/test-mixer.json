@@ -1,0 +1,28 @@
+{
+  "streams": [
+    {
+      "name": "test-mix",
+      "documents": [
+        "s3://ai2-llm/pretraining-data/sources/reddit/dolma_raw/test_sample/documents/*/*.gz"
+      ],
+      "output": {
+        "path": "s3://ai2-llm/pretraining-data/sources/reddit/dolma_raw/mixed/test-mix",
+        "max_size_in_bytes": 500000000
+      },
+      "attributes": [
+        "tagset"
+      ],
+      "filter": {
+        "exclude": [
+          "$.attributes[?(@.tagset__bot_author__doc[0][2] > 0.5)]",
+          "$.attributes[?(@.tagset__len_wo_url__length[0][2] < 100)]"
+        ]
+      }
+    }
+  ],
+  "processes": 192,
+  "work_dir": {
+    "input": "testmixtmpd/dolmamixdd-input",
+    "output": "testmixtmpd/dolmamixdd-output"
+  }
+}

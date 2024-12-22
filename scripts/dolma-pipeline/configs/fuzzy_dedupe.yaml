@@ -1,0 +1,25 @@
+documents:
+  - s3://ai2-llm/pretraining-data/sources/reddit/dolma_raw/source-added/documents/comments/*.gz
+  - s3://ai2-llm/pretraining-data/sources/reddit/dolma_raw/source-added/documents/submissions/*.gz
+
+dedupe:
+  name: dedupe_ngrams_13_1
+  paragraphs:
+    attribute_name: dedupe_ngrams_13_1
+    by_ngram:
+      ngram_length: 13
+      stride: 1
+      overlap_threshold: 0.5
+      skip_short_paragraphs: true
+  skip_empty: true
+
+bloom_filter:
+  file: bf/dedupe_filter.bin
+  read_only: false
+  estimated_doc_count: 17_100_000_000
+  desired_false_positive_rate: 0.1
+
+processes: 192,
+work_dir:
+  input: ddftmp/tmp-input
+  output: ddftmp/tmp-output

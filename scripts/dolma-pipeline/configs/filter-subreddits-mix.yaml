@@ -1,0 +1,19 @@
+streams:
+  - name: merged_qa_prefilter_densesubs
+    documents:
+      - s3://ai2-llm/pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_wsubreddit/merged_qa_prefilter/documents/*.gz
+    attributes:
+      - dense_subs
+    output:
+      max_size_in_bytes: 1_000_000_000
+      path: s3://ai2-llm/pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_wsubreddit/merged_qa_prefilter/merged_qa_prefilter_densesubs
+    filter:  
+      #   - >-
+      #     (.attributes.dedupe_ngrams_13_1 | length == 0) or
+      #     ((.attributes.dedupe_ngrams_13_1 | map(.[2] * (.[1] - .[0])) | add) / (.text | length) <= 0.3)
+      exclude:
+        - .attributes.dense_subs__dense_mmlu_subreddit__doc[0][2] < 0.5
+      syntax: jq
+work_dir:
+  input: mixtmpd/input
+  output: mixtmpd/output

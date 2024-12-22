@@ -1,0 +1,24 @@
+experiment: taggersec2
+
+documents:
+  - s3://ai2-llm/pretraining-data/sources/reddit/dolma_raw/source-added/documents/comments/*.gz
+  - s3://ai2-llm/pretraining-data/sources/reddit/dolma_raw/source-added/documents/submissions/*.gz
+
+taggers:
+  - char_length_v1
+  - dolma_v2_tokenizer
+  - longest_string
+  - contains_url
+  - len_wo_url_v2
+  - longest_tok_wo_url_v2
+  - perc_len_wo_url_v2
+  - tokenizer_repetitions_v2r2
+  - starts_nonascii
+  - ft_lang_id_en_doc_v2
+  - removed_deleted
+  - banned_subreddit_membership
+  - bot_author
+  - non_english_subreddit
+
+processes: 192
+

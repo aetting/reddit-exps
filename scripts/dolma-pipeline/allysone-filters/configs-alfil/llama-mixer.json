@@ -1,0 +1,33 @@
+{
+    "streams": [
+      {
+        "name": "llama-mix",
+        "documents": [
+          "s3://ai2-llm/pretraining-data/sources/reddit/dolma_raw/documents/*/*.gz"
+        ],
+        "output": {
+          "path": "s3://ai2-llm/pretraining-data/sources/reddit/dolma_raw/mixed/llama-mix",
+          "max_size_in_bytes": 1000000000
+        },
+        "attributes": [
+          "tagset",
+          "rmdel"
+        ],
+        "filter": {
+          "exclude": [
+            "$.attributes[?(@.tagset__bot_author__doc[0][2] > 0.5)]",
+            "$.attributes[?(@.tagset__non_english_subreddit__doc[0][2] > 0.5)]",
+            "$.attributes[?(@.rmdel__removed_deleted__doc[0][2] > 0.5)]",
+            "$.metadata[?(@.removed_by_category && @.removed_by_category != null)]",
+            "$.attributes[?(@.tagset__longest_string__length[0][2] > 2048)]",
+            "$.attributes[?(@.tagset__dolma_v2_tokenizer__length[0][2] > 128)]",
+            "$.attributes[?(@.tagset__char_length_v1__length[0][2] < 5)]",
+            "$.attributes[?(@.tagset__contains_url__doc[0][2] > 0.5)]",
+            "$.attributes[?(@.tagset__starts_nonascii__doc[0][2] > 0.5)]",
+            "$.metadata[?(@.thread_depth && @.thread_depth > 6)]"
+          ]
+        }
+      }
+    ],
+    "processes": 192
+  } 

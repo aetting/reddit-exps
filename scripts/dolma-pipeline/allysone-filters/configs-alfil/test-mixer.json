@@ -1,0 +1,25 @@
+{
+  "streams": [
+    {
+      "name": "test-mix",
+      "documents": [
+        "s3://ai2-llm/pretraining-data/sources/reddit/dolma_raw/documents/comments/raw-00000-of-19307.jsonl.gz"
+      ],
+      "output": {
+        "path": "s3://ai2-llm/pretraining-data/sources/reddit/dolma_raw/mixed/test-mix",
+        "max_size_in_bytes": 500000000
+      },
+      "attributes": [
+        "tagset",
+        "rmdel"
+      ],
+      "filter": {
+        "exclude": [
+          "$.attributes[?(@.tagset__bot_author__doc[0][2] > 0.5)]",
+          "$.attributes[?(@.rmdel__removed_deleted__doc[0][2] > 0.5)]"
+        ]
+      }
+    }
+  ],
+  "processes": 8
+}

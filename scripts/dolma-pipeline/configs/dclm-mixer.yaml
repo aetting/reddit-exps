@@ -1,0 +1,30 @@
+streams:
+  - name: dclmtest
+    documents:
+      - /home/ec2-user/sample_merged/documents/*.gz
+    attributes:
+      - dclmtag
+    output:
+      max_size_in_bytes: 1_000_000_000
+      path: /home/ec2-user/sample_merged/mixed
+    filter:
+      # include:
+      #   - >-
+      #     (.attributes.dedupe_ngrams_13_1 | length == 0) or
+      #     ((.attributes.dedupe_ngrams_13_1 | map(.[2] * (.[1] - .[0])) | add) / (.text | length) <= 0.3)
+      exclude:
+        # - .attributes.taggersec2__char_length_v1__length[0][2] < 5
+        # - .attributes.taggersec2__char_length_v1__length[0][2] > 40000
+        # - .attributes.taggersec2__longest_string__length[0][2] > 2048
+        # - .attributes.taggersec2__contains_url__doc[0][2] > 0.5
+        # - .attributes.taggersec2__removed_deleted__doc[0][2] > 0.5
+        # - .metadata.removed_by_category and .metadata.removed_by_category != null
+        # - .metadata.over_18 and .metadata.over_18 == true
+        # - .attributes.taggersec2__banned_subreddit_membership__doc[0][2] > 0.5
+        # - .attributes.taggersec2__bot_author__doc[0][2] > 0.5
+        # - .attributes.taggersec2__starts_nonascii__doc[0][2] > 0.5
+        # - .metadata.thread_depth and .metadata.thread_depth > 6
+        # - .attributes.taggersec2__ft_lang_id_en_doc_v2__en[0][2] < 0.5
+        # - .attributes.taggersec2__tokenizer_repetitions_v2r2__doc_max_score_repetition and .attributes.taggersec2__tokenizer_repetitions_v2r2__doc_max_score_repetition[0][2] >= 15
+        - .attributes.dclmtag__dclm_oh_eli5__score[0][2] < 0.7
+      syntax: jq
