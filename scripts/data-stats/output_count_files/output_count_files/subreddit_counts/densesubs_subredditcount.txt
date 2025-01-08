@@ -1,0 +1,1091 @@
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_wsubreddit/merged_qa_prefilter/merged_qa_prefilter_densesubs/documents/merged_qa_prefilter_densesubs-0000.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_wsubreddit/merged_qa_prefilter/merged_qa_prefilter_densesubs/documents/merged_qa_prefilter_densesubs-0001.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_wsubreddit/merged_qa_prefilter/merged_qa_prefilter_densesubs/documents/merged_qa_prefilter_densesubs-0002.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_wsubreddit/merged_qa_prefilter/merged_qa_prefilter_densesubs/documents/merged_qa_prefilter_densesubs-0003.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_wsubreddit/merged_qa_prefilter/merged_qa_prefilter_densesubs/documents/merged_qa_prefilter_densesubs-0004.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_wsubreddit/merged_qa_prefilter/merged_qa_prefilter_densesubs/documents/merged_qa_prefilter_densesubs-0005.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_wsubreddit/merged_qa_prefilter/merged_qa_prefilter_densesubs/documents/merged_qa_prefilter_densesubs-0006.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_wsubreddit/merged_qa_prefilter/merged_qa_prefilter_densesubs/documents/merged_qa_prefilter_densesubs-0007.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_wsubreddit/merged_qa_prefilter/merged_qa_prefilter_densesubs/documents/merged_qa_prefilter_densesubs-0008.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_wsubreddit/merged_qa_prefilter/merged_qa_prefilter_densesubs/documents/merged_qa_prefilter_densesubs-0009.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_wsubreddit/merged_qa_prefilter/merged_qa_prefilter_densesubs/documents/merged_qa_prefilter_densesubs-0010.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_wsubreddit/merged_qa_prefilter/merged_qa_prefilter_densesubs/documents/merged_qa_prefilter_densesubs-0011.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_wsubreddit/merged_qa_prefilter/merged_qa_prefilter_densesubs/documents/merged_qa_prefilter_densesubs-0012.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_wsubreddit/merged_qa_prefilter/merged_qa_prefilter_densesubs/documents/merged_qa_prefilter_densesubs-0013.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_wsubreddit/merged_qa_prefilter/merged_qa_prefilter_densesubs/documents/merged_qa_prefilter_densesubs-0014.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_wsubreddit/merged_qa_prefilter/merged_qa_prefilter_densesubs/documents/merged_qa_prefilter_densesubs-0015.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_wsubreddit/merged_qa_prefilter/merged_qa_prefilter_densesubs/documents/merged_qa_prefilter_densesubs-0016.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_wsubreddit/merged_qa_prefilter/merged_qa_prefilter_densesubs/documents/merged_qa_prefilter_densesubs-0017.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_wsubreddit/merged_qa_prefilter/merged_qa_prefilter_densesubs/documents/merged_qa_prefilter_densesubs-0018.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_wsubreddit/merged_qa_prefilter/merged_qa_prefilter_densesubs/documents/merged_qa_prefilter_densesubs-0019.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_wsubreddit/merged_qa_prefilter/merged_qa_prefilter_densesubs/documents/merged_qa_prefilter_densesubs-0020.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_wsubreddit/merged_qa_prefilter/merged_qa_prefilter_densesubs/documents/merged_qa_prefilter_densesubs-0021.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_wsubreddit/merged_qa_prefilter/merged_qa_prefilter_densesubs/documents/merged_qa_prefilter_densesubs-0022.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_wsubreddit/merged_qa_prefilter/merged_qa_prefilter_densesubs/documents/merged_qa_prefilter_densesubs-0023.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_wsubreddit/merged_qa_prefilter/merged_qa_prefilter_densesubs/documents/merged_qa_prefilter_densesubs-0024.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_wsubreddit/merged_qa_prefilter/merged_qa_prefilter_densesubs/documents/merged_qa_prefilter_densesubs-0025.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_wsubreddit/merged_qa_prefilter/merged_qa_prefilter_densesubs/documents/merged_qa_prefilter_densesubs-0026.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_wsubreddit/merged_qa_prefilter/merged_qa_prefilter_densesubs/documents/merged_qa_prefilter_densesubs-0027.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_wsubreddit/merged_qa_prefilter/merged_qa_prefilter_densesubs/documents/merged_qa_prefilter_densesubs-0028.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_wsubreddit/merged_qa_prefilter/merged_qa_prefilter_densesubs/documents/merged_qa_prefilter_densesubs-0029.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_wsubreddit/merged_qa_prefilter/merged_qa_prefilter_densesubs/documents/merged_qa_prefilter_densesubs-0030.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_wsubreddit/merged_qa_prefilter/merged_qa_prefilter_densesubs/documents/merged_qa_prefilter_densesubs-0031.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_wsubreddit/merged_qa_prefilter/merged_qa_prefilter_densesubs/documents/merged_qa_prefilter_densesubs-0032.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_wsubreddit/merged_qa_prefilter/merged_qa_prefilter_densesubs/documents/merged_qa_prefilter_densesubs-0033.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_wsubreddit/merged_qa_prefilter/merged_qa_prefilter_densesubs/documents/merged_qa_prefilter_densesubs-0034.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_wsubreddit/merged_qa_prefilter/merged_qa_prefilter_densesubs/documents/merged_qa_prefilter_densesubs-0035.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_wsubreddit/merged_qa_prefilter/merged_qa_prefilter_densesubs/documents/merged_qa_prefilter_densesubs-0036.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_wsubreddit/merged_qa_prefilter/merged_qa_prefilter_densesubs/documents/merged_qa_prefilter_densesubs-0037.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_wsubreddit/merged_qa_prefilter/merged_qa_prefilter_densesubs/documents/merged_qa_prefilter_densesubs-0038.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_wsubreddit/merged_qa_prefilter/merged_qa_prefilter_densesubs/documents/merged_qa_prefilter_densesubs-0039.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_wsubreddit/merged_qa_prefilter/merged_qa_prefilter_densesubs/documents/merged_qa_prefilter_densesubs-0040.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_wsubreddit/merged_qa_prefilter/merged_qa_prefilter_densesubs/documents/merged_qa_prefilter_densesubs-0041.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_wsubreddit/merged_qa_prefilter/merged_qa_prefilter_densesubs/documents/merged_qa_prefilter_densesubs-0042.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_wsubreddit/merged_qa_prefilter/merged_qa_prefilter_densesubs/documents/merged_qa_prefilter_densesubs-0043.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_wsubreddit/merged_qa_prefilter/merged_qa_prefilter_densesubs/documents/merged_qa_prefilter_densesubs-0044.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_wsubreddit/merged_qa_prefilter/merged_qa_prefilter_densesubs/documents/merged_qa_prefilter_densesubs-0045.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_wsubreddit/merged_qa_prefilter/merged_qa_prefilter_densesubs/documents/merged_qa_prefilter_densesubs-0046.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_wsubreddit/merged_qa_prefilter/merged_qa_prefilter_densesubs/documents/merged_qa_prefilter_densesubs-0047.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_wsubreddit/merged_qa_prefilter/merged_qa_prefilter_densesubs/documents/merged_qa_prefilter_densesubs-0048.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_wsubreddit/merged_qa_prefilter/merged_qa_prefilter_densesubs/documents/merged_qa_prefilter_densesubs-0049.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_wsubreddit/merged_qa_prefilter/merged_qa_prefilter_densesubs/documents/merged_qa_prefilter_densesubs-0050.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_wsubreddit/merged_qa_prefilter/merged_qa_prefilter_densesubs/documents/merged_qa_prefilter_densesubs-0051.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_wsubreddit/merged_qa_prefilter/merged_qa_prefilter_densesubs/documents/merged_qa_prefilter_densesubs-0052.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_wsubreddit/merged_qa_prefilter/merged_qa_prefilter_densesubs/documents/merged_qa_prefilter_densesubs-0053.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_wsubreddit/merged_qa_prefilter/merged_qa_prefilter_densesubs/documents/merged_qa_prefilter_densesubs-0054.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_wsubreddit/merged_qa_prefilter/merged_qa_prefilter_densesubs/documents/merged_qa_prefilter_densesubs-0055.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_wsubreddit/merged_qa_prefilter/merged_qa_prefilter_densesubs/documents/merged_qa_prefilter_densesubs-0056.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_wsubreddit/merged_qa_prefilter/merged_qa_prefilter_densesubs/documents/merged_qa_prefilter_densesubs-0057.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_wsubreddit/merged_qa_prefilter/merged_qa_prefilter_densesubs/documents/merged_qa_prefilter_densesubs-0058.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_wsubreddit/merged_qa_prefilter/merged_qa_prefilter_densesubs/documents/merged_qa_prefilter_densesubs-0059.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_wsubreddit/merged_qa_prefilter/merged_qa_prefilter_densesubs/documents/merged_qa_prefilter_densesubs-0060.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_wsubreddit/merged_qa_prefilter/merged_qa_prefilter_densesubs/documents/merged_qa_prefilter_densesubs-0061.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_wsubreddit/merged_qa_prefilter/merged_qa_prefilter_densesubs/documents/merged_qa_prefilter_densesubs-0062.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_wsubreddit/merged_qa_prefilter/merged_qa_prefilter_densesubs/documents/merged_qa_prefilter_densesubs-0063.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_wsubreddit/merged_qa_prefilter/merged_qa_prefilter_densesubs/documents/merged_qa_prefilter_densesubs-0064.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_wsubreddit/merged_qa_prefilter/merged_qa_prefilter_densesubs/documents/merged_qa_prefilter_densesubs-0065.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_wsubreddit/merged_qa_prefilter/merged_qa_prefilter_densesubs/documents/merged_qa_prefilter_densesubs-0066.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_wsubreddit/merged_qa_prefilter/merged_qa_prefilter_densesubs/documents/merged_qa_prefilter_densesubs-0067.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_wsubreddit/merged_qa_prefilter/merged_qa_prefilter_densesubs/documents/merged_qa_prefilter_densesubs-0068.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_wsubreddit/merged_qa_prefilter/merged_qa_prefilter_densesubs/documents/merged_qa_prefilter_densesubs-0069.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_wsubreddit/merged_qa_prefilter/merged_qa_prefilter_densesubs/documents/merged_qa_prefilter_densesubs-0070.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_wsubreddit/merged_qa_prefilter/merged_qa_prefilter_densesubs/documents/merged_qa_prefilter_densesubs-0071.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_wsubreddit/merged_qa_prefilter/merged_qa_prefilter_densesubs/documents/merged_qa_prefilter_densesubs-0072.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_wsubreddit/merged_qa_prefilter/merged_qa_prefilter_densesubs/documents/merged_qa_prefilter_densesubs-0073.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_wsubreddit/merged_qa_prefilter/merged_qa_prefilter_densesubs/documents/merged_qa_prefilter_densesubs-0074.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_wsubreddit/merged_qa_prefilter/merged_qa_prefilter_densesubs/documents/merged_qa_prefilter_densesubs-0075.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_wsubreddit/merged_qa_prefilter/merged_qa_prefilter_densesubs/documents/merged_qa_prefilter_densesubs-0076.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_wsubreddit/merged_qa_prefilter/merged_qa_prefilter_densesubs/documents/merged_qa_prefilter_densesubs-0077.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_wsubreddit/merged_qa_prefilter/merged_qa_prefilter_densesubs/documents/merged_qa_prefilter_densesubs-0078.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_wsubreddit/merged_qa_prefilter/merged_qa_prefilter_densesubs/documents/merged_qa_prefilter_densesubs-0079.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_wsubreddit/merged_qa_prefilter/merged_qa_prefilter_densesubs/documents/merged_qa_prefilter_densesubs-0080.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_wsubreddit/merged_qa_prefilter/merged_qa_prefilter_densesubs/documents/merged_qa_prefilter_densesubs-0081.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_wsubreddit/merged_qa_prefilter/merged_qa_prefilter_densesubs/documents/merged_qa_prefilter_densesubs-0082.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_wsubreddit/merged_qa_prefilter/merged_qa_prefilter_densesubs/documents/merged_qa_prefilter_densesubs-0083.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_wsubreddit/merged_qa_prefilter/merged_qa_prefilter_densesubs/documents/merged_qa_prefilter_densesubs-0084.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_wsubreddit/merged_qa_prefilter/merged_qa_prefilter_densesubs/documents/merged_qa_prefilter_densesubs-0085.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_wsubreddit/merged_qa_prefilter/merged_qa_prefilter_densesubs/documents/merged_qa_prefilter_densesubs-0086.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_wsubreddit/merged_qa_prefilter/merged_qa_prefilter_densesubs/documents/merged_qa_prefilter_densesubs-0087.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_wsubreddit/merged_qa_prefilter/merged_qa_prefilter_densesubs/documents/merged_qa_prefilter_densesubs-0088.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_wsubreddit/merged_qa_prefilter/merged_qa_prefilter_densesubs/documents/merged_qa_prefilter_densesubs-0089.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_wsubreddit/merged_qa_prefilter/merged_qa_prefilter_densesubs/documents/merged_qa_prefilter_densesubs-0090.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_wsubreddit/merged_qa_prefilter/merged_qa_prefilter_densesubs/documents/merged_qa_prefilter_densesubs-0091.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_wsubreddit/merged_qa_prefilter/merged_qa_prefilter_densesubs/documents/merged_qa_prefilter_densesubs-0092.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_wsubreddit/merged_qa_prefilter/merged_qa_prefilter_densesubs/documents/merged_qa_prefilter_densesubs-0093.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_wsubreddit/merged_qa_prefilter/merged_qa_prefilter_densesubs/documents/merged_qa_prefilter_densesubs-0094.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_wsubreddit/merged_qa_prefilter/merged_qa_prefilter_densesubs/documents/merged_qa_prefilter_densesubs-0095.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_wsubreddit/merged_qa_prefilter/merged_qa_prefilter_densesubs/documents/merged_qa_prefilter_densesubs-0096.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_wsubreddit/merged_qa_prefilter/merged_qa_prefilter_densesubs/documents/merged_qa_prefilter_densesubs-0097.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_wsubreddit/merged_qa_prefilter/merged_qa_prefilter_densesubs/documents/merged_qa_prefilter_densesubs-0098.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_wsubreddit/merged_qa_prefilter/merged_qa_prefilter_densesubs/documents/merged_qa_prefilter_densesubs-0099.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_wsubreddit/merged_qa_prefilter/merged_qa_prefilter_densesubs/documents/merged_qa_prefilter_densesubs-0100.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_wsubreddit/merged_qa_prefilter/merged_qa_prefilter_densesubs/documents/merged_qa_prefilter_densesubs-0101.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_wsubreddit/merged_qa_prefilter/merged_qa_prefilter_densesubs/documents/merged_qa_prefilter_densesubs-0102.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_wsubreddit/merged_qa_prefilter/merged_qa_prefilter_densesubs/documents/merged_qa_prefilter_densesubs-0103.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_wsubreddit/merged_qa_prefilter/merged_qa_prefilter_densesubs/documents/merged_qa_prefilter_densesubs-0104.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_wsubreddit/merged_qa_prefilter/merged_qa_prefilter_densesubs/documents/merged_qa_prefilter_densesubs-0105.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_wsubreddit/merged_qa_prefilter/merged_qa_prefilter_densesubs/documents/merged_qa_prefilter_densesubs-0106.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_wsubreddit/merged_qa_prefilter/merged_qa_prefilter_densesubs/documents/merged_qa_prefilter_densesubs-0107.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_wsubreddit/merged_qa_prefilter/merged_qa_prefilter_densesubs/documents/merged_qa_prefilter_densesubs-0108.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_wsubreddit/merged_qa_prefilter/merged_qa_prefilter_densesubs/documents/merged_qa_prefilter_densesubs-0109.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_wsubreddit/merged_qa_prefilter/merged_qa_prefilter_densesubs/documents/merged_qa_prefilter_densesubs-0110.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_wsubreddit/merged_qa_prefilter/merged_qa_prefilter_densesubs/documents/merged_qa_prefilter_densesubs-0111.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_wsubreddit/merged_qa_prefilter/merged_qa_prefilter_densesubs/documents/merged_qa_prefilter_densesubs-0112.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_wsubreddit/merged_qa_prefilter/merged_qa_prefilter_densesubs/documents/merged_qa_prefilter_densesubs-0113.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_wsubreddit/merged_qa_prefilter/merged_qa_prefilter_densesubs/documents/merged_qa_prefilter_densesubs-0114.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_wsubreddit/merged_qa_prefilter/merged_qa_prefilter_densesubs/documents/merged_qa_prefilter_densesubs-0115.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_wsubreddit/merged_qa_prefilter/merged_qa_prefilter_densesubs/documents/merged_qa_prefilter_densesubs-0116.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_wsubreddit/merged_qa_prefilter/merged_qa_prefilter_densesubs/documents/merged_qa_prefilter_densesubs-0117.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_wsubreddit/merged_qa_prefilter/merged_qa_prefilter_densesubs/documents/merged_qa_prefilter_densesubs-0118.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_wsubreddit/merged_qa_prefilter/merged_qa_prefilter_densesubs/documents/merged_qa_prefilter_densesubs-0119.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_wsubreddit/merged_qa_prefilter/merged_qa_prefilter_densesubs/documents/merged_qa_prefilter_densesubs-0120.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_wsubreddit/merged_qa_prefilter/merged_qa_prefilter_densesubs/documents/merged_qa_prefilter_densesubs-0121.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_wsubreddit/merged_qa_prefilter/merged_qa_prefilter_densesubs/documents/merged_qa_prefilter_densesubs-0122.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_wsubreddit/merged_qa_prefilter/merged_qa_prefilter_densesubs/documents/merged_qa_prefilter_densesubs-0123.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_wsubreddit/merged_qa_prefilter/merged_qa_prefilter_densesubs/documents/merged_qa_prefilter_densesubs-0124.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_wsubreddit/merged_qa_prefilter/merged_qa_prefilter_densesubs/documents/merged_qa_prefilter_densesubs-0125.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_wsubreddit/merged_qa_prefilter/merged_qa_prefilter_densesubs/documents/merged_qa_prefilter_densesubs-0126.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_wsubreddit/merged_qa_prefilter/merged_qa_prefilter_densesubs/documents/merged_qa_prefilter_densesubs-0127.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_wsubreddit/merged_qa_prefilter/merged_qa_prefilter_densesubs/documents/merged_qa_prefilter_densesubs-0128.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_wsubreddit/merged_qa_prefilter/merged_qa_prefilter_densesubs/documents/merged_qa_prefilter_densesubs-0129.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_wsubreddit/merged_qa_prefilter/merged_qa_prefilter_densesubs/documents/merged_qa_prefilter_densesubs-0130.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_wsubreddit/merged_qa_prefilter/merged_qa_prefilter_densesubs/documents/merged_qa_prefilter_densesubs-0131.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_wsubreddit/merged_qa_prefilter/merged_qa_prefilter_densesubs/documents/merged_qa_prefilter_densesubs-0132.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_wsubreddit/merged_qa_prefilter/merged_qa_prefilter_densesubs/documents/merged_qa_prefilter_densesubs-0133.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_wsubreddit/merged_qa_prefilter/merged_qa_prefilter_densesubs/documents/merged_qa_prefilter_densesubs-0134.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_wsubreddit/merged_qa_prefilter/merged_qa_prefilter_densesubs/documents/merged_qa_prefilter_densesubs-0135.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_wsubreddit/merged_qa_prefilter/merged_qa_prefilter_densesubs/documents/merged_qa_prefilter_densesubs-0136.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_wsubreddit/merged_qa_prefilter/merged_qa_prefilter_densesubs/documents/merged_qa_prefilter_densesubs-0137.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_wsubreddit/merged_qa_prefilter/merged_qa_prefilter_densesubs/documents/merged_qa_prefilter_densesubs-0138.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_wsubreddit/merged_qa_prefilter/merged_qa_prefilter_densesubs/documents/merged_qa_prefilter_densesubs-0139.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_wsubreddit/merged_qa_prefilter/merged_qa_prefilter_densesubs/documents/merged_qa_prefilter_densesubs-0140.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_wsubreddit/merged_qa_prefilter/merged_qa_prefilter_densesubs/documents/merged_qa_prefilter_densesubs-0141.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_wsubreddit/merged_qa_prefilter/merged_qa_prefilter_densesubs/documents/merged_qa_prefilter_densesubs-0142.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_wsubreddit/merged_qa_prefilter/merged_qa_prefilter_densesubs/documents/merged_qa_prefilter_densesubs-0143.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_wsubreddit/merged_qa_prefilter/merged_qa_prefilter_densesubs/documents/merged_qa_prefilter_densesubs-0144.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_wsubreddit/merged_qa_prefilter/merged_qa_prefilter_densesubs/documents/merged_qa_prefilter_densesubs-0145.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_wsubreddit/merged_qa_prefilter/merged_qa_prefilter_densesubs/documents/merged_qa_prefilter_densesubs-0146.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_wsubreddit/merged_qa_prefilter/merged_qa_prefilter_densesubs/documents/merged_qa_prefilter_densesubs-0147.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_wsubreddit/merged_qa_prefilter/merged_qa_prefilter_densesubs/documents/merged_qa_prefilter_densesubs-0148.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_wsubreddit/merged_qa_prefilter/merged_qa_prefilter_densesubs/documents/merged_qa_prefilter_densesubs-0149.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_wsubreddit/merged_qa_prefilter/merged_qa_prefilter_densesubs/documents/merged_qa_prefilter_densesubs-0150.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_wsubreddit/merged_qa_prefilter/merged_qa_prefilter_densesubs/documents/merged_qa_prefilter_densesubs-0151.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_wsubreddit/merged_qa_prefilter/merged_qa_prefilter_densesubs/documents/merged_qa_prefilter_densesubs-0152.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_wsubreddit/merged_qa_prefilter/merged_qa_prefilter_densesubs/documents/merged_qa_prefilter_densesubs-0153.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_wsubreddit/merged_qa_prefilter/merged_qa_prefilter_densesubs/documents/merged_qa_prefilter_densesubs-0154.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_wsubreddit/merged_qa_prefilter/merged_qa_prefilter_densesubs/documents/merged_qa_prefilter_densesubs-0155.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_wsubreddit/merged_qa_prefilter/merged_qa_prefilter_densesubs/documents/merged_qa_prefilter_densesubs-0156.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_wsubreddit/merged_qa_prefilter/merged_qa_prefilter_densesubs/documents/merged_qa_prefilter_densesubs-0157.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_wsubreddit/merged_qa_prefilter/merged_qa_prefilter_densesubs/documents/merged_qa_prefilter_densesubs-0158.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_wsubreddit/merged_qa_prefilter/merged_qa_prefilter_densesubs/documents/merged_qa_prefilter_densesubs-0159.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_wsubreddit/merged_qa_prefilter/merged_qa_prefilter_densesubs/documents/merged_qa_prefilter_densesubs-0160.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_wsubreddit/merged_qa_prefilter/merged_qa_prefilter_densesubs/documents/merged_qa_prefilter_densesubs-0161.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_wsubreddit/merged_qa_prefilter/merged_qa_prefilter_densesubs/documents/merged_qa_prefilter_densesubs-0162.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_wsubreddit/merged_qa_prefilter/merged_qa_prefilter_densesubs/documents/merged_qa_prefilter_densesubs-0163.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_wsubreddit/merged_qa_prefilter/merged_qa_prefilter_densesubs/documents/merged_qa_prefilter_densesubs-0164.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_wsubreddit/merged_qa_prefilter/merged_qa_prefilter_densesubs/documents/merged_qa_prefilter_densesubs-0165.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_wsubreddit/merged_qa_prefilter/merged_qa_prefilter_densesubs/documents/merged_qa_prefilter_densesubs-0166.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_wsubreddit/merged_qa_prefilter/merged_qa_prefilter_densesubs/documents/merged_qa_prefilter_densesubs-0167.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_wsubreddit/merged_qa_prefilter/merged_qa_prefilter_densesubs/documents/merged_qa_prefilter_densesubs-0168.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_wsubreddit/merged_qa_prefilter/merged_qa_prefilter_densesubs/documents/merged_qa_prefilter_densesubs-0169.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_wsubreddit/merged_qa_prefilter/merged_qa_prefilter_densesubs/documents/merged_qa_prefilter_densesubs-0170.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_wsubreddit/merged_qa_prefilter/merged_qa_prefilter_densesubs/documents/merged_qa_prefilter_densesubs-0171.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_wsubreddit/merged_qa_prefilter/merged_qa_prefilter_densesubs/documents/merged_qa_prefilter_densesubs-0172.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_wsubreddit/merged_qa_prefilter/merged_qa_prefilter_densesubs/documents/merged_qa_prefilter_densesubs-0173.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_wsubreddit/merged_qa_prefilter/merged_qa_prefilter_densesubs/documents/merged_qa_prefilter_densesubs-0174.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_wsubreddit/merged_qa_prefilter/merged_qa_prefilter_densesubs/documents/merged_qa_prefilter_densesubs-0175.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_wsubreddit/merged_qa_prefilter/merged_qa_prefilter_densesubs/documents/merged_qa_prefilter_densesubs-0176.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_wsubreddit/merged_qa_prefilter/merged_qa_prefilter_densesubs/documents/merged_qa_prefilter_densesubs-0177.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_wsubreddit/merged_qa_prefilter/merged_qa_prefilter_densesubs/documents/merged_qa_prefilter_densesubs-0178.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_wsubreddit/merged_qa_prefilter/merged_qa_prefilter_densesubs/documents/merged_qa_prefilter_densesubs-0179.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_wsubreddit/merged_qa_prefilter/merged_qa_prefilter_densesubs/documents/merged_qa_prefilter_densesubs-0180.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_wsubreddit/merged_qa_prefilter/merged_qa_prefilter_densesubs/documents/merged_qa_prefilter_densesubs-0181.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_wsubreddit/merged_qa_prefilter/merged_qa_prefilter_densesubs/documents/merged_qa_prefilter_densesubs-0182.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_wsubreddit/merged_qa_prefilter/merged_qa_prefilter_densesubs/documents/merged_qa_prefilter_densesubs-0183.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_wsubreddit/merged_qa_prefilter/merged_qa_prefilter_densesubs/documents/merged_qa_prefilter_densesubs-0184.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_wsubreddit/merged_qa_prefilter/merged_qa_prefilter_densesubs/documents/merged_qa_prefilter_densesubs-0185.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_wsubreddit/merged_qa_prefilter/merged_qa_prefilter_densesubs/documents/merged_qa_prefilter_densesubs-0186.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_wsubreddit/merged_qa_prefilter/merged_qa_prefilter_densesubs/documents/merged_qa_prefilter_densesubs-0187.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_wsubreddit/merged_qa_prefilter/merged_qa_prefilter_densesubs/documents/merged_qa_prefilter_densesubs-0188.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_wsubreddit/merged_qa_prefilter/merged_qa_prefilter_densesubs/documents/merged_qa_prefilter_densesubs-0189.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_wsubreddit/merged_qa_prefilter/merged_qa_prefilter_densesubs/documents/merged_qa_prefilter_densesubs-0190.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_wsubreddit/merged_qa_prefilter/merged_qa_prefilter_densesubs/documents/merged_qa_prefilter_densesubs-0191.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_wsubreddit/merged_qa_prefilter/merged_qa_prefilter_densesubs/documents/merged_qa_prefilter_densesubs-0192.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_wsubreddit/merged_qa_prefilter/merged_qa_prefilter_densesubs/documents/merged_qa_prefilter_densesubs-0193.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_wsubreddit/merged_qa_prefilter/merged_qa_prefilter_densesubs/documents/merged_qa_prefilter_densesubs-0194.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_wsubreddit/merged_qa_prefilter/merged_qa_prefilter_densesubs/documents/merged_qa_prefilter_densesubs-0195.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_wsubreddit/merged_qa_prefilter/merged_qa_prefilter_densesubs/documents/merged_qa_prefilter_densesubs-0196.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_wsubreddit/merged_qa_prefilter/merged_qa_prefilter_densesubs/documents/merged_qa_prefilter_densesubs-0197.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_wsubreddit/merged_qa_prefilter/merged_qa_prefilter_densesubs/documents/merged_qa_prefilter_densesubs-0198.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_wsubreddit/merged_qa_prefilter/merged_qa_prefilter_densesubs/documents/merged_qa_prefilter_densesubs-0199.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_wsubreddit/merged_qa_prefilter/merged_qa_prefilter_densesubs/documents/merged_qa_prefilter_densesubs-0200.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_wsubreddit/merged_qa_prefilter/merged_qa_prefilter_densesubs/documents/merged_qa_prefilter_densesubs-0201.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_wsubreddit/merged_qa_prefilter/merged_qa_prefilter_densesubs/documents/merged_qa_prefilter_densesubs-0202.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_wsubreddit/merged_qa_prefilter/merged_qa_prefilter_densesubs/documents/merged_qa_prefilter_densesubs-0203.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_wsubreddit/merged_qa_prefilter/merged_qa_prefilter_densesubs/documents/merged_qa_prefilter_densesubs-0204.json.gz
+pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_wsubreddit/merged_qa_prefilter/merged_qa_prefilter_densesubs/documents/merged_qa_prefilter_densesubs-0205.json.gz
+AskReddit: d = 18653736  ; t = 0
+teenagers: d = 3163834  ; t = 0
+buildapc: d = 2285076  ; t = 0
+leagueoflegends: d = 2081294  ; t = 0
+Showerthoughts: d = 1844113  ; t = 0
+NoStupidQuestions: d = 1822128  ; t = 0
+relationship_advice: d = 1354421  ; t = 0
+DestinyTheGame: d = 1286915  ; t = 0
+tipofmytongue: d = 1194912  ; t = 0
+techsupport: d = 1080589  ; t = 0
+AskOuija: d = 1074045  ; t = 0
+Advice: d = 968969  ; t = 0
+personalfinance: d = 919270  ; t = 0
+legaladvice: d = 893557  ; t = 0
+trees: d = 881856  ; t = 0
+gaming: d = 829117  ; t = 0
+explainlikeimfive: d = 786496  ; t = 0
+relationships: d = 779480  ; t = 0
+teenagersnew: d = 664172  ; t = 0
+depression: d = 661795  ; t = 0
+unpopularopinion: d = 630841  ; t = 0
+WritingPrompts: d = 616005  ; t = 0
+Jokes: d = 598571  ; t = 0
+offmychest: d = 585087  ; t = 0
+DnD: d = 576139  ; t = 0
+sex: d = 543932  ; t = 0
+AskDocs: d = 508811  ; t = 0
+nba: d = 506740  ; t = 0
+AmItheAsshole: d = 472761  ; t = 0
+stopdrinking: d = 457229  ; t = 0
+anime: d = 446664  ; t = 0
+Fitness: d = 440497  ; t = 0
+raisedbynarcissists: d = 435941  ; t = 0
+SquaredCircle: d = 433624  ; t = 0
+whowouldwin: d = 410543  ; t = 0
+SuicideWatch: d = 397467  ; t = 0
+Drugs: d = 387354  ; t = 0
+ApplyingToCollege: d = 381901  ; t = 0
+Smite: d = 375792  ; t = 0
+ADHD: d = 368074  ; t = 0
+HomeImprovement: d = 365135  ; t = 0
+learnprogramming: d = 362266  ; t = 0
+polls: d = 358027  ; t = 0
+conspiracy: d = 338519  ; t = 0
+Christianity: d = 335876  ; t = 0
+movies: d = 332523  ; t = 0
+loseit: d = 329745  ; t = 0
+Bitcoin: d = 327136  ; t = 0
+askscience: d = 326331  ; t = 0
+keto: d = 325423  ; t = 0
+AskHistorians: d = 323858  ; t = 0
+atheism: d = 319261  ; t = 0
+Guitar: d = 314056  ; t = 0
+Anxiety: d = 309247  ; t = 0
+exmormon: d = 304402  ; t = 0
+askgaybros: d = 302442  ; t = 0
+sysadmin: d = 296168  ; t = 0
+asktransgender: d = 290913  ; t = 0
+BabyBumps: d = 287237  ; t = 0
+circlejerk: d = 287137  ; t = 0
+CasualConversation: d = 284082  ; t = 0
+copypasta: d = 281538  ; t = 0
+SkincareAddiction: d = 278149  ; t = 0
+jobs: d = 268572  ; t = 0
+TrueOffMyChest: d = 266308  ; t = 0
+TooAfraidToAsk: d = 264585  ; t = 0
+Music: d = 249518  ; t = 0
+malefashionadvice: d = 247740  ; t = 0
+TwoXChromosomes: d = 241633  ; t = 0
+suggestmeabook: d = 235067  ; t = 0
+mentalhealth: d = 232596  ; t = 0
+IAmA: d = 232453  ; t = 0
+learnpython: d = 231878  ; t = 0
+Cooking: d = 224518  ; t = 0
+PersonalFinanceCanada: d = 219292  ; t = 0
+UnsentLetters: d = 217705  ; t = 0
+CryptoCurrency: d = 214801  ; t = 0
+nfl: d = 200786  ; t = 0
+dadjokes: d = 195598  ; t = 0
+DMAcademy: d = 194135  ; t = 0
+Parenting: d = 193394  ; t = 0
+Aquariums: d = 191392  ; t = 0
+LifeProTips: d = 190008  ; t = 0
+self: d = 187639  ; t = 0
+golf: d = 185448  ; t = 0
+lawschooladmissions: d = 184370  ; t = 0
+Entrepreneur: d = 184234  ; t = 0
+asoiaf: d = 183459  ; t = 0
+lgbt: d = 183094  ; t = 0
+weddingplanning: d = 180911  ; t = 0
+india: d = 180374  ; t = 0
+Warhammer40k: d = 180082  ; t = 0
+cars: d = 178740  ; t = 0
+reddit.com: d = 178122  ; t = 0
+childfree: d = 176471  ; t = 0
+bipolar: d = 176471  ; t = 0
+beyondthebump: d = 171909  ; t = 0
+CFB: d = 170231  ; t = 0
+Teachers: d = 169611  ; t = 0
+eu4: d = 167692  ; t = 0
+nosleep: d = 166231  ; t = 0
+wallstreetbets: d = 163235  ; t = 0
+rant: d = 163060  ; t = 0
+writing: d = 161789  ; t = 0
+boardgames: d = 160106  ; t = 0
+pregnant: d = 159010  ; t = 0
+Accounting: d = 156809  ; t = 0
+casualiama: d = 153206  ; t = 0
+confessions: d = 153057  ; t = 0
+exjw: d = 152981  ; t = 0
+AskVet: d = 152675  ; t = 0
+Philippines: d = 152624  ; t = 0
+CPTSD: d = 149317  ; t = 0
+vegan: d = 147833  ; t = 0
+learnmath: d = 146803  ; t = 0
+BPD: d = 146241  ; t = 0
+investing: d = 142855  ; t = 0
+opiates: d = 141773  ; t = 0
+CrusaderKings: d = 141590  ; t = 0
+gamedev: d = 141246  ; t = 0
+Catholicism: d = 140930  ; t = 0
+civ: d = 140231  ; t = 0
+minecraftsuggestions: d = 137433  ; t = 0
+worldpowers: d = 135652  ; t = 0
+breakingmom: d = 135358  ; t = 0
+HomeworkHelp: d = 134968  ; t = 0
+assassinscreed: d = 134803  ; t = 0
+baseball: d = 133996  ; t = 0
+starbucks: d = 133894  ; t = 0
+LegalAdviceUK: d = 133391  ; t = 0
+AskScienceFiction: d = 131887  ; t = 0
+RealEstate: d = 128186  ; t = 0
+bjj: d = 126743  ; t = 0
+shittyaskscience: d = 125145  ; t = 0
+gardening: d = 124404  ; t = 0
+stocks: d = 122231  ; t = 0
+careerguidance: d = 121587  ; t = 0
+autism: d = 121080  ; t = 0
+LucidDreaming: d = 120913  ; t = 0
+whatsthatbook: d = 118642  ; t = 0
+JUSTNOMIL: d = 117795  ; t = 0
+OkCupid: d = 117583  ; t = 0
+UKPersonalFinance: d = 117509  ; t = 0
+Wallstreetsilver: d = 116377  ; t = 0
+tax: d = 116082  ; t = 0
+CrazyIdeas: d = 115824  ; t = 0
+masseffect: d = 115600  ; t = 0
+birthcontrol: d = 114828  ; t = 0
+40kLore: d = 114228  ; t = 0
+Mcat: d = 113549  ; t = 0
+namenerds: d = 113434  ; t = 0
+answers: d = 113433  ; t = 0
+nursing: d = 112081  ; t = 0
+Superstonk: d = 112048  ; t = 0
+worldbuilding: d = 111977  ; t = 0
+cheatatmathhomework: d = 111372  ; t = 0
+classicwow: d = 111033  ; t = 0
+OCD: d = 109581  ; t = 0
+askphilosophy: d = 108386  ; t = 0
+smallbusiness: d = 107860  ; t = 0
+EDAnonymous: d = 107557  ; t = 0
+Sat: d = 106237  ; t = 0
+FanFiction: d = 105705  ; t = 0
+Dreams: d = 102748  ; t = 0
+AirForce: d = 101103  ; t = 0
+askcarsales: d = 100494  ; t = 0
+changemyview: d = 98623  ; t = 0
+DeadBedrooms: d = 98425  ; t = 0
+medical: d = 96130  ; t = 0
+EngineeringStudents: d = 95559  ; t = 0
+HPfanfiction: d = 95303  ; t = 0
+Fantasy: d = 94879  ; t = 0
+politics: d = 94772  ; t = 0
+AskEngineers: d = 92881  ; t = 0
+islam: d = 92215  ; t = 0
+confession: d = 90699  ; t = 0
+exmuslim: d = 90453  ; t = 0
+breastfeeding: d = 89864  ; t = 0
+Screenwriting: d = 89672  ; t = 0
+Dentistry: d = 89367  ; t = 0
+AskElectronics: d = 89364  ; t = 0
+Frugal: d = 89353  ; t = 0
+doordash: d = 87383  ; t = 0
+EnglishLearning: d = 87208  ; t = 0
+HFY: d = 87175  ; t = 0
+Divorce: d = 84036  ; t = 0
+AskPhysics: d = 83959  ; t = 0
+ForeverAlone: d = 83636  ; t = 0
+mbti: d = 81421  ; t = 0
+IBO: d = 81166  ; t = 0
+musictheory: d = 80178  ; t = 0
+Portland: d = 78701  ; t = 0
+Paranormal: d = 76772  ; t = 0
+SandersForPresident: d = 76330  ; t = 0
+Buddhism: d = 76062  ; t = 0
+networking: d = 75924  ; t = 0
+math: d = 75224  ; t = 0
+houston: d = 75000  ; t = 0
+Libertarian: d = 74804  ; t = 0
+selfimprovement: d = 74301  ; t = 0
+medical_advice: d = 74239  ; t = 0
+infp: d = 72745  ; t = 0
+INTP: d = 71799  ; t = 0
+LSAT: d = 71763  ; t = 0
+electricians: d = 71223  ; t = 0
+medicalschool: d = 70569  ; t = 0
+CitiesSkylines: d = 70528  ; t = 0
+SampleSize: d = 70023  ; t = 0
+InstacartShoppers: d = 69532  ; t = 0
+pcgaming: d = 69351  ; t = 0
+Insurance: d = 68433  ; t = 0
+television: d = 67953  ; t = 0
+languagelearning: d = 65844  ; t = 0
+sales: d = 64898  ; t = 0
+JordanPeterson: d = 64687  ; t = 0
+AskAnAmerican: d = 63936  ; t = 0
+singing: d = 63766  ; t = 0
+LosAngeles: d = 63696  ; t = 0
+diabetes: d = 63288  ; t = 0
+knitting: d = 63186  ; t = 0
+LawSchool: d = 63180  ; t = 0
+quotes: d = 62741  ; t = 0
+pennystocks: d = 62534  ; t = 0
+Destiny: d = 61892  ; t = 0
+ibs: d = 61234  ; t = 0
+dogemarket: d = 59876  ; t = 0
+step1: d = 59854  ; t = 0
+shortscarystories: d = 59659  ; t = 0
+chemistry: d = 59375  ; t = 0
+whatstheword: d = 58923  ; t = 0
+6thForm: d = 58054  ; t = 0
+marketing: d = 57083  ; t = 0
+AusFinance: d = 56560  ; t = 0
+Nootropics: d = 56468  ; t = 0
+grammar: d = 56370  ; t = 0
+BPDlovedones: d = 56346  ; t = 0
+GradSchool: d = 56318  ; t = 0
+startups: d = 56161  ; t = 0
+CompTIA: d = 55977  ; t = 0
+PoliticalDiscussion: d = 55846  ; t = 0
+DDLC: d = 55510  ; t = 0
+askmath: d = 55393  ; t = 0
+homeowners: d = 54973  ; t = 0
+aoe2: d = 54963  ; t = 0
+schizophrenia: d = 54302  ; t = 0
+BDSMAdvice: d = 53594  ; t = 0
+Poetry: d = 53083  ; t = 0
+Supplements: d = 53024  ; t = 0
+ShingekiNoKyojin: d = 52699  ; t = 0
+AskEurope: d = 52393  ; t = 0
+privacy: d = 52228  ; t = 0
+Herpes: d = 52140  ; t = 0
+Flipping: d = 51181  ; t = 0
+TalesFromRetail: d = 49134  ; t = 0
+history: d = 48891  ; t = 0
+APStudents: d = 48889  ; t = 0
+kfq: d = 48865  ; t = 0
+tea: d = 48831  ; t = 0
+AskProgramming: d = 48631  ; t = 0
+CFA: d = 48410  ; t = 0
+ACT: d = 48347  ; t = 0
+Scholar: d = 48294  ; t = 0
+daddit: d = 47759  ; t = 0
+GlobalPowers: d = 47355  ; t = 0
+amateurradio: d = 47106  ; t = 0
+thelastofus: d = 46795  ; t = 0
+Glitch_in_the_Matrix: d = 46427  ; t = 0
+TalesFromYourServer: d = 46029  ; t = 0
+AskScienceDiscussion: d = 45835  ; t = 0
+Python: d = 45417  ; t = 0
+javahelp: d = 45416  ; t = 0
+askdentists: d = 45210  ; t = 0
+China: d = 45183  ; t = 0
+chemhelp: d = 45118  ; t = 0
+conspiro: d = 44963  ; t = 0
+biology: d = 44753  ; t = 0
+unitedkingdom: d = 44589  ; t = 0
+PPC: d = 44327  ; t = 0
+ontario: d = 44000  ; t = 0
+Epilepsy: d = 43235  ; t = 0
+NewOrleans: d = 43228  ; t = 0
+CCW: d = 41382  ; t = 0
+nutrition: d = 40923  ; t = 0
+japanlife: d = 40852  ; t = 0
+Geosim: d = 40415  ; t = 0
+legaladviceofftopic: d = 40337  ; t = 0
+baseballcards: d = 40073  ; t = 0
+AskAcademia: d = 39994  ; t = 0
+realestateinvesting: d = 39932  ; t = 0
+theydidthemath: d = 39762  ; t = 0
+Anarcho_Capitalism: d = 39468  ; t = 0
+classicalmusic: d = 39274  ; t = 0
+Judaism: d = 39215  ; t = 0
+cpp_questions: d = 39182  ; t = 0
+CPA: d = 38882  ; t = 0
+DebateReligion: d = 38835  ; t = 0
+entitledparents: d = 38832  ; t = 0
+orangecounty: d = 38790  ; t = 0
+PurplePillDebate: d = 37961  ; t = 0
+baltimore: d = 37716  ; t = 0
+legaladvicecanada: d = 37239  ; t = 0
+AskEconomics: d = 36598  ; t = 0
+AskHR: d = 36350  ; t = 0
+Kaiserreich: d = 36269  ; t = 0
+Rowing: d = 36127  ; t = 0
+Stoicism: d = 36111  ; t = 0
+Turkey: d = 35974  ; t = 0
+cs50: d = 35866  ; t = 0
+Swingers: d = 35848  ; t = 0
+engineering: d = 35791  ; t = 0
+lifeisstrange: d = 35500  ; t = 0
+rust: d = 35375  ; t = 0
+Firearms: d = 34933  ; t = 0
+Anarchism: d = 34484  ; t = 0
+AntiJokes: d = 34368  ; t = 0
+StudentNurse: d = 34215  ; t = 0
+optometry: d = 34017  ; t = 0
+statistics: d = 33924  ; t = 0
+fantasywriters: d = 33794  ; t = 0
+TalesFromTheFrontDesk: d = 33392  ; t = 0
+HistoryWhatIf: d = 32884  ; t = 0
+labrats: d = 32862  ; t = 0
+AlAnon: d = 32445  ; t = 0
+MachineLearning: d = 32216  ; t = 0
+pettyrevenge: d = 32165  ; t = 0
+religion: d = 32148  ; t = 0
+zen: d = 31761  ; t = 0
+ElectricalEngineering: d = 31700  ; t = 0
+cancer: d = 31633  ; t = 0
+therapy: d = 31573  ; t = 0
+socialism: d = 31186  ; t = 0
+entp: d = 30912  ; t = 0
+MandelaEffect: d = 30614  ; t = 0
+linguistics: d = 30443  ; t = 0
+ems: d = 30353  ; t = 0
+venting: d = 30218  ; t = 0
+ukpolitics: d = 30178  ; t = 0
+OrthodoxChristianity: d = 30005  ; t = 0
+UnresolvedMysteries: d = 29933  ; t = 0
+gis: d = 29928  ; t = 0
+writers: d = 29779  ; t = 0
+space: d = 29494  ; t = 0
+StockMarket: d = 29309  ; t = 0
+AskFeminists: d = 29221  ; t = 0
+CapitalismVSocialism: d = 29191  ; t = 0
+AskStatistics: d = 28938  ; t = 0
+PlasticSurgery: d = 28768  ; t = 0
+MathHelp: d = 28730  ; t = 0
+southafrica: d = 28482  ; t = 0
+TNOmod: d = 28444  ; t = 0
+AsianParentStories: d = 28297  ; t = 0
+TalkTherapy: d = 28116  ; t = 0
+AceAttorney: d = 27959  ; t = 0
+STD: d = 27922  ; t = 0
+LetsNotMeet: d = 27708  ; t = 0
+ccna: d = 27564  ; t = 0
+conlangs: d = 27415  ; t = 0
+latin: d = 27281  ; t = 0
+Reformed: d = 27248  ; t = 0
+AskALiberal: d = 27239  ; t = 0
+Landlord: d = 27176  ; t = 0
+Anarchy101: d = 26774  ; t = 0
+Step2: d = 26727  ; t = 0
+GRE: d = 26447  ; t = 0
+Ask_Politics: d = 26418  ; t = 0
+Hypothyroidism: d = 26345  ; t = 0
+communism101: d = 26188  ; t = 0
+telescopes: d = 26074  ; t = 0
+datascience: d = 25998  ; t = 0
+AskHistory: d = 25933  ; t = 0
+cybersecurity: d = 25724  ; t = 0
+asklatinamerica: d = 25464  ; t = 0
+IndiaSpeaks: d = 25342  ; t = 0
+ecommerce: d = 24970  ; t = 0
+slp: d = 24841  ; t = 0
+vegetarian: d = 24692  ; t = 0
+learnmachinelearning: d = 24442  ; t = 0
+neoliberal: d = 24333  ; t = 0
+philosophy: d = 24171  ; t = 0
+HistoricalWorldPowers: d = 24130  ; t = 0
+ColdWarPowers: d = 24065  ; t = 0
+POTS: d = 24016  ; t = 0
+riddles: d = 23996  ; t = 0
+HongKong: d = 23984  ; t = 0
+cfs: d = 23954  ; t = 0
+Debate: d = 23694  ; t = 0
+IsItBullshit: d = 23633  ; t = 0
+business: d = 23379  ; t = 0
+touhou: d = 22867  ; t = 0
+YouShouldKnow: d = 22713  ; t = 0
+barexam: d = 22695  ; t = 0
+hacking: d = 22691  ; t = 0
+AskParents: d = 22528  ; t = 0
+AskNetsec: d = 22324  ; t = 0
+serialpodcast: d = 22187  ; t = 0
+Socialism_101: d = 21975  ; t = 0
+medicine: d = 21696  ; t = 0
+VaushV: d = 21405  ; t = 0
+C_Programming: d = 21355  ; t = 0
+TrueFilm: d = 20954  ; t = 0
+MakingaMurderer: d = 20752  ; t = 0
+OnePiecePowerScaling: d = 20737  ; t = 0
+EntitledPeople: d = 20707  ; t = 0
+AskThe_Donald: d = 20617  ; t = 0
+collapse: d = 20601  ; t = 0
+JuniorDoctorsUK: d = 20431  ; t = 0
+mormon: d = 20376  ; t = 0
+skyrimrequiem: d = 20323  ; t = 0
+Physics: d = 20190  ; t = 0
+socialwork: d = 19952  ; t = 0
+CanadaPublicServants: d = 19891  ; t = 0
+AskSocialScience: d = 19861  ; t = 0
+fuckeatingdisorders: d = 19717  ; t = 0
+ECE: d = 19606  ; t = 0
+steroids: d = 19526  ; t = 0
+learnjava: d = 19308  ; t = 0
+aznidentity: d = 19198  ; t = 0
+learnart: d = 19188  ; t = 0
+medlabprofessionals: d = 19150  ; t = 0
+AskConservatives: d = 19100  ; t = 0
+TheLastOfUs2: d = 19068  ; t = 0
+AusLegal: d = 18978  ; t = 0
+creepypasta: d = 18075  ; t = 0
+hinduism: d = 18068  ; t = 0
+FutureWhatIf: d = 18053  ; t = 0
+Futurology: d = 18037  ; t = 0
+advertising: d = 17909  ; t = 0
+igcse: d = 17781  ; t = 0
+ChatGPT: d = 17762  ; t = 0
+AskMarketing: d = 17438  ; t = 0
+legal: d = 17431  ; t = 0
+orthotropics: d = 17255  ; t = 0
+replika: d = 17244  ; t = 0
+Jung: d = 17019  ; t = 0
+Firefighting: d = 16971  ; t = 0
+realtors: d = 16744  ; t = 0
+europe: d = 16723  ; t = 0
+AcademicBiblical: d = 16392  ; t = 0
+GMAT: d = 16301  ; t = 0
+AskComputerScience: d = 16282  ; t = 0
+HowToHack: d = 16229  ; t = 0
+soylent: d = 16195  ; t = 0
+Astronomy: d = 16168  ; t = 0
+DiagnoseMe: d = 15591  ; t = 0
+shortstories: d = 15441  ; t = 0
+computerscience: d = 15432  ; t = 0
+samharris: d = 15402  ; t = 0
+alevel: d = 15272  ; t = 0
+CheggAnswers: d = 15239  ; t = 0
+China_Flu: d = 15195  ; t = 0
+pmp: d = 15180  ; t = 0
+Retconned: d = 15129  ; t = 0
+DuggarsSnark: d = 15075  ; t = 0
+judo: d = 15024  ; t = 0
+askatherapist: d = 14990  ; t = 0
+hypotheticalsituation: d = 14938  ; t = 0
+TickTockManitowoc: d = 14915  ; t = 0
+geology: d = 14704  ; t = 0
+DnDBehindTheScreen: d = 14645  ; t = 0
+policeuk: d = 14613  ; t = 0
+Asthma: d = 14482  ; t = 0
+EntrepreneurRideAlong: d = 14441  ; t = 0
+electrical: d = 14322  ; t = 0
+MaliciousCompliance: d = 14157  ; t = 0
+zerocarb: d = 14135  ; t = 0
+stupidpol: d = 14071  ; t = 0
+nihilism: d = 14052  ; t = 0
+Ask_Lawyers: d = 14036  ; t = 0
+rpghorrorstories: d = 13909  ; t = 0
+AskAnthropology: d = 13860  ; t = 0
+empirepowers: d = 13855  ; t = 0
+Conservative: d = 13726  ; t = 0
+algotrading: d = 13722  ; t = 0
+ENGLISH: d = 13668  ; t = 0
+education: d = 13370  ; t = 0
+IDontWorkHereLady: d = 13359  ; t = 0
+creepyencounters: d = 13273  ; t = 0
+retailhell: d = 13231  ; t = 0
+NewToEMS: d = 13150  ; t = 0
+LateStageCapitalism: d = 13133  ; t = 0
+C_S_T: d = 12710  ; t = 0
+flatearth: d = 12615  ; t = 0
+HPV: d = 12540  ; t = 0
+compsci: d = 12540  ; t = 0
+communism: d = 12347  ; t = 0
+electronics: d = 12266  ; t = 0
+thedavidpakmanshow: d = 12246  ; t = 0
+prolife: d = 12210  ; t = 0
+counting: d = 12188  ; t = 0
+mlb: d = 12174  ; t = 0
+armenia: d = 12126  ; t = 0
+rstats: d = 12040  ; t = 0
+askpsychology: d = 12033  ; t = 0
+AskDoctorSmeeee: d = 11989  ; t = 0
+law: d = 11953  ; t = 0
+veganfitness: d = 11900  ; t = 0
+medicalschoolanki: d = 11704  ; t = 0
+auslaw: d = 11683  ; t = 0
+Thoughts: d = 11661  ; t = 0
+Tunisia: d = 11649  ; t = 0
+AntiAntiJokes: d = 11570  ; t = 0
+psychotherapy: d = 11487  ; t = 0
+WarCollege: d = 11291  ; t = 0
+ABA: d = 11190  ; t = 0
+skeptic: d = 11160  ; t = 0
+Antipsychiatry: d = 11089  ; t = 0
+todayilearned: d = 11064  ; t = 0
+ChoosingBeggars: d = 10798  ; t = 0
+scifiwriting: d = 10791  ; t = 0
+ECEProfessionals: d = 10755  ; t = 0
+dementia: d = 10702  ; t = 0
+SpeculativeEvolution: d = 10679  ; t = 0
+psychologystudents: d = 10635  ; t = 0
+fatlogic: d = 10626  ; t = 0
+Presidentialpoll: d = 10624  ; t = 0
+urbanplanning: d = 10605  ; t = 0
+MLQuestions: d = 10596  ; t = 0
+exIglesiaNiCristo: d = 10574  ; t = 0
+PlantBasedDiet: d = 10547  ; t = 0
+Sikh: d = 10544  ; t = 0
+DigitalMarketing: d = 10526  ; t = 0
+LabourUK: d = 10455  ; t = 0
+askastronomy: d = 10347  ; t = 0
+worldpolitics: d = 10258  ; t = 0
+computervision: d = 10148  ; t = 0
+taoism: d = 9829  ; t = 0
+dietetics: d = 9798  ; t = 0
+Feminism: d = 9785  ; t = 0
+DebateAnAtheist: d = 9627  ; t = 0
+suits: d = 9610  ; t = 0
+therapists: d = 9593  ; t = 0
+AIDungeon: d = 9580  ; t = 0
+generationology: d = 9567  ; t = 0
+DestructiveReaders: d = 9501  ; t = 0
+calculus: d = 9489  ; t = 0
+AcademicPsychology: d = 9446  ; t = 0
+PhysicsStudents: d = 9373  ; t = 0
+monarchism: d = 9362  ; t = 0
+KeepWriting: d = 9313  ; t = 0
+ChainsawMan: d = 9223  ; t = 0
+finance: d = 9117  ; t = 0
+BanPitBulls: d = 9117  ; t = 0
+Gastroparesis: d = 9063  ; t = 0
+Biochemistry: d = 9012  ; t = 0
+TalesFromTheCustomer: d = 8983  ; t = 0
+subreddit_simulacrum: d = 8937  ; t = 0
+paralegal: d = 8930  ; t = 0
+Pottery: d = 8921  ; t = 0
+mrballen: d = 8886  ; t = 0
+economy: d = 8864  ; t = 0
+evolution: d = 8848  ; t = 0
+TrueCrime: d = 8844  ; t = 0
+M1Finance: d = 8832  ; t = 0
+genetics: d = 8817  ; t = 0
+ostomy: d = 8743  ; t = 0
+supplychain: d = 8611  ; t = 0
+neuro: d = 8520  ; t = 0
+Calligraphy: d = 8212  ; t = 0
+taxpros: d = 8124  ; t = 0
+DecreasinglyVerbose: d = 8099  ; t = 0
+mythology: d = 7975  ; t = 0
+GoldandBlack: d = 7955  ; t = 0
+ketoscience: d = 7891  ; t = 0
+lostgeneration: d = 7797  ; t = 0
+SALEM: d = 7743  ; t = 0
+SaaS: d = 7713  ; t = 0
+prochoice: d = 7673  ; t = 0
+HistoricalWhatIf: d = 7579  ; t = 0
+geography: d = 7569  ; t = 0
+Proofreading: d = 7558  ; t = 0
+CaliBanging: d = 7473  ; t = 0
+Abortiondebate: d = 7409  ; t = 0
+CommercialRealEstate: d = 7387  ; t = 0
+asianamerican: d = 7367  ; t = 0
+HighStrangeness: d = 7334  ; t = 0
+slatestarcodex: d = 7325  ; t = 0
+RStudio: d = 7322  ; t = 0
+hypnosis: d = 7282  ; t = 0
+farming: d = 7225  ; t = 0
+ReadMyScript: d = 7083  ; t = 0
+neuroscience: d = 6999  ; t = 0
+LawStudentsPH: d = 6957  ; t = 0
+deeplearning: d = 6926  ; t = 0
+gunpolitics: d = 6874  ; t = 0
+sgiwhistleblowers: d = 6860  ; t = 0
+geopolitics: d = 6732  ; t = 0
+digital_marketing: d = 6718  ; t = 0
+badhistory: d = 6704  ; t = 0
+botany: d = 6681  ; t = 0
+PoliticalScience: d = 6610  ; t = 0
+OrganicChemistry: d = 6582  ; t = 0
+TrueCrimeDiscussion: d = 6548  ; t = 0
+policydebate: d = 6521  ; t = 0
+sociology: d = 6484  ; t = 0
+PavlovGame: d = 6438  ; t = 0
+Chiropractic: d = 6412  ; t = 0
+neighborsfromhell: d = 6397  ; t = 0
+Paleontology: d = 6332  ; t = 0
+crypto: d = 6262  ; t = 0
+DebateAVegan: d = 6259  ; t = 0
+createthisworld: d = 6230  ; t = 0
+thecampaigntrail: d = 6043  ; t = 0
+FeMRADebates: d = 6015  ; t = 0
+instructionaldesign: d = 6012  ; t = 0
+IsraelPalestine: d = 6000  ; t = 0
+hivaids: d = 5998  ; t = 0
+microbiology: d = 5894  ; t = 0
+EARONS: d = 5863  ; t = 0
+chemistryhelp: d = 5850  ; t = 0
+NeutralPolitics: d = 5826  ; t = 0
+Jigsawpuzzles: d = 5807  ; t = 0
+StevenAveryIsGuilty: d = 5803  ; t = 0
+horseracing: d = 5767  ; t = 0
+security: d = 5731  ; t = 0
+AmITheAngel: d = 5714  ; t = 0
+lincolndouglas: d = 5656  ; t = 0
+BestofRedditorUpdates: d = 5544  ; t = 0
+respiratorytherapy: d = 5453  ; t = 0
+psychology: d = 5409  ; t = 0
+LegalAdviceIndia: d = 5363  ; t = 0
+Bar_Prep: d = 5354  ; t = 0
+atlanticdiscussions: d = 5340  ; t = 0
+Esperanto: d = 5311  ; t = 0
+SargonofAkkad: d = 5294  ; t = 0
+troubledteens: d = 5274  ; t = 0
+reinforcementlearning: d = 5260  ; t = 0
+Lawyertalk: d = 5237  ; t = 0
+SMITEGODCONCEPTS: d = 5144  ; t = 0
+ancientrome: d = 5131  ; t = 0
+WritersGroup: d = 5042  ; t = 0
+CriticalTheory: d = 5020  ; t = 0
+ELATeachers: d = 5018  ; t = 0
+OneWordBan: d = 4984  ; t = 0
+PublicRelations: d = 4978  ; t = 0
+econhw: d = 4971  ; t = 0
+PsoriaticArthritis: d = 4963  ; t = 0
+MURICA: d = 4960  ; t = 0
+Nietzsche: d = 4932  ; t = 0
+algorithms: d = 4888  ; t = 0
+ProgrammingLanguages: d = 4881  ; t = 0
+Ethiopia: d = 4861  ; t = 0
+JonBenetRamsey: d = 4854  ; t = 0
+CheggAnswerRequest: d = 4777  ; t = 0
+rational: d = 4694  ; t = 0
+APUSH: d = 4691  ; t = 0
+specialed: d = 4689  ; t = 0
+thyroidhealth: d = 4664  ; t = 0
+cryptography: d = 4617  ; t = 0
+Psychiatry: d = 4610  ; t = 0
+maths: d = 4578  ; t = 0
+mensa: d = 4523  ; t = 0
+Epstein: d = 4486  ; t = 0
+academiceconomics: d = 4475  ; t = 0
+BadRPerStories: d = 4464  ; t = 0
+AskALawyer: d = 4333  ; t = 0
+writingadvice: d = 4290  ; t = 0
+Economics: d = 4273  ; t = 0
+ModelUSGov: d = 4244  ; t = 0
+retirement: d = 4220  ; t = 0
+HOA: d = 4192  ; t = 0
+TheCannalysts: d = 4151  ; t = 0
+ProRevenge: d = 4135  ; t = 0
+cognitiveTesting: d = 4096  ; t = 0
+ecology: d = 4007  ; t = 0
+IOPsychology: d = 3993  ; t = 0
+tensorflow: d = 3920  ; t = 0
+austrian_economics: d = 3898  ; t = 0
+asklaw: d = 3895  ; t = 0
+econometrics: d = 3742  ; t = 0
+artc: d = 3704  ; t = 0
+Tenant: d = 3668  ; t = 0
+thelema: d = 3655  ; t = 0
+BehaviorAnalysis: d = 3643  ; t = 0
+pathologic: d = 3620  ; t = 0
+TheCrownNetflix: d = 3594  ; t = 0
+NonCredibleDefense: d = 3571  ; t = 0
+logic: d = 3561  ; t = 0
+Sexyspacebabes: d = 3530  ; t = 0
+stata: d = 3500  ; t = 0
+zoology: d = 3492  ; t = 0
+fuckHOA: d = 3446  ; t = 0
+AntiVegan: d = 3441  ; t = 0
+PCAcademy: d = 3415  ; t = 0
+psychoanalysis: d = 3408  ; t = 0
+Anthropology: d = 3390  ; t = 0
+language: d = 3357  ; t = 0
+spinalcordinjuries: d = 3305  ; t = 0
+rprogramming: d = 3279  ; t = 0
+AttorneyTom: d = 3247  ; t = 0
+mathriddles: d = 3228  ; t = 0
+schoolpsychology: d = 3228  ; t = 0
+Bad_Cop_No_Donut: d = 3152  ; t = 0
+epidemiology: d = 3150  ; t = 0
+CharacterDevelopment: d = 3147  ; t = 0
+TrigeminalNeuralgia: d = 3089  ; t = 0
+Archaeology: d = 3076  ; t = 0
+DebateEvolution: d = 3059  ; t = 0
+IndustrialWorldPowers: d = 3046  ; t = 0
+probabilitytheory: d = 3035  ; t = 0
+JonBenet: d = 2967  ; t = 0
+VoiceyHere: d = 2920  ; t = 0
+DoMyHomework: d = 2920  ; t = 0
+spss: d = 2899  ; t = 0
+AskBiology: d = 2845  ; t = 0
+badeconomics: d = 2835  ; t = 0
+moraldilemmas: d = 2817  ; t = 0
+MHOL: d = 2814  ; t = 0
+therapyabuse: d = 2796  ; t = 0
+FloridaBarExam: d = 2780  ; t = 0
+LawCanada: d = 2752  ; t = 0
+Anatomy: d = 2750  ; t = 0
+Motors: d = 2708  ; t = 0
+NIPT: d = 2662  ; t = 0
+Neuropsychology: d = 2661  ; t = 0
+osdev: d = 2648  ; t = 0
+CodingandBilling: d = 2634  ; t = 0
+georgism: d = 2630  ; t = 0
+AgeofMan: d = 2615  ; t = 0
+theravada: d = 2602  ; t = 0
+longevity: d = 2561  ; t = 0
+TheeHive: d = 2553  ; t = 0
+AskLegal: d = 2539  ; t = 0
+MTHFR: d = 2423  ; t = 0
+MurdaughFamilyMurders: d = 2379  ; t = 0
+AdvancedFitness: d = 2336  ; t = 0
+econmonitor: d = 2333  ; t = 0
+psychologyresearch: d = 2303  ; t = 0
+ClinicalPsychology: d = 2302  ; t = 0
+ChristianApologetics: d = 2302  ; t = 0
+naath: d = 2265  ; t = 0
+tangentiallyspeaking: d = 2225  ; t = 0
+Immunology: d = 2218  ; t = 0
+IRstudies: d = 2191  ; t = 0
+ModelUSHouse: d = 2148  ; t = 0
+aiclass: d = 2145  ; t = 0
+FrontierPowers: d = 2135  ; t = 0
+Keep_Track: d = 2104  ; t = 0
+Cardiology: d = 2078  ; t = 0
+CatholicPhilosophy: d = 2041  ; t = 0
+MHOLVote: d = 2033  ; t = 0
+PoliticalPhilosophy: d = 2012  ; t = 0
+ScientificNutrition: d = 1999  ; t = 0
+AmIFreeToGo: d = 1975  ; t = 0
+myevilplan: d = 1969  ; t = 0
+werewolves: d = 1935  ; t = 0
+SouthDakota: d = 1932  ; t = 0
+talesfromsecurity: d = 1816  ; t = 0
+APbio: d = 1815  ; t = 0
+Physiology: d = 1803  ; t = 0
+ModelSouthernState: d = 1782  ; t = 0
+ModelWesternState: d = 1734  ; t = 0
+1through10: d = 1682  ; t = 0
+mystery: d = 1671  ; t = 0
+businessschool: d = 1662  ; t = 0
+EndFPTP: d = 1646  ; t = 0
+u_reaIDonladTromp: d = 1633  ; t = 0
+Algebra: d = 1628  ; t = 0
+deism: d = 1590  ; t = 0
+ebola: d = 1579  ; t = 0
+TalesFromTheSquadCar: d = 1573  ; t = 0
+BokuNoMetaAcademia: d = 1533  ; t = 0
+PhysicsHelp: d = 1531  ; t = 0
+Ethics: d = 1528  ; t = 0
+MoscowMurders: d = 1524  ; t = 0
+financestudents: d = 1520  ; t = 0
+APChem: d = 1489  ; t = 0
+fallacy: d = 1463  ; t = 0
+Creation: d = 1462  ; t = 0
+GREhelp: d = 1446  ; t = 0
+branding: d = 1443  ; t = 0
+AlternativeHistory: d = 1435  ; t = 0
+neuralnetworks: d = 1430  ; t = 0
+Zoroastrianism: d = 1427  ; t = 0
+Virology: d = 1427  ; t = 0
+CaliforniaTicketHelp: d = 1375  ; t = 0
+BlackLivesMatter: d = 1370  ; t = 0
+Theranos: d = 1362  ; t = 0
+cs2a: d = 1330  ; t = 0
+SGIWhistleblowersMITA: d = 1285  ; t = 0
+PureLand: d = 1254  ; t = 0
+communication: d = 1251  ; t = 0
+CIVILWAR: d = 1234  ; t = 0
+ModelEasternChamber: d = 1207  ; t = 0
+SNPedia: d = 1202  ; t = 0
+RegularRevenge: d = 1193  ; t = 0
+askCardiology: d = 1174  ; t = 0
+Arrowheads: d = 1168  ; t = 0
+mmt_economics: d = 1099  ; t = 0
+publicdefenders: d = 1083  ; t = 0
+InternalAudit: d = 1047  ; t = 0
+nosleepworkshops: d = 1046  ; t = 0
+scotus: d = 1029  ; t = 0
+APHumanGeography: d = 986  ; t = 0
+AskChemistry: d = 962  ; t = 0
+socialscience: d = 947  ; t = 0
+APPsychology: d = 946  ; t = 0
+UnitedNations: d = 930  ; t = 0
+AccountingDepartment: d = 873  ; t = 0
+RipeStories: d = 868  ; t = 0
+Ultraleft: d = 848  ; t = 0
+mtaugustajustice: d = 822  ; t = 0
+EXHINDU: d = 810  ; t = 0
+niceguysDiscussion: d = 763  ; t = 0
+ancienthistory: d = 727  ; t = 0
+Help_with_math: d = 722  ; t = 0
+internationallaw: d = 661  ; t = 0
+askeconomists: d = 647  ; t = 0
+apworld: d = 645  ; t = 0
+Israel_Palestine: d = 644  ; t = 0
+apchemistry: d = 644  ; t = 0
+AncientCivilizations: d = 637  ; t = 0
+Jainism: d = 636  ; t = 0
+chemistryhomework: d = 634  ; t = 0
+Brink_of_War: d = 634  ; t = 0
+PhilosophyBookClub: d = 629  ; t = 0
+NuclearRevenge: d = 625  ; t = 0
+alchemyofsouls: d = 625  ; t = 0
+Epicureanism: d = 610  ; t = 0
+TrueCatholicPolitics: d = 595  ; t = 0
+ACIE: d = 581  ; t = 0
+Repordy: d = 568  ; t = 0
+landman: d = 567  ; t = 0
+psychopaths: d = 565  ; t = 0
+freewill: d = 565  ; t = 0
+childrenofdusk: d = 560  ; t = 0
+PsychologyInSeattle: d = 554  ; t = 0
+cs231n: d = 551  ; t = 0
+MarketingResearch: d = 532  ; t = 0
+Utilitarianism: d = 527  ; t = 0
+collegehappiness: d = 503  ; t = 0
+macroeconomics: d = 482  ; t = 0
+EKGs: d = 427  ; t = 0
+UFOscience: d = 408  ; t = 0
+debatemeateaters: d = 379  ; t = 0
+OpenArgs: d = 372  ; t = 0
+kpopfanfiction: d = 362  ; t = 0
+RedditCrimeCommunity: d = 357  ; t = 0
+ModelUSHouseJudicial: d = 355  ; t = 0
+mathpuzzles: d = 341  ; t = 0
+ALevelChemistry: d = 335  ; t = 0
+Accountingstudenthelp: d = 331  ; t = 0
+sociallibertarianism: d = 311  ; t = 0
+BiologyHelp: d = 309  ; t = 0
+talesfromthelaw: d = 291  ; t = 0
+EconPapers: d = 268  ; t = 0
+ScholarlyNonfiction: d = 259  ; t = 0
+pleistocene: d = 250  ; t = 0
+aesthetics: d = 230  ; t = 0
+modelSupCourt: d = 224  ; t = 0
+HindutvaRises: d = 223  ; t = 0
+criticalthinking: d = 217  ; t = 0
+FFA: d = 204  ; t = 0
+Ancientknowledge: d = 177  ; t = 0
+cultsLighthouseIntlGp: d = 173  ; t = 0
+infinitechan: d = 159  ; t = 0
+SSSC: d = 159  ; t = 0
+AncientWorld: d = 156  ; t = 0
+redwire: d = 148  ; t = 0
+AprogressiveParty: d = 114  ; t = 0
+BullMooseParty: d = 113  ; t = 0
+archeologyworld: d = 111  ; t = 0
+Keynesian_Economics: d = 108  ; t = 0
+Thesissupport: d = 104  ; t = 0
+logicalfallacy: d = 99  ; t = 0
+microeconomics: d = 95  ; t = 0
+Jurisprudence: d = 87  ; t = 0
+ModelNortheastCourts: d = 80  ; t = 0
+foreignpolicyanalysis: d = 80  ; t = 0
+Homework_Help_: d = 70  ; t = 0
+auditing: d = 66  ; t = 0
+InvictaHistory: d = 56  ; t = 0
+MountainUBE: d = 52  ; t = 0
+taoism_v2: d = 45  ; t = 0
+occupychi: d = 39  ; t = 0
+OneNationUnderJupiter: d = 28  ; t = 0
+Minoans: d = 26  ; t = 0
+MRA_TitleIX: d = 23  ; t = 0
+PeaceStudies: d = 15  ; t = 0
+marcuskestrel: d = 12  ; t = 0
+ModelLawJournal: d = 6  ; t = 0
+LogicCritique: d = 4  ; t = 0
+longhorn333: d = 3  ; t = 0
+u_MountainBlitz: d = 2  ; t = 0
+medbullets: d = 1  ; t = 0
+u_ubrina_khan: d = 1  ; t = 0

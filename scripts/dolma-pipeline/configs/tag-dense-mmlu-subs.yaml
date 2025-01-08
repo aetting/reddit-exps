@@ -1,8 +1,8 @@
-experiment: dense_subs
+experiment: dense_subs_highthresh
 
 documents:
   - s3://ai2-llm/pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_wsubreddit/merged_qa_prefilter/documents/*.gz
 taggers:
-  - dense_mmlu_subreddit
+  - dense_mmlu_subreddit_highthresh
 
 processes: 192

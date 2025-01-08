@@ -2,13 +2,14 @@ import json
 import boto3
 import smart_open
 import os
+import re
 
 import numpy as np
 # import process_search_outputs
 
 baseline_results="s3://ai2-llm/evaluation/anneal-peteish-7b/OLMo-medium_peteish7_step928646-hf/"
 anneal_results="s3://ai2-llm/evaluation/olmo-reddit/OLMo-medium_peteish7-microanneals_peteish7-weka-microanneal-from928646_reddit-merged_qa_prefilter_densesubs_step4802-hf/"
-
+manual_anneal_results="s3://ai2-llm/evaluation/microanneal-peteish-7b/OLMo-medium_peteish7-microanneals_peteish7-weka-microanneal-from928646_reddit-v1_step740-hf/"
 
 def get_scores(s3_dir):
     client = boto3.client('s3')
@@ -97,17 +98,40 @@ def get_retrieval_scores():
 
     return mean_scores
 
-
-
+def get_subreddit_counts():
+    subcounts = "/home/ec2-user/reddit-exps/scripts/data-stats/output_count_files/output_count_files/subreddit_counts/densesubs_subredditcount.txt"
+    subcountdict = {}
+    with open(subcounts) as f:
+        for line in f:
+            m = re.match("(.*)\: d = ([0-9]+)",line)
+            if not m:
+                continue
+            sub,count = m.groups()
+            subcountdict[sub] = int(count)
+    return subcountdict
 
 comparison_sorted = compare_scores(anneal_results,baseline_results)
 coverages, num_subs = get_subreddit_stats()
 retrieval_mean_scores = get_retrieval_scores()
+subcountdict = get_subreddit_counts()
 # import pdb; pdb.set_trace()
 
 for topic,scores in comparison_sorted:
-    print(f"{topic}: {scores} -- {coverages[topic]}; #subs {num_subs[topic]}")
-    print(retrieval_mean_scores[topic][:10])
+    print(f"{topic}: {scores} -- {coverages[topic]}; maxsub: {retrieval_mean_scores[topic][0][2]} ; #subs {num_subs[topic]}")
+    # print(retrieval_mean_scores[topic][:10])
+    subratios = []
+    subratio_vals = []
+    for x in retrieval_mean_scores[topic][:10]:
+        sub = x[0]
+        catcount = x[2]
+        if catcount < 5:
+            continue
+        subtotal = subcountdict.get(x[0],None)
+        ratio = x[2] / subtotal if subtotal else None
+        subratios.append(f"{sub}: {ratio} ({catcount} / {subtotal})")
+        subratio_vals.append(ratio)
+    print(f"max ratio: {max(subratio_vals)} ; min ratio: {min(subratio_vals)}")
+    print(subratios)
     print()
 
 
