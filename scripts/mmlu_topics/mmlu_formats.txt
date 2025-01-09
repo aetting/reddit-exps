@@ -1,0 +1,46 @@
+(CV) Command to find/return a value
+— Find the degree for a given field extension. 
+((0,4,2,6))
+—Compute the product in the given ring. 
+((0,1,11,22))
+--The chain of survival has four links. Put the following list in the correct order: 1. Early defibrillation; 2. Early CPR; 3. Recognition and call for help early; 4. Post-resuscitation care.
+((1,2,3,4 ; 2,4,3,1 ... ))
+
+(SJ) Statements for truth judgment:
+—Statement 1 | A ring homomorphism is … Statement 2 | Q is an ideal in R … 
+((True, True ; False, False …))
+
+(SC) Statement completion:
+—“If A = {1, 2, 3} then relation S = {(1, 1), (2, 2)} is” 
+((symmetric only,anti-symmetric only …))
+
+(FS) Follow-up sentence
+—A patient suffers a broken neck with damage to the spinal cord at the level of the sixth cervical vertebra.
+((They will be unable to breathe without life support.,They will only be able to breathe quietly. …))
+—A patient with damage to their cervical sympathetic chain will show the following signs and symptoms.
+((Pupillary constriction,Pupillary constriction and vasodilation of facial vessels …))
+
+(WP) Which of the following has property:
+—Which of the following best describes the structure that collects urine in the body?
+((Bladder,Kidney,Ureter,Urethra))
+
+(WT) Which of the following is true / not true
+--Which of the following is/are true?
+((Titan is the only outer solar system moon with a thick atmosphere,Titan is the only outer solar system moon with ...))
+
+(OQ) Open-ended question
+--What is the second most common element in the solar system?
+--Why are the inner planets made of denser materials than the outer planets?
+
+(FB) Fill-in-the-blank
+--A corporation is ________ from its managers, employees, investors and customers. It therefore has _______ succession and also ________.
+(("Indistinguishable, Perpetual, Does not own its own assets","Independent, Limited, Owns its own assets",...))
+
+
+
+
+Abstract algebra: CV, SJ, SC
+Anatomy: SC, WP, FS, OQ
+Astronomy: WT, OQ, SC
+Business ethics: FB, SC, WT, WP
+Clinical knowledge: OQ, SC, WP, CV
