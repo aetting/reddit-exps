@@ -1,3 +1,9 @@
+(OQ) Open-ended question
+--What is the second most common element in the solar system?
+--Why are the inner planets made of denser materials than the outer planets?
+--Approximately what fraction of the human genome encodes proteins?
+--[brief passage] based on the article, what would the author likely agree with?
+
 (CV) Command to find/return a value
 — Find the degree for a given field extension. 
 ((0,4,2,6))
@@ -27,15 +33,20 @@
 (WT) Which of the following is true / not true
 --Which of the following is/are true?
 ((Titan is the only outer solar system moon with a thick atmosphere,Titan is the only outer solar system moon with ...))
-
-(OQ) Open-ended question
---What is the second most common element in the solar system?
---Why are the inner planets made of denser materials than the outer planets?
+--Which of the following is NOT a source of atmospheric carbon?
+((Respiration,Photosynthesis...))
+--All of the following may serve as intracellular messengers EXCEPT
 
 (FB) Fill-in-the-blank
 --A corporation is ________ from its managers, employees, investors and customers. It therefore has _______ succession and also ________.
 (("Indistinguishable, Perpetual, Does not own its own assets","Independent, Limited, Owns its own assets",...))
 
+(IQO) In-question options
+-- "A cell nucleus contains which of the following?
+I. DNA
+II. Protein
+III. RNA",
+((I only,II only,III only,"I, II, and III"))
 
 
 
@@ -44,3 +55,8 @@ Anatomy: SC, WP, FS, OQ
 Astronomy: WT, OQ, SC
 Business ethics: FB, SC, WT, WP
 Clinical knowledge: OQ, SC, WP, CV
+College biology: SC, WP, WT, IQO
+College chemistry: WP, SC, IQO, CV, OQ, WT
+College CS: SC, WP, IQO, OQ, WT, WP
+College math: WT, OQ, IQO, WP
+College medicine: OQ, IQO, SC, WP, 
