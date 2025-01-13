@@ -22,7 +22,7 @@ gantry run \
   --env-secret WEKA_ENDPOINT_URL=WEKA_ENDPOINT_URL \
   --env-secret WANDB_API_KEY=WANDB_API_KEY \
   --shared-memory 10GiB \
-  --install "pip install transformers hf_transfer" \
+  --install "pip install transformers hf_transfer accelerate" \
   --yes \
   --timeout=-1 \
   -- python scripts/format-rewriting/qwen_inference.py
