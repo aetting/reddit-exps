@@ -13,7 +13,6 @@ gantry run \
   --weka oe-training-default:/weka/oe-training-default \
   --propagate-failure \
   --propagate-preemption \
-  --synchronized-start-timeout 90m \
   --no-python \
   --env LOG_FILTER_TYPE=local_rank0_only \
   --env R2_PROFILE=R2 \
