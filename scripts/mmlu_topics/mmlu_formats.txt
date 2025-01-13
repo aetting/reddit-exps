@@ -48,6 +48,11 @@ II. Protein
 III. RNA",
 ((I only,II only,III only,"I, II, and III"))
 
+-- The openSSL implementation described in “Remote Timing Attacks are Practical” (by Brumley and Boneh) uses the following performance optimizations: Chinese Remainder (CR), Montgomery Representation (MR), Karatsuba Multiplication (KM), and Repeated squaring and Sliding windows (RS). Which of the following options would close the timing channel attack described in the paper if you turned the listed optimizations off?
+1. RS and KM
+2. RS and MR
+(("True, True","False, False" ...))
+
 
 
 Abstract algebra: CV, SJ, SC
@@ -60,3 +65,5 @@ College chemistry: WP, SC, IQO, CV, OQ, WT
 College CS: SC, WP, IQO, OQ, WT, WP
 College math: WT, OQ, IQO, WP
 College medicine: OQ, IQO, SC, WP, 
+College physics
+Computer security: FB, IQO

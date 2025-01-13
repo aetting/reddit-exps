@@ -10,10 +10,8 @@ gantry run \
   --host-networking \
   --budget ai2/oe-data \
   --no-nfs \
+  --venv 'base' \
   --weka oe-training-default:/weka/oe-training-default \
-  --propagate-failure \
-  --propagate-preemption \
-  --no-python \
   --env LOG_FILTER_TYPE=local_rank0_only \
   --env R2_PROFILE=R2 \
   --env S3_PROFILE=S3 \
@@ -24,6 +22,7 @@ gantry run \
   --env-secret WEKA_ENDPOINT_URL=WEKA_ENDPOINT_URL \
   --env-secret WANDB_API_KEY=WANDB_API_KEY \
   --shared-memory 10GiB \
+  --install "pip install transformers hf_transfer" \
   --yes \
   --timeout=-1 \
   -- python scripts/format-rewriting/qwen_inference.py
