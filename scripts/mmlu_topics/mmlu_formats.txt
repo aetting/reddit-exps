@@ -1,3 +1,70 @@
+Please take information from this text and create three multiple choice questions that use 2-4 blanks. Example:
+
+"Dogs are ___ with ___ legs and ___ tail."
+A. mammals; four; one
+B. mammals; two; one
+C. amphibians; two; one
+D. amphibians; four; two
+
+Answer: B
+
+
+~~~~~~~~~~~~~~~~~
+
+Please take information from this text and convert it into three multiple choice questions that involve completing a statement. Example:
+
+Dogs are mammals with
+A. Two legs and one tail
+B. Four legs and two tails.
+C. Four legs and one tail.
+D. One leg and four tails.
+
+Answer: C 
+
+~~~~~~~~~~~~~~~~~~
+
+Please take information from this text and convert it into three multiple choice questions that involve an open-ended question. Do not use any information that is not in the text. Example:
+
+How many legs do dogs have?
+A. 3
+B. 4
+C. 6
+D. 2
+
+Answer: B
+
+~~~~~~~~~~~~~~~~~~
+
+
+Please take information from this text and convert it into three multiple choice questions that involve judging truth of two statements. Do not use any information that is not in the text. Example:
+
+Statement 1 | Dogs are mammals. Statement 2 | Dogs have three legs.
+
+A. True, True
+B. True, False
+C. False, True
+D. False, False
+
+Answer: B
+
+~~~~~~~~~~~~~~~~~~
+
+Please take information from this text and convert it into three multiple choice questions that involve judging truth of two statements. Do not use any information that is not in the text. Example:
+
+Statement 1 | Dogs are mammals. Statement 2 | Dogs have three legs.
+
+A. True, True
+B. True, False
+C. False, True
+D. False, False
+
+Answer: B
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
 (OQ) Open-ended question
 --What is the second most common element in the solar system?
 --Why are the inner planets made of denser materials than the outer planets?
