@@ -6,6 +6,8 @@ import json
 
 from s3_functions import read_jsonl_from_s3
 
+from transformers import GPT2Tokenizer
+
 # Initialize your OpenAI API key
 client = OpenAI(
     api_key = os.getenv("OPENAI_API_KEY")
@@ -26,7 +28,10 @@ class TrueFalse(BaseModel):
     false: list[str]
     academic_relevance: bool
 
-def get_responses(prompts, model="gpt-4o-mini", temperature=0.7, max_tokens=500):
+class StringQuestions(BaseModel):
+    questions: list[str]
+
+def get_response(prompt, model="gpt-4o-mini", temperature=0.7, max_tokens=500):
     """
     Takes a list of prompts and submits them to the OpenAI API.
     Returns responses for each prompt.
@@ -41,27 +46,27 @@ def get_responses(prompts, model="gpt-4o-mini", temperature=0.7, max_tokens=500)
         dict: A dictionary with prompts as keys and model responses as values.
     """
     responses = {}
-    for prompt in prompts:
-        try:
-            # Call the OpenAI API
-            response = client.chat.completions.create(
-                model=model,
-                messages=[{"role": "system", "content": "You are a helpful assistant that outputs json."},
-                          {"role": "user", "content": prompt}],
-                temperature=temperature,
-                max_tokens=max_tokens,
-                response_format={"type": "json_object"}
-            )
-            # Extract the response text
-            # responses[prompt] = response['choices'][0]['message']['content'].strip()
-            # responses[prompt] = response['choices'][0]['message']
-            print(response.choices[0].message.content)
-        except Exception as e:
-            # Handle any errors
-            responses[prompt] = f"Error: {str(e)}"
-    return responses
+    # for prompt in prompts:
+    try:
+        # Call the OpenAI API
+        response = client.chat.completions.create(
+            model=model,
+            messages=[{"role": "system", "content": "You are a helpful assistant."},
+                        {"role": "user", "content": prompt}],
+            temperature=temperature,
+            max_tokens=max_tokens,
+            # response_format={"type": "json_object"}
+        )
+        # Extract the response text
+        # responses[prompt] = response['choices'][0]['message']['content'].strip()
+        # responses[prompt] = response['choices'][0]['message']
+        response = response.choices[0].message.content
+    except Exception as e:
+        # Handle any errors
+        response = f"Error: {str(e)}"
+    return response
 
-def get_responses_structured(prompts, structure, model="gpt-4o-mini", temperature=0.7, max_tokens=800):
+def get_responses_structured(prompts, structure, model="gpt-4o-mini", temperature=0.7, max_tokens=500):
     """
     Takes a list of prompts and submits them to the OpenAI API.
     Returns responses for each prompt.
@@ -98,7 +103,15 @@ def get_responses_structured(prompts, structure, model="gpt-4o-mini", temperatur
 
 # Example usage
 if __name__ == "__main__":
-    # prompts = []
+    prompts = []
+
+    # template = prompt_templates.STATEMENT_TRUTH
+    # structure = TrueFalse
+
+    template = prompt_templates.WHICH_TRUE
+    structure = StringQuestions
+
+
     # loc = "s3://ai2-llm/pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_wsubreddit/merged_qa_prefilter/merged_qa_prefilter_densesubs_highthresh/documents/"
     # file_keys = [
     #     os.path.join(loc,"merged_qa_prefilter_densesubs_highthresh-0000.json.gz")
@@ -130,16 +143,22 @@ A big difference between the two philosophies is that Socialism believes in a pl
 DemSocs "merely" believe that a free market needs to be regulated in a way that everybody profits. This means more things like minimum wages, welfare programs, etc. but no direct interference in how companies do their business."""
     ]
 
-    template = prompt_templates.STATEMENT_TRUTH
-    prompts = [template.format(text=p,num="two") for p in prompts]
+    tokenizer = GPT2Tokenizer.from_pretrained("gpt2")
+    for raw_prompt in prompts:
+        full_prompt = template.format(text=raw_prompt)
+        # full_len = len(tokenizer.tokenize(full_prompt))
+        text_len = len(tokenizer.tokenize(raw_prompt))
+        max_tokens = max(text_len,150)
+        print(max_tokens)
     
-    results = get_responses_structured(prompts,TrueFalse)
-    for prompt, response in results.items():
-        # print(f"Prompt: {prompt}")
-        d = json.loads(response)
+    # results = get_responses_structured(prompts,structure)
+        response = get_response(full_prompt,max_tokens=max_tokens)
+        print(f"Prompt: {full_prompt}")
+        # d = json.loads(response)
         # for q in d["questions"]:
         #     print(f"Question: {q}\n")
-        print(d)
+        # print(d)
+        print(response)
         print("\n~~~~~~\n")
 
 
