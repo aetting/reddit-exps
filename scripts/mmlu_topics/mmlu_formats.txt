@@ -47,18 +47,7 @@ D. False, False
 
 Answer: B
 
-~~~~~~~~~~~~~~~~~~
-
-Please take information from this text and convert it into three multiple choice questions that involve judging truth of two statements. Do not use any information that is not in the text. Example:
-
-Statement 1 | Dogs are mammals. Statement 2 | Dogs have three legs.
-
-A. True, True
-B. True, False
-C. False, True
-D. False, False
-
-Answer: B
+~~~~~~~~~~~~
 
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
