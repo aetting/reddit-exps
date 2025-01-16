@@ -142,7 +142,7 @@ DemSocs "merely" believe that a free market needs to be regulated in a way that 
     ]
 
     prompts = []
-    with open("/home/ec2-user/batch_prompts/part-170-00000.jsonl") as f:
+    with open("/home/ec2-user/batch_prompts_ht/part-106-00000.jsonl") as f:
         for i,line in enumerate(f):
             d = json.loads(line.strip())
             prompts.append((d["prompt"],d["max_tokens"]))

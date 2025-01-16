@@ -90,7 +90,9 @@ def convert_text_to_prompts(args,csvfile):
         i = 0
         for text in yield_text_from_csv(args,csvfile):
             i += 1
-            if i%10000 == 0: print(i)
+            if i%10000 == 0: 
+                print(i)
+                break
             template = random.choices(values,weights = probs, k=1)[0]
             prompt = template.format(text=text)
             text_len = len(tokenizer.tokenize(prompt))
@@ -132,5 +134,6 @@ if __name__ == "__main__":
     csv_list = get_doc_list_from_tokenized(args.config,args.tokfilepattern)
     print(csv_list[0])
     tokenizer = GPT2Tokenizer.from_pretrained("gpt2")
+    Path(args.outdir).mkdir(parents=True, exist_ok=True)
     convert_text_to_prompts(args,csv_list[0])
     # pull_items_parallel(args,csv_list)
