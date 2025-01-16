@@ -4,9 +4,7 @@ from pydantic import BaseModel
 import prompt_templates
 import json
 
-from s3_functions import read_jsonl_from_s3
-
-from transformers import GPT2Tokenizer
+# from transformers import GPT2Tokenizer
 
 # Initialize your OpenAI API key
 client = OpenAI(
@@ -143,17 +141,25 @@ A big difference between the two philosophies is that Socialism believes in a pl
 DemSocs "merely" believe that a free market needs to be regulated in a way that everybody profits. This means more things like minimum wages, welfare programs, etc. but no direct interference in how companies do their business."""
     ]
 
-    tokenizer = GPT2Tokenizer.from_pretrained("gpt2")
-    for raw_prompt in prompts:
-        full_prompt = template.format(text=raw_prompt)
-        # full_len = len(tokenizer.tokenize(full_prompt))
-        text_len = len(tokenizer.tokenize(raw_prompt))
-        max_tokens = max(text_len,150)
-        print(max_tokens)
-    
+    prompts = []
+    with open("/home/ec2-user/batch_prompts/part-170-00000.jsonl") as f:
+        for i,line in enumerate(f):
+            d = json.loads(line.strip())
+            prompts.append((d["prompt"],d["max_tokens"]))
+            if i > 15: break
+
+    # tokenizer = GPT2Tokenizer.from_pretrained("gpt2")
+    # for raw_prompt in prompts:
+    #     full_prompt = template.format(text=raw_prompt)
+    #     # full_len = len(tokenizer.tokenize(full_prompt))
+    #     text_len = len(tokenizer.tokenize(raw_prompt))
+    #     max_tokens = max(text_len,150)
+    #     print(max_tokens)
+    for prompt,mt in prompts:
+        print(prompt)
+        print(f"%%%%\n{mt}\n%%%%")
     # results = get_responses_structured(prompts,structure)
-        response = get_response(full_prompt,max_tokens=max_tokens)
-        print(f"Prompt: {full_prompt}")
+        response = get_response(prompt,max_tokens=mt)
         # d = json.loads(response)
         # for q in d["questions"]:
         #     print(f"Question: {q}\n")
