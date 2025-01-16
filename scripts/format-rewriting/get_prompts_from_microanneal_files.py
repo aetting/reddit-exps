@@ -115,3 +115,4 @@ def parse_args():
 if __name__ == "__main__":
     args = parse_args()
     csv_list = get_doc_list_from_tokenized(args.config,args.tokfilepattern)
+    print(csv_list)
