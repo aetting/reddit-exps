@@ -84,20 +84,59 @@ def convert_text_to_prompts(args,csvfile):
     ]
     values,probs = zip(*distribution)
 
-    basename = csvfile.split("/")[-1].replace(".csv.gz",".jsonl")
+    basename = csvfile.split("/")[-1].replace(".csv.gz","")
     
-    with open(os.path.join(args.outdir,basename),"w") as out:
-        i = 0
-        for text in yield_text_from_csv(args,csvfile):
-            i += 1
-            if i%10000 == 0: 
-                print(i)
-                break
-            template = random.choices(values,weights = probs, k=1)[0]
-            prompt = template.format(text=text)
-            text_len = len(tokenizer.tokenize(prompt))
-            max_tokens = max(text_len,150)
-            out.write(json.dumps({"prompt":prompt,"max_tokens":max_tokens}) + "\n")
+    total_size_mb = 0
+    file_index = 0
+    current_file_path = os.path.join(args.outdir,f"{basename}_f{file_index}.jsonl")
+    current_file = open(current_file_path, "w")
+
+    i = 0
+    num_written_requests = 0
+    for text in yield_text_from_csv(args,csvfile):
+        i += 1
+        # if i%10000 == 0: 
+        #     print(i)
+        template = random.choices(values,weights = probs, k=1)[0]
+        prompt = template.format(text=text)
+        # text_len = len(tokenizer.tokenize(prompt))
+        # max_tokens = max(text_len,150)
+        max_tokens = 300
+        output_dict = {
+            "custom_id": f"{basename}_{i}",
+            "method": "POST",
+            "url": "/v1/chat/completions",
+            "body": {
+                    "model": "gpt-4o", 
+                    "messages": [{"role": "system", "content": "You are a helpful assistant."},
+                                {"role": "user", "content": prompt}
+                                ],
+                                "max_tokens": max_tokens
+                                }
+                    }
+        json_string = json.dumps(output_dict) + "\n"
+        size_in_bytes = len(json_string.encode('utf-8'))  # Get the size in bytes
+        size_in_mb = size_in_bytes / (1024 * 1024)
+        if (num_written_requests + 1 < 50000) and (total_size_mb + size_in_mb < 200):
+            total_size_mb += size_in_mb
+            num_written_requests += 1
+            current_file.write(json_string)
+        else:
+            current_file.close()
+            # print(f"File closed: {current_file_path} (size {total_size_mb}, num_requests {num_written_requests})")
+
+            # Open a new file
+            file_index += 1
+            current_file_path = os.path.join(args.outdir,f"{basename}_f{file_index}.jsonl")
+            current_file = open(current_file_path, "w")
+            # print(f"Started writing to new file: {current_file_path}")
+            current_file.write(json_string)
+            total_size_mb = size_in_mb
+            num_written_requests = 1
+    # print(total_size_mb)
+    # print(num_written_requests)
+    current_file.close()
+
 
 
 def pull_items_parallel(args,csvfile_list):
@@ -132,8 +171,8 @@ def parse_args():
 if __name__ == "__main__":
     args = parse_args()
     csv_list = get_doc_list_from_tokenized(args.config,args.tokfilepattern)
-    print(csv_list[0])
-    tokenizer = GPT2Tokenizer.from_pretrained("gpt2")
-    Path(args.outdir).mkdir(parents=True, exist_ok=True)
-    convert_text_to_prompts(args,csv_list[0])
-    # pull_items_parallel(args,csv_list)
+    # print(csv_list[0])
+    # tokenizer = GPT2Tokenizer.from_pretrained("gpt2")
+    # Path(args.outdir).mkdir(parents=True, exist_ok=True)
+    # convert_text_to_prompts(args,csv_list[0])
+    pull_items_parallel(args,csv_list)
