@@ -91,23 +91,30 @@ def convert_text_to_prompts(args,csvfile):
     current_file_path = os.path.join(args.outdir,f"{basename}_f{file_index}.jsonl")
     current_file = open(current_file_path, "w")
 
+    model = "gpt-4o"
+    tokenizer = GPT2Tokenizer.from_pretrained("gpt2")
+
     i = 0
     num_written_requests = 0
+    if model == "gpt-4o": 
+        extra = " If the text doesn't contain any information relevant for an academic question, make academic questions inspired by words, phrases, or themes in the text."
+    else:
+        extra = ""
     for text in yield_text_from_csv(args,csvfile):
         i += 1
         # if i%10000 == 0: 
         #     print(i)
         template = random.choices(values,weights = probs, k=1)[0]
-        prompt = template.format(text=text)
-        # text_len = len(tokenizer.tokenize(prompt))
-        # max_tokens = max(text_len,150)
-        max_tokens = 300
+        prompt = template.format(text=text,extra=extra)
+        text_len = len(tokenizer.tokenize(text))
+        max_tokens = max(text_len,100)
+        # max_tokens = 100
         output_dict = {
             "custom_id": f"{basename}_{i}",
             "method": "POST",
             "url": "/v1/chat/completions",
             "body": {
-                    "model": "gpt-4o", 
+                    "model": model, 
                     "messages": [{"role": "system", "content": "You are a helpful assistant."},
                                 {"role": "user", "content": prompt}
                                 ],
@@ -142,7 +149,6 @@ def convert_text_to_prompts(args,csvfile):
 def pull_items_parallel(args,csvfile_list):
     results = []
     Path(args.outdir).mkdir(parents=True, exist_ok=True)
-    tokenizer = GPT2Tokenizer.from_pretrained("gpt2")
     with mp.Pool(processes=args.num_processes) as pool:
         for csvfile in csvfile_list[:5]:
             result = pool.apply_async(convert_text_to_prompts, (args,csvfile))
@@ -171,8 +177,10 @@ def parse_args():
 if __name__ == "__main__":
     args = parse_args()
     csv_list = get_doc_list_from_tokenized(args.config,args.tokfilepattern)
+    
     # print(csv_list[0])
     # tokenizer = GPT2Tokenizer.from_pretrained("gpt2")
     # Path(args.outdir).mkdir(parents=True, exist_ok=True)
     # convert_text_to_prompts(args,csv_list[0])
+   
     pull_items_parallel(args,csv_list)

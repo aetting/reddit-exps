@@ -2,7 +2,7 @@ OPEN_ENDED ="""I will ask you to convert a text into multiple-choice questions. 
 
 "{text}"
 
-Instructions: Convert the information in the text into academic multiple choice questions. ONLY include questions that are academic. DONOT reference the text in the question.
+Instructions: Convert the information in the text into academic multiple choice questions. ONLY include questions that are academic. DONOT reference the text in the question.{extra}
 
 For format, use questions that are open-ended. Example:
 
@@ -21,7 +21,7 @@ STATEMENT_COMPLETION ="""I will ask you to convert a text into multiple-choice q
 
 "{text}"
 
-Instructions: Convert the information in the text into academic multiple choice questions. ONLY include questions that are academic. DONOT reference the text in the question.
+Instructions: Convert the information in the text into academic multiple choice questions. ONLY include questions that are academic. DONOT reference the text in the question.{extra}
 
 For format, use questions that involve completing a statement. DONOT include blanks in the question. Example:
 
@@ -40,7 +40,7 @@ FILL_IN_BLANK ="""I will ask you to convert a text into multiple-choice question
 
 "{text}"
 
-Instructions: Convert the information in the text into academic multiple choice questions. ONLY include questions that are academic. DONOT reference the text in the question.
+Instructions: Convert the information in the text into academic multiple choice questions. ONLY include questions that are academic. DONOT reference the text in the question.{extra}
 
 For format, use questions that contain 2-4 blanks. Example:
 
@@ -59,7 +59,7 @@ TWO_STATEMENT ="""I will ask you to convert a text into multiple-choice question
 
 "{text}"
 
-Instructions: Convert the information in the text into academic multiple choice questions. ONLY include questions that are academic. DONOT reference the text in the question.
+Instructions: Convert the information in the text into academic multiple choice questions. ONLY include questions that are academic. DONOT reference the text in the question.{extra}
 
 For format, use questions that contain two statements, with the answers judging whether those statements are true, in the order of the statements. Example:
 
@@ -100,7 +100,7 @@ WHICH_HAS_PROPERTY ="""I will ask you to convert a text into multiple-choice que
 
 "{text}"
 
-Instructions: Convert the information in the text into academic multiple choice questions. ONLY include questions that are academic. DONOT reference the text in the question.
+Instructions: Convert the information in the text into academic multiple choice questions. ONLY include questions that are academic. DONOT reference the text in the question.{extra}
 
 For format, use questions that ask 'which of the following'. Example:
 
@@ -129,7 +129,7 @@ WHICH_TRUE ="""I will ask you to convert a text into multiple-choice questions. 
 
 "{text}"
 
-Instructions: Convert the information in the text into academic multiple choice questions. ONLY include questions that are academic. DONOT reference the text in the question.
+Instructions: Convert the information in the text into academic multiple choice questions. ONLY include questions that are academic. DONOT reference the text in the question.{extra}
 
 For format, use questions that ask which of the options are true. Example:
 

@@ -29,7 +29,7 @@ class TrueFalse(BaseModel):
 class StringQuestions(BaseModel):
     questions: list[str]
 
-def get_response(prompt, model="gpt-4o-mini", temperature=0.7, max_tokens=500):
+def get_response(prompt, model="gpt-4o", temperature=0.7, max_tokens=500):
     """
     Takes a list of prompts and submits them to the OpenAI API.
     Returns responses for each prompt.
@@ -142,7 +142,7 @@ DemSocs "merely" believe that a free market needs to be regulated in a way that 
     ]
 
     prompts = []
-    with open("/home/ec2-user/batch_prompts_ht/part-066-00000_f0.jsonl") as f:
+    with open("/home/ec2-user/batch_prompts_ht/part-106-00000_f0.jsonl") as f:
         for i,line in enumerate(f):
             d = json.loads(line.strip())
             prompts.append((d["body"]["messages"][1]["content"],d["body"]["max_tokens"]))
