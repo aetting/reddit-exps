@@ -44,7 +44,7 @@ Instructions: Convert the information in the text into academic multiple choice 
 
 For format, use questions that contain 2-4 blanks. Example:
 
-Question: "Dogs are ___ with ___ legs and ___ tail."
+"Dogs are ___ with ___ legs and ___ tail."
 A. mammals; four; one
 B. mammals; two; one
 C. amphibians; two; one
@@ -61,7 +61,7 @@ TWO_STATEMENT ="""I will ask you to convert a text into multiple-choice question
 
 Instructions: Convert the information in the text into academic multiple choice questions. ONLY include questions that are academic. DONOT reference the text in the question.{extra}
 
-For format, use questions that contain two statements, with the answers judging whether those statements are true, in the order of the statements. Example:
+For format, use questions that contain two statements, with the answers judging whether those statements are true, in the order of the statements. Examples:
 
 Statement 1 | Dogs are mammals. Statement 2 | Dogs have five legs.
 A. True, True
@@ -102,7 +102,7 @@ WHICH_HAS_PROPERTY ="""I will ask you to convert a text into multiple-choice que
 
 Instructions: Convert the information in the text into academic multiple choice questions. ONLY include questions that are academic. DONOT reference the text in the question.{extra}
 
-For format, use questions that ask 'which of the following'. Example:
+For format, use questions that ask 'which of the following'. Examples:
 
 Which of the following is a mammal?
 A. Snake
@@ -131,7 +131,7 @@ WHICH_TRUE ="""I will ask you to convert a text into multiple-choice questions. 
 
 Instructions: Convert the information in the text into academic multiple choice questions. ONLY include questions that are academic. DONOT reference the text in the question.{extra}
 
-For format, use questions that ask which of the options are true. Example:
+For format, use questions that ask which of the options are true. Examples:
 
 Which of the following is true?
 A. Snakes are reptiles.
@@ -154,6 +154,51 @@ Answer: A
 Separate ALL questions with "\n%%%%\n".
 """
 
+IN_QUESTION_OPTIONS ="""I will ask you to convert a text into multiple-choice questions. Here is the text:
+
+"{text}"
+
+Instructions: Convert the information in the text into academic multiple choice questions. ONLY include questions that are academic. DONOT reference the text in the question.{extra}
+
+For format, use questions that provide options within the question and give choices for which options are true. Examples:
+
+Dogs have which of the following properties?
+
+I. They are mammals
+II. They have five legs.
+III. They have a tail.
+
+A. I only
+B. II only
+C. III only
+D. I and III
+
+Answer: D
+
+%%%%
+
+Which of the following are cities in the US?
+
+I. Paris
+II. Athens
+III. Chicago
+
+A. I only
+B. II only
+C. III only
+D. I, II and III
+
+Answer: C
+
+Separate ALL questions with "\n%%%%\n".
+"""
+
+
+######################################################################################################################################################################################################################################
+
+######################################################################################################################################################################################################################################
+
+######################################################################################################################################################################################################################################
 
 OPEN_ENDED_STRUCT ="""I will ask you to convert a text into multiple-choice questions. Here is the text:
 
@@ -165,7 +210,7 @@ Then convert the information in the text into academic multiple choice questions
 
 For format, use open-ended questions. Put the CORRECT option first. Example:
 
-Question: How many legs do dogs have?
+How many legs do dogs have?
 A. 3
 B. 4
 C. 6

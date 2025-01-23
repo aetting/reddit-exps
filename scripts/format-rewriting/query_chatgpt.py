@@ -3,8 +3,9 @@ import os
 from pydantic import BaseModel
 import prompt_templates
 import json
+import re
 
-# from transformers import GPT2Tokenizer
+from transformers import GPT2Tokenizer
 
 # Initialize your OpenAI API key
 client = OpenAI(
@@ -29,7 +30,7 @@ class TrueFalse(BaseModel):
 class StringQuestions(BaseModel):
     questions: list[str]
 
-def get_response(prompt, model="gpt-4o", temperature=0.7, max_tokens=500):
+def get_response(prompt, model="gpt-4o-mini", temperature=0.7, max_tokens=500):
     """
     Takes a list of prompts and submits them to the OpenAI API.
     Returns responses for each prompt.
@@ -142,30 +143,57 @@ DemSocs "merely" believe that a free market needs to be regulated in a way that 
     ]
 
     prompts = []
-    with open("/home/ec2-user/batch_prompts_ht/part-106-00000_f0.jsonl") as f:
+    with open("/home/ec2-user/batch_prompts_ht_mini/part-014-00000_f2.jsonl") as f:
         for i,line in enumerate(f):
             d = json.loads(line.strip())
-            prompts.append((d["body"]["messages"][1]["content"],d["body"]["max_tokens"]))
+            prompts.append((d["body"]["messages"][1]["content"],d["body"]["max_tokens"],d["body"]["model"]))
             if i > 15: break
 
-    # tokenizer = GPT2Tokenizer.from_pretrained("gpt2")
+    tokenizer = GPT2Tokenizer.from_pretrained("gpt2")
     # for raw_prompt in prompts:
     #     full_prompt = template.format(text=raw_prompt)
     #     # full_len = len(tokenizer.tokenize(full_prompt))
     #     text_len = len(tokenizer.tokenize(raw_prompt))
     #     max_tokens = max(text_len,150)
     #     print(max_tokens)
-    for prompt,mt in prompts:
-        print(prompt)
-        print(f"%%%%\n{mt}\n%%%%")
+    orig_total_len = 0
+    resp_total_len = 0
+    prev_text = ""
+    for prompt,mt,model in prompts:
+        m = re.match(".*Here is the text:\n\n(.*)Instructions: Convert the information",prompt,re.DOTALL)
+        bare_text = m.groups()[0]
+        if bare_text != prev_text:
+            print(model)
+            print(prompt)
+            print(f"%%%%\n{mt}\n%%%%")
+            print(f"MAX TOK: {mt}")
+            bare_text_len = len(tokenizer.tokenize(bare_text))
+            print(f"TEXT LEN {bare_text_len}")
+            orig_total_len += bare_text_len
+        prev_text = bare_text
     # results = get_responses_structured(prompts,structure)
-        response = get_response(prompt,max_tokens=mt)
+        response = get_response(prompt,max_tokens=mt,model=model)
+        # print(response)
+        # response_text = d["response"]["body"]["choices"][0]["message"]["content"]
+        parsed_qs = response.split("%%%%")
+        qs_len = 0
+        for q_text in parsed_qs:
+            print(q_text)
+            q_len = len(tokenizer.tokenize(q_text))
+            print(f"Q LEN {q_len}")
+            print("\n~~~~~~\n")
+            resp_total_len += q_len
+            qs_len += q_len
+        print(f"QS LEN: {qs_len}")
         # d = json.loads(response)
         # for q in d["questions"]:
         #     print(f"Question: {q}\n")
         # print(d)
-        print(response)
-        print("\n~~~~~~\n")
+        # print(response)
+        
+
+print(f"ORIG LEN: {orig_total_len}")
+print(f"RESP LEN: {resp_total_len}")
 
 
 

@@ -2,6 +2,7 @@ import os
 import json
 import smart_open
 import re
+import math
 from collections import defaultdict
 
 import multiprocessing as mp
@@ -71,16 +72,23 @@ def yield_text_from_csv(args,csvfile):
             for line in f:
                 d = json.loads(line.strip())
                 if d["id"] in files_dict[source_doc]:
-                    yield d["text"]
+                    text = d["text"]
+                    num_words = len(text.split())
+                    if num_words > 500:
+                        for i in range(math.ceil(num_words/500)):
+                            yield text,d["id"]
+                    else:
+                        yield text,d["id"]
 
 def convert_text_to_prompts(args,csvfile):
     distribution = [
-        (OPEN_ENDED,.19),
-        (STATEMENT_COMPLETION,.19),
-        (FILL_IN_BLANK,.19),
+        (OPEN_ENDED,.17),
+        (STATEMENT_COMPLETION,.17),
+        (FILL_IN_BLANK,.17),
         (TWO_STATEMENT,.05),
-        (WHICH_HAS_PROPERTY,.19),
-        (WHICH_TRUE,.19)
+        (WHICH_HAS_PROPERTY,.17),
+        (WHICH_TRUE,.17),
+        (IN_QUESTION_OPTIONS,.1)
     ]
     values,probs = zip(*distribution)
 
@@ -91,7 +99,7 @@ def convert_text_to_prompts(args,csvfile):
     current_file_path = os.path.join(args.outdir,f"{basename}_f{file_index}.jsonl")
     current_file = open(current_file_path, "w")
 
-    model = "gpt-4o"
+    model = "gpt-4o-mini"
     tokenizer = GPT2Tokenizer.from_pretrained("gpt2")
 
     i = 0
@@ -100,17 +108,17 @@ def convert_text_to_prompts(args,csvfile):
         extra = " If the text doesn't contain any information relevant for an academic question, make academic questions inspired by words, phrases, or themes in the text."
     else:
         extra = ""
-    for text in yield_text_from_csv(args,csvfile):
+    for text,prompt_id in yield_text_from_csv(args,csvfile):
         i += 1
         # if i%10000 == 0: 
         #     print(i)
         template = random.choices(values,weights = probs, k=1)[0]
         prompt = template.format(text=text,extra=extra)
         text_len = len(tokenizer.tokenize(text))
-        max_tokens = max(text_len,100)
+        max_tokens = round(max(text_len+(.1*text_len),150))
         # max_tokens = 100
         output_dict = {
-            "custom_id": f"{basename}_{i}",
+            "custom_id": f"{basename}_{i}_{prompt_id}",
             "method": "POST",
             "url": "/v1/chat/completions",
             "body": {
@@ -130,7 +138,7 @@ def convert_text_to_prompts(args,csvfile):
             current_file.write(json_string)
         else:
             current_file.close()
-            # print(f"File closed: {current_file_path} (size {total_size_mb}, num_requests {num_written_requests})")
+            print(f"File closed: {current_file_path} (size {total_size_mb}, num_requests {num_written_requests})")
 
             # Open a new file
             file_index += 1
@@ -150,7 +158,7 @@ def pull_items_parallel(args,csvfile_list):
     results = []
     Path(args.outdir).mkdir(parents=True, exist_ok=True)
     with mp.Pool(processes=args.num_processes) as pool:
-        for csvfile in csvfile_list[:5]:
+        for csvfile in csvfile_list:
             result = pool.apply_async(convert_text_to_prompts, (args,csvfile))
             results.append(result)
         # for result in results:
