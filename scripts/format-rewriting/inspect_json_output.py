@@ -49,7 +49,7 @@ def inspect_matched_prompt_response(input_filename,input_file_folder, prev_promp
             d = json.loads(line.strip())
             idx = d["custom_id"]
             response_text = d["response"]["body"]["choices"][0]["message"]["content"]
-            parsed_text = response_text.split("\n%%%%\n")
+            parsed_text = response_text.split("%%%%")
             bare_text = prompt_dict[idx]
             fullp_len = len(tokenizer.tokenize(full_prompt_dict[idx]))
             full_prompt_total_len += fullp_len
@@ -79,5 +79,5 @@ def inspect_matched_prompt_response(input_filename,input_file_folder, prev_promp
     return(orig_total_len,resp_total_len,full_prompt_total_len)
 
 if __name__ == "__main__":
-    iterate_over_files("/home/ec2-user/test_files_batch_mode_mini")
+    iterate_over_files("/home/ec2-user/batch_prompts_ht_mini_firsttwo")
 
