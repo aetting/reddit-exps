@@ -4,6 +4,7 @@ import gzip
 from collections import defaultdict
 import argparse
 import boto3
+import os
 
 import multiprocessing as mp
 
@@ -152,6 +153,9 @@ def convert_file(obj,write_dir,ordering_func):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("num_processes",type=int)
+    parser.add_argument("ordering_func",type=str, choices = ["qa","qa_all"])
+    parser.add_argument("output_dir",type=str)
+
     args = parser.parse_args()
 
     num_processes = args.num_processes
@@ -162,13 +166,19 @@ if __name__ == "__main__":
     paginator = client.get_paginator('list_objects_v2')
     pages = paginator.paginate(Bucket=bucket, Prefix=f"{filedir}/sharded_output")
 
-    write_dir = f"/home/ec2-user/merged_qa"
+    write_dir = args.output_dir
+    os.makedirs(write_dir,exist_ok=True)
+
+    if args.ordering_func == "qa":
+        ordering_func = qa_format
+    elif args.ordering_func == "qa_all":
+        ordering_func = qa_format_all
 
     results = []
     with mp.Pool(processes=num_processes) as pool:
         for page in pages:
             for obj in page["Contents"]:
-                result = pool.apply_async(convert_file, (obj,write_dir,qa_format))
+                result = pool.apply_async(convert_file, (obj,write_dir,ordering_func))
                 results.append(result)
         for result in results:
             result.get()
