@@ -1,10 +1,8 @@
 import os
 import csv
 import re
+import argparse
 
-question_dir = "/home/ec2-user/mmlu_topics/mmlu_data/test"
-# with open('eggs.csv', newline='') as csvfile:
-#     spamreader = csv.reader(csvfile, delimiter=' ', quotechar='|')
 
 letter_to_ind = {
     "A": 0,
@@ -121,8 +119,8 @@ multi_answer = [
 # ]
 
 
-def concat_corr_only(csvreader):
-    outdir = "/home/ec2-user/mmlu_topics/mmlu_queries/test_queries/mmlu_queries_corr"
+def concat_corr_only(csvreader,outdir):
+    # outdir = "/home/ec2-user/mmlu_topics/mmlu_queries/test_queries/mmlu_queries_corr"
     with open(os.path.join(outdir,f"{corename}.txt"),"w") as out:
         i = 0
         for line in csvreader:
@@ -156,8 +154,8 @@ def concat_corr_only(csvreader):
                 outstr = outstr[1:]
             out.write(' '.join(outstr.split()) + "\n")
 
-def keep_all_options(csvreader):
-    outdir = "/home/ec2-user/mmlu_topics/mmlu_queries/test_queries/mmlu_queries_all"
+def keep_all_options(csvreader,outdir):
+    # outdir = "/home/ec2-user/mmlu_topics/mmlu_queries/test_queries/mmlu_queries_all"
     with open(os.path.join(outdir,f"{corename}.txt"),"w") as out:
         for line in csvreader:
             for outstr in line[:-1]:
@@ -167,8 +165,8 @@ def keep_all_options(csvreader):
                     outstr = outstr.replace(to_remove," ")
                 out.write(outstr + "\n")
 
-def q_vs_ops(csvreader):
-    outdir = "/home/ec2-user/mmlu_topics/mmlu_queries/test_queries/mmlu_queries_qvo"
+def q_vs_ops(csvreader,outdir):
+    # outdir = "/home/ec2-user/mmlu_topics/mmlu_queries/test_queries/mmlu_queries_qvo"
     with open(os.path.join(outdir,f"{corename}.txt"),"w") as out:
         for line in csvreader:
             strings_to_output = []
@@ -190,36 +188,27 @@ def q_vs_ops(csvreader):
                     outstr = outstr.replace(to_remove," ")
                 out.write(outstr + "\n")
 
-def q_vs_ops(csvreader):
-    outdir = "/home/ec2-user/mmlu_topics/mmlu_queries/test_queries/mmlu_queries_qvo"
-    with open(os.path.join(outdir,f"{corename}.txt"),"w") as out:
-        for line in csvreader:
-            strings_to_output = []
-            q = line[0]
-            ops = line[1:-1]
-            strings_to_output.append(q)
-            if min(len(op.split()) for op in ops) < 5:
-                strings_to_output.append(' '.join(ops))
-            else:
-                for op in ops:
-                    strings_to_output.append(op)
-                #put them into the list separately. then iterate over the list and remove bad chars
-            for outstr in strings_to_output:
-                if "abstract" in corename:
-                    print(outstr)
-                for to_remove in [":","[","]","(",")","^","{","}",'"']:
-                    outstr = outstr.replace(to_remove,"")
-                for to_remove in ["+","-",">","<"]:
-                    outstr = outstr.replace(to_remove," ")
-                out.write(outstr + "\n")
 
-for filename in os.listdir(question_dir):
-    print("\n" + filename + "\n")
-    corename = filename.split(".")[0]
-    print(corename)
-    with open(os.path.join(question_dir,filename), newline='') as csvfile:
-        csvreader = csv.reader(csvfile)
-        concat_corr_only(csvreader)
-        # keep_all_options(csvreader)
-        # q_vs_ops(csvreader)
+if __name__ == "__main__":
+
+    parser = argparse.ArgumentParser()
+    parser.add_argument("question_dir",type=str)
+    parser.add_argument("output_dir",type=str)
+    args = parser.parse_args()
+
+    question_dir = args.question_dir
+    output_dir = args.output_dir
+
+    os.makedirs(output_dir,exist_ok=True)
+
+    for filename in os.listdir(question_dir):
+        print("\n" + filename + "\n")
+        corename = filename.split(".")[0]
+        print(corename)
+        with open(os.path.join(question_dir,filename), newline='') as csvfile:
+            csvreader = csv.reader(csvfile)
+            
+            concat_corr_only(csvreader,output_dir)
+            # keep_all_options(csvreader,output_dir)
+            # q_vs_ops(csvreader,output_dir)
 
