@@ -1,0 +1,30 @@
+streams:
+  - name: llama1-mix
+    documents:
+      - s3://ai2-llm/pretraining-data/sources/reddit/dolma_raw/source-added/documents/comments/*.gz 
+      - s3://ai2-llm/pretraining-data/sources/reddit/dolma_raw/source-added/documents/submissions/*.gz
+    attributes:
+      - taggersec2
+      - dedupe_ngrams_13_1
+    output:
+      max_size_in_bytes: 1_000_000_000
+      path: s3://ai2-llm/pretraining-data/sources/reddit/dolma_raw/source-added/mixed-dd/llama1-mix
+    filter:
+      include:
+        - >-
+          (.attributes.dedupe_ngrams_13_1 | length == 0) or
+          ((.attributes.dedupe_ngrams_13_1 | map(.[2] * (.[1] - .[0])) | add) / (.text | length) <= 0.3)
+      exclude:
+        - .attributes.taggersec2__char_length_v1__length[0][2] < 5
+        - .attributes.taggersec2__dolma_v2_tokenizer__length[0][2] > 128
+        - .attributes.taggersec2__longest_string__length[0][2] > 2048
+        - .attributes.taggersec2__contains_url__doc[0][2] > 0.5
+        - .attributes.taggersec2__removed_deleted__doc[0][2] > 0.5
+        - .metadata.removed_by_category and .metadata.removed_by_category != null
+        - .attributes.taggersec2__bot_author__doc[0][2] > 0.5
+        - .attributes.taggersec2__non_english_subreddit__doc[0][2] > 0.5
+        - .attributes.taggersec2__starts_nonascii__doc[0][2] > 0.5
+        - .metadata.thread_depth and .metadata.thread_depth > 6
+
+      syntax: jq
+

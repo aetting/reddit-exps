@@ -1,0 +1,25 @@
+streams:
+  - name: dolma-orig-mix-exact
+    documents:
+      - s3://ai2-llm/pretraining-data/sources/reddit/dolma_raw/source-added/documents/comments/*.gz
+      - s3://ai2-llm/pretraining-data/sources/reddit/dolma_raw/source-added/documents/submissions/*.gz
+    attributes:
+      - taggersec2
+      - dedupe_by_text
+    output:
+      max_size_in_bytes: 1_000_000_000
+      path: s3://ai2-llm/pretraining-data/sources/reddit/dolma_raw/source-added/mixed-dd/dolma-orig-mix-exact
+    filter:
+      exclude:
+        - .attributes.taggersec2__char_length_v1__length[0][2] > 40000
+        - .metadata.thread_id and .attributes.taggersec2__char_length_v1__length[0][2] < 500
+        - .metadata.title and .attributes.taggersec2__char_length_v1__length[0][2] < 400
+        - .metadata.thread_id and .metadata.score < 3
+        - .attributes.taggersec2__removed_deleted__doc[0][2] > 0.5
+        - .metadata.removed_by_category and .metadata.removed_by_category != null
+        - .metadata.over_18 and .metadata.over_18 == true
+        - .attributes.taggersec2__banned_subreddit_membership__doc[0][2] > 0.5
+        - .attributes.taggersec2__ft_lang_id_en_doc_v2__en[0][2] < 0.5
+        - .attributes.taggersec2__tokenizer_repetitions_v2r2__doc_max_score_repetition and .attributes.taggersec2__tokenizer_repetitions_v2r2__doc_max_score_repetition[0][2] >= 32
+        - .attributes.dedupe_by_text and .attributes.dedupe_by_text[0] and .attributes.dedupe_by_text[0][2] > 0.5
+      syntax: jq

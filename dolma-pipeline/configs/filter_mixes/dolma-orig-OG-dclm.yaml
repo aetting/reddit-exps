@@ -1,0 +1,15 @@
+streams:
+  - name: dclmtest
+    documents:
+      - s3://ai2-llm/pretraining-data/sources/reddit/v5-dedupe-pii-nsfw-toxic-fuzzydd-length-FIXED/documents/reddit-0000.json.gz
+    attributes:
+      - dclmtag
+    output:
+      max_size_in_bytes: 1_000_000_000
+      path: s3://ai2-llm/pretraining-data/sources/reddit/dolma_raw/source-added/mixed-dd/dclmtest
+    filter:
+      exclude:
+        - .attributes.dclmtag__dclm_oh_eli5__score[0][2] < 0.2
+      syntax: jq
+
+
