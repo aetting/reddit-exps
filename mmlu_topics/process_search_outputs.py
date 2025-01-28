@@ -1,11 +1,13 @@
 import json
 import os
 
+import argparse
+
 from pathlib import Path
 
 from collections import Counter, defaultdict
 
-def check_file_numbers():
+def check_file_numbers(query_dir):
     for filename in os.listdir(query_dir):
         with(open(os.path.join(query_dir,filename))) as qf:
             qi = 0
@@ -31,16 +33,19 @@ def update_counts(this_sub,this_text,subdict,subcounts,overall_sub_counts,basena
     overall_sub_counts[this_sub]["total_items"] += 1
     overall_sub_counts[this_sub]["all_cats"].add(basename)
 
-def extract_subreddit(retrieved_dict,subdict,subcounts,overall_sub_counts,basename,tot_per_cat,seen_text,dense=False):
+def extract_subreddit(retrieved_dict,subdict,subcounts,overall_sub_counts,basename,tot_per_cat,seen_text,dense=False,take_all=False):
     if dense:
         for retrieval in retrieved_dict["ctxs"]:
             tot_per_cat += 1
             this_sub = retrieval["subreddit"]
             this_text = retrieval["retrieval text"]
-            if this_text not in seen_text:
-                seen_text.add(this_text)
-
+            if take_all:
                 update_counts(this_sub,this_text,subdict,subcounts,overall_sub_counts,basename)
+            else:
+                if this_text not in seen_text:
+                    seen_text.add(this_text)
+
+                    update_counts(this_sub,this_text,subdict,subcounts,overall_sub_counts,basename)
     else:
         tot_per_cat += 1
         this_sub = retrieved_dict["document"]["subreddit"]
@@ -49,7 +54,7 @@ def extract_subreddit(retrieved_dict,subdict,subcounts,overall_sub_counts,basena
 
     return tot_per_cat
 
-def get_top_subreddits(dense=False):
+def get_top_subreddits(search_outputs,analysis_dir,dense=False,take_all=False):
     Path(analysis_dir).mkdir(parents=True, exist_ok=True)
     top_subs_by_cat = {}
     top_subs_overall = {}
@@ -69,7 +74,7 @@ def get_top_subreddits(dense=False):
                         retrieved_dict = json.loads(line)
                     except:
                         continue
-                    tot_per_cat = extract_subreddit(retrieved_dict,subdict,subcounts,overall_sub_counts,basename,tot_per_cat,seen_text,dense=dense)
+                    tot_per_cat = extract_subreddit(retrieved_dict,subdict,subcounts,overall_sub_counts,basename,tot_per_cat,seen_text,dense=dense,take_all=take_all)
             subcounts_sorted = sorted(subcounts.items(),key = lambda x: x[1],reverse=True)
             full_cat_summary[basename]["subreddit_counts"] = subcounts
             full_cat_summary[basename]["total_items"] = tot_per_cat
@@ -137,62 +142,80 @@ def select_subreddits(overall_sub_counts_sorted, full_cat_summary):
         print(f"{cat}: coverage {cat_coverage}/{cat_total_items} ({perc_coverage:.2f})")
     get_coverage_stats(full_cat_summary,selected_subs)
                     
-def select_subreddits_simple(full_cat_summary):
+def select_subreddits_simple(full_cat_summary,selected_subs_output):
     selected_subreddits = set()
-    for cat in full_cat_summary:
-        cat_sub_counts = full_cat_summary[cat]["subreddit_counts"]
-        for sub in cat_sub_counts:
-            if cat_sub_counts[sub] >= 5:
-                selected_subreddits.add(sub)
-                # print(f"{sub}: {cat_sub_counts[sub]}")
-    print(f"TOTAL: {len(selected_subreddits)}")
-    for sub in selected_subreddits:
-        print(sub)
-    get_coverage_stats(full_cat_summary,selected_subreddits)
+    with open(selected_subs_output,"w") as out:
+        out.write("ADDED SUBS BY CATEGORY\n\n")
+        for cat in full_cat_summary:
+            cat_sub_counts = full_cat_summary[cat]["subreddit_counts"]
+            for sub in cat_sub_counts:
+                if cat_sub_counts[sub] >= 5:
+                    selected_subreddits.add(sub)
+                    out.write(f"({cat}) {sub}: {cat_sub_counts[sub]}\n")
+            out.write("\n")
+        get_coverage_stats(full_cat_summary,selected_subreddits,out)
+        out.write(f"\nFINAL SELECTED SUBREDDITS\n\nTOTAL: {len(selected_subreddits)}\n")
+        for sub in selected_subreddits:
+            out.write(sub + "\n")
 
-def select_subreddits_highthresh(full_cat_summary,overall_sub_counts_sorted):
+def select_subreddits_highthresh(full_cat_summary,overall_sub_counts_sorted,selected_subs_output):
     selected_subreddits = set()
-    for cat in full_cat_summary:
-        cat_sub_counts = full_cat_summary[cat]["subreddit_counts"]
-        for sub in cat_sub_counts:
-            if cat_sub_counts[sub] >= 20:
+    with open(selected_subs_output,"w") as out:
+        out.write("ADDED SUBS BY CATEGORY\n\n")
+        for cat in full_cat_summary:
+            cat_sub_counts = full_cat_summary[cat]["subreddit_counts"]
+            for sub in cat_sub_counts:
+                if cat_sub_counts[sub] >= 20:
+                    selected_subreddits.add(sub)
+                    out.write(f"({cat}) {sub}: {cat_sub_counts[sub]}\n")
+            out.write("\n")
+        for sub,statdict in overall_sub_counts_sorted:
+            if sub not in selected_subreddits and statdict["total_items"] >= 100:
                 selected_subreddits.add(sub)
-                print(f"(by {cat}) {sub}: {cat_sub_counts[sub]}")
-        print()
-    for sub,statdict in overall_sub_counts_sorted:
-        if sub not in selected_subreddits and statdict["total_items"] >= 100:
-            selected_subreddits.add(sub)
-            print(f"(overall) {sub}: {statdict['total_items']}")
-    print(f"TOTAL: {len(selected_subreddits)}")
-    for sub in selected_subreddits:
-        print(sub)
-    get_coverage_stats(full_cat_summary,selected_subreddits)
+                out.write(f"(overall) {sub}: {statdict['total_items']}\n")
+        get_coverage_stats(full_cat_summary,selected_subreddits,out)
+        out.write(f"\nFINAL SELECTED SUBREDDITS LIST\n\nTOTAL: {len(selected_subreddits)}\n")
+        for sub in selected_subreddits:
+            out.write(sub + "\n")
 
-def get_coverage_stats(full_cat_summary,selected_subreddits):   
+def get_coverage_stats(full_cat_summary,selected_subreddit,outfile):   
+    outfile.write("\nNUMBER OF HITS PER SUB AND COVERAGE BY CATEGORY\n")
     for cat in full_cat_summary:
-        print(f"\n{cat}")
+        outfile.write(f"\n{cat}\n")
         cat_coverage = 0
         cat_sub_counts = full_cat_summary[cat]["subreddit_counts"]
         cat_total_items = full_cat_summary[cat]["total_items"]
-        for sub in selected_subreddits:
+        for sub in selected_subreddit:
             if sub in cat_sub_counts:
                 cat_coverage += cat_sub_counts[sub]
-                print(f"{sub}: {cat_sub_counts[sub]}")
+                outfile.write(f"{sub}: {cat_sub_counts[sub]}\n")
         perc_coverage = cat_coverage/cat_total_items
-        print(f"{cat}: coverage {cat_coverage}/{cat_total_items} ({perc_coverage:.2f})")
+        outfile.write(f"{cat}: coverage {cat_coverage}/{cat_total_items} ({perc_coverage:.2f})\n")
 
 
 if __name__ == "__main__":
-    # check_file_numbers()
 
-    query_dir = "/home/ec2-user/mmlu_topics/mmlu_queries/test_queries/mmlu_queries_corr"
-    # search_outputs = "/home/ec2-user/mmlu_topics/search_outputs/merged_qa_all_mp"
-    # analysis_dir = "/home/ec2-user/mmlu_topics/subreddit_analysis/test_queries/mmlu_queries_corr/merged_qa_all"
-    search_outputs = "/home/ec2-user/mmlu_topics/search_outputs_dense/merged_qa_prefilter_mmlu_retrieved"
-    analysis_dir = "/home/ec2-user/mmlu_topics/subreddit_analysis/test_queries/mmlu_queries_corr/dense_merged_qa"
-    overall_sub_counts_sorted, full_cat_summary = get_top_subreddits(dense=True)
+    parser = argparse.ArgumentParser()
+    parser.add_argument("search_results_dir",type=str)
+    parser.add_argument("analysis_output_dir",type=str)
+    parser.add_argument("--subreddit_selection",type=str,default=None)
+    parser.add_argument('--dense', action='store_true')
+    parser.add_argument('--simple', action='store_true')
+    parser.add_argument('--take_all', action='store_true')
+    args = parser.parse_args()
+
+    # query_dir = "/home/ec2-user/mmlu_topics/mmlu_queries/test_queries/mmlu_queries_corr"
+    # check_file_numbers(query_dir)
+ 
+    search_outputs = args.search_results_dir
+    analysis_dir = args.analysis_output_dir
+    overall_sub_counts_sorted, full_cat_summary = get_top_subreddits(search_outputs, analysis_dir, dense=args.dense, take_all=args.take_all)
+    
     # select_subreddits(overall_sub_counts_sorted, full_cat_summary)
-    # select_subreddits_simple(full_cat_summary)
-    select_subreddits_highthresh(full_cat_summary,overall_sub_counts_sorted)
+    if args.subreddit_selection:
+        if args.simple:
+            select_subreddits_simple(full_cat_summary,args.subreddit_selection)
+        else:
+            select_subreddits_highthresh(full_cat_summary,overall_sub_counts_sorted,args.subreddit_selection)
 
 
