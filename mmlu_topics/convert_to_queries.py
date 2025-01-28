@@ -61,6 +61,8 @@ multi_answer = [
     'all of below', 
     'both (a) and (c)'
 ]
+
+#this was the original list -- keeping here just in case it's useful for reference
 # l = [
 #     "All of these",
 #     "None of these",
