@@ -121,14 +121,10 @@ multi_answer = [
 # ]
 
 
-def concat_corr_only(csvreader,outdir):
+def concat_corr_only(csvreader,outdir,corename):
     # outdir = "/home/ec2-user/mmlu_topics/mmlu_queries/test_queries/mmlu_queries_corr"
     with open(os.path.join(outdir,f"{corename}.txt"),"w") as out:
-        i = 0
         for line in csvreader:
-            # if i >= 20:
-            #     break
-            # i += 1
             q = line[0]
             a = line[-1]
             ops = line[1:-1]
@@ -156,7 +152,7 @@ def concat_corr_only(csvreader,outdir):
                 outstr = outstr[1:]
             out.write(' '.join(outstr.split()) + "\n")
 
-def keep_all_options(csvreader,outdir):
+def keep_all_options(csvreader,outdir,corename):
     # outdir = "/home/ec2-user/mmlu_topics/mmlu_queries/test_queries/mmlu_queries_all"
     with open(os.path.join(outdir,f"{corename}.txt"),"w") as out:
         for line in csvreader:
@@ -167,7 +163,7 @@ def keep_all_options(csvreader,outdir):
                     outstr = outstr.replace(to_remove," ")
                 out.write(outstr + "\n")
 
-def q_vs_ops(csvreader,outdir):
+def q_vs_ops(csvreader,outdir,corename):
     # outdir = "/home/ec2-user/mmlu_topics/mmlu_queries/test_queries/mmlu_queries_qvo"
     with open(os.path.join(outdir,f"{corename}.txt"),"w") as out:
         for line in csvreader:
@@ -204,13 +200,11 @@ if __name__ == "__main__":
     os.makedirs(output_dir,exist_ok=True)
 
     for filename in os.listdir(question_dir):
-        print("\n" + filename + "\n")
         corename = filename.split(".")[0]
-        print(corename)
         with open(os.path.join(question_dir,filename), newline='') as csvfile:
             csvreader = csv.reader(csvfile)
             
-            concat_corr_only(csvreader,output_dir)
-            # keep_all_options(csvreader,output_dir)
-            # q_vs_ops(csvreader,output_dir)
+            concat_corr_only(csvreader,output_dir,corename)
+            # keep_all_options(csvreader,output_dir,corename)
+            # q_vs_ops(csvreader,output_dir,corename)
 
