@@ -109,9 +109,9 @@ def convert_text_to_prompts(args,csvfile):
     else:
         extra = ""
     for text,prompt_id in yield_text_from_csv(args,csvfile):
-        i += 1
         # if i%10000 == 0: 
         #     print(i)
+        random.seed(42)
         template = random.choices(values,weights = probs, k=1)[0]
         prompt = template.format(text=text,extra=extra)
         text_len = len(tokenizer.tokenize(text))
@@ -129,6 +129,7 @@ def convert_text_to_prompts(args,csvfile):
                                 "max_tokens": max_tokens
                                 }
                     }
+        i += 1
         json_string = json.dumps(output_dict) + "\n"
         size_in_bytes = len(json_string.encode('utf-8'))  # Get the size in bytes
         size_in_mb = size_in_bytes / (1024 * 1024)
