@@ -34,9 +34,10 @@ def yield_text_from_csv(args,csvfile):
         for line in f:
             _, _, idx, docname, _ = line.strip().split(",")
             files_dict[docname].add(idx)
+    print(f"Source tokenizer csvfile: {csvfile}")
     for source_doc in files_dict:
-        print(source_doc)
-        print(len(files_dict[source_doc]))
+        print(f"Pulling items from {source_doc}")
+        print(f"Num documents: {len(files_dict[source_doc])}")
         if args.needs_doc_insertion:
             dirname,fname = os.path.split(source_doc)
             doc_to_open = os.path.join(dirname,"documents",fname)
@@ -62,12 +63,10 @@ def write_batch_files_from_tokenizer_csvfile(args,csvfile):
     write_batch_files(text_iterator,batch_files_basename,args.model,args.outdir,tokenizer_for_length_estimates)
 
 def pull_items_parallel(args,csvfile_list):
-    results = []
     Path(args.outdir).mkdir(parents=True, exist_ok=True)
     with mp.Pool(processes=args.num_processes) as pool:
         for csvfile in csvfile_list:
-            result = pool.apply_async(write_batch_files_from_tokenizer_csvfile, (args,csvfile))
-            results.append(result)
+            pool.apply_async(write_batch_files_from_tokenizer_csvfile, (args,csvfile))
 
         pool.close()
         pool.join()
@@ -77,10 +76,10 @@ def parse_args():
     parser = argparse.ArgumentParser()
     parser.add_argument("--num_processes",type=int)
     parser.add_argument("--model",type=str,default="gpt-4o-mini")
-    parser.add_argument("--config",type=str,default=None)
-    parser.add_argument("--tokfilepattern",type=str,default=None)
-    parser.add_argument("--outdir",type=str,default=None)
-    parser.add_argument("--needs_doc_insertion",action="store_true")
+    parser.add_argument("--config",type=str,default=None,help="path to microanneal config file with input tokenized files for rewriting")
+    parser.add_argument("--tokfilepattern",type=str,default=None, help="string to match for filtering to desired filepaths in config file")
+    parser.add_argument("--outdir",type=str,default=None,help="directory for output files (formatted for openai batch mode)")
+    parser.add_argument("--needs_doc_insertion",action="store_true",help="very specific to a filepath mismatch in one of my microanneal configs; should not be needed")
     args = parser.parse_args()
 
     return args
@@ -88,10 +87,5 @@ def parse_args():
 if __name__ == "__main__":
     args = parse_args()
     csv_list = get_doc_list_from_tokenized(args.config,args.tokfilepattern)
-    
-    # print(csv_list[0])
-    # tokenizer = GPT2Tokenizer.from_pretrained("gpt2")
-    # Path(args.outdir).mkdir(parents=True, exist_ok=True)
-    # write_batch_files_from_tokenizer_csvfile(args,csv_list[0])
    
     pull_items_parallel(args,csv_list)

@@ -21,7 +21,6 @@ def text_to_prompt(text,model):
     else:
         extra = ""
 
-    random.seed(42)
     template = random.choices(values,weights = probs, k=1)[0]
     prompt = template.format(text=text,extra=extra)
 
