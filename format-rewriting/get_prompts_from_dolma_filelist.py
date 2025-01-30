@@ -10,7 +10,7 @@ from transformers import GPT2Tokenizer
 
 from format_rewriting_core import text_to_prompt, write_batch_files
 
-#for converting to openai batch files, need to define an iterator that yields the raw text to be converted to prompts
+#for converting to openai batch files, need to define an iterator that yields the raw text to be converted to prompts, and text id
 def yield_text_from_dolma_jsonl(filename):
     print(f"Processing {filename}")
     with smart_open.open(filename) as f:
