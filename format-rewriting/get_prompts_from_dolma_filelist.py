@@ -51,6 +51,8 @@ def parse_args():
     return args
 
 if __name__ == "__main__":
+    
+    #example file_list
     file_list = [
         "s3://ai2-llm/pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_wsubreddit/merged_qa_prefilter/merged_qa_prefilter_densesubs_highthresh/documents/merged_qa_prefilter_densesubs_highthresh-0088.json.gz",
         "s3://ai2-llm/pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_wsubreddit/merged_qa_prefilter/merged_qa_prefilter_densesubs_highthresh/documents/merged_qa_prefilter_densesubs_highthresh-0090.json.gz",
