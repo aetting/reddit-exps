@@ -55,7 +55,7 @@ def decode_tokenized(okey, outputdir, tokenizer_name_or_path="allenai/dolma2-tok
         for start_loc,end_loc,item_id,file_out,_ in get_metadata(metadata_file):
             if file_out not in source_files:
                 source_files.append(file_out)
-            if i > 100000: break
+            # if i > 100000: break
             # print(item_id)
             toks = data[int(start_loc):int(end_loc)-1]
             output = tokenizer.decode(toks)
@@ -90,8 +90,8 @@ def get_metadata(filepath):
 if __name__ == "__main__":
     # inspect_tokenized("allenai/dolma2-tokenizer")
     parser = argparse.ArgumentParser()
-    parser.add_argument("num_processes",type=int)
-    parser.add_argument("outputdir",type=str)
+    parser.add_argument("--num_processes",type=int)
+    parser.add_argument("--outputdir",type=str)
     args = parser.parse_args()
 
     num_processes = args.num_processes
@@ -101,8 +101,7 @@ if __name__ == "__main__":
     os.makedirs(outputdir,exist_ok=True)
 
     bucket = "ai2-llm"
-    # filedir = f"pretraining-data/sources/reddit/dolma_raw/format_rewriting/densesub_highthresh_microanneal_4omini_rewrite_tokenized/"
-    filedir = f"pretraining-data/sources/reddit/dolma_raw/format_rewriting/tokenized_mini/"
+    filedir = f"pretraining-data/sources/reddit/dolma_raw/format_rewriting/densesub_highthresh_microanneal_4omini_rewrite_tokenized/"
     paginator = client.get_paginator('list_objects_v2')
     pages = paginator.paginate(Bucket=bucket, Prefix=filedir)
     # for page in pages:
