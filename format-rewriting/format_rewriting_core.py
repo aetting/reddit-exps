@@ -4,7 +4,12 @@ import json
 
 from prompt_templates import *
 
+import flex_prompt_templates as flex
+
+
 def text_to_prompt(text,model):
+
+
     distribution = [
         (OPEN_ENDED,.17),
         (STATEMENT_COMPLETION,.17),
@@ -23,6 +28,65 @@ def text_to_prompt(text,model):
 
     template = random.choices(values,weights = probs, k=1)[0]
     prompt = template.format(text=text,extra=extra)
+
+    return prompt
+
+format_options = {
+    'q_pref':["Question: ", "Q: ", ""],
+    'a_pref': ["Answer: ", 
+               "A: ", 
+               "The correct answer is ",
+               "Answer is ",
+               "The final answer is "],
+    'choices_pref': [("Choices:\n",.1), ("",.9)],
+    'opt_format': ["period","colon","parens"],
+    'opt_formatb': ["period","parens"]
+}
+
+option_prefixes = {
+    "period" : ("A. ", "B. ", "C. ", "D. "),
+    "colon": ("A: ", "B: ", "C: ", "D: "),
+    "parens": ("(A) ", "(B) ", "(C) ", "(D) ")
+}
+
+def text_to_prompt_diverse(text,model):
+
+    distribution = [
+        (flex.OPEN_ENDED,.03),
+        (flex.OPEN_ENDED_NON_MC,.18),
+        (flex.STATEMENT_COMPLETION,.16),
+        (flex.FILL_IN_BLANK,.16),
+        (flex.TWO_STATEMENT,.05),
+        (flex.WHICH_HAS_PROPERTY,.16),
+        (flex.WHICH_TRUE,.16),
+        (flex.IN_QUESTION_OPTIONS,.1)
+    ]
+
+
+    values,probs = zip(*distribution)
+
+    if model == "gpt-4o": 
+        extra = " If the text doesn't contain any information relevant for an academic question, make academic questions inspired by words, phrases, or themes in the text."
+    else:
+        extra = ""
+
+    template = random.choices(values,weights = probs, k=1)[0]
+    qpref = random.choices(format_options["q_pref"])[0]
+    apref = random.choices(format_options["a_pref"])[0]
+    cprefv,cprefp = zip(*format_options["choices_pref"])
+    cpref = random.choices(cprefv,weights=cprefp)[0]
+    opref = random.choices(format_options["opt_format"])[0] if apref != "A: " else random.choices(format_options["opt_formatb"])[0]
+    astr,bstr,cstr,dstr = option_prefixes[opref]
+    prompt = template.format(text=text,
+                             extra=extra,
+                             question_pref=qpref,
+                             answer_pref=apref,
+                             choices_pref=cpref,
+                             a_pref=astr,
+                             b_pref=bstr,
+                             c_pref=cstr,
+                             d_pref=dstr
+                             )
 
     return prompt
 
@@ -71,3 +135,15 @@ def write_batch_files(text_iterator,batchfiles_basename,model,outdir,tokenizer):
             total_size_mb = size_in_mb
             num_written_requests = 1
     current_file.close()
+
+if __name__ == "__main__":
+    for text in [
+        "here is a test",
+        "amd another",
+        "jere",
+        "etetetet",
+        "rerererer"
+    ]:
+        p = text_to_prompt_diverse(text,"gpt")
+        print(p)
+        print("\n\n&&&&&&&&&&&\n\n")
