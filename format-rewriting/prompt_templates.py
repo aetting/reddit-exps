@@ -6,7 +6,7 @@ Instructions: Convert the information in the text into academic multiple choice 
 
 For format, use questions that are open-ended. Example:
 
-How many legs do dogs have?
+Question: How many legs do dogs have?
 A. 3
 B. 4
 C. 6
@@ -25,7 +25,7 @@ Instructions: Convert the information in the text into academic multiple choice 
 
 For format, use questions that involve completing a statement. DONOT include blanks in the question. Example:
 
-Dogs are mammals with
+Question: Dogs are mammals with
 A. Two legs and one tail
 B. Four legs and two tails.
 C. Four legs and one tail.
@@ -44,7 +44,7 @@ Instructions: Convert the information in the text into academic multiple choice 
 
 For format, use questions that contain 2-4 blanks. Example:
 
-"Dogs are ___ with ___ legs and ___ tail."
+Question: Dogs are ___ with ___ legs and ___ tail.
 A. mammals; four; one
 B. mammals; two; one
 C. amphibians; two; one
@@ -63,7 +63,7 @@ Instructions: Convert the information in the text into academic multiple choice 
 
 For format, use questions that contain two statements, with the answers judging whether those statements are true, in the order of the statements. Examples:
 
-Statement 1 | Dogs are mammals. Statement 2 | Dogs have five legs.
+Question: Statement 1 | Dogs are mammals. Statement 2 | Dogs have five legs.
 A. True, True
 B. True, False
 C. False, True
@@ -73,7 +73,7 @@ Answer: B
 
 %%%%
 
-Statement 1 | Paris is the capital of Morocco. Statement 2 | Chicago is a city in Greece.
+Question: Statement 1 | Paris is the capital of Morocco. Statement 2 | Chicago is a city in Greece.
 
 A. True, True
 B. True, False
@@ -84,7 +84,7 @@ Answer: D
 
 %%%%
 
-Statement 1 | The earth revolves around the sun. Statement 2 | Jupiter's orbit is farther from the sun than the Earth's orbit.
+Question: Statement 1 | The earth revolves around the sun. Statement 2 | Jupiter's orbit is farther from the sun than the Earth's orbit.
 
 A. True, True
 B. True, False
@@ -104,7 +104,7 @@ Instructions: Convert the information in the text into academic multiple choice 
 
 For format, use questions that ask 'which of the following'. Examples:
 
-Which of the following is a mammal?
+Question: Which of the following is a mammal?
 A. Snake
 B. Ostrich
 C. Spider
@@ -114,7 +114,7 @@ Answer: D
 
 %%%%
 
-The capital of France is which of the following cities?
+Question: The capital of France is which of the following cities?
 A. Athens
 B. Paris
 C. Chicago
@@ -133,7 +133,7 @@ Instructions: Convert the information in the text into academic multiple choice 
 
 For format, use questions that ask which of the options are true. Examples:
 
-Which of the following is true?
+Question: Which of the following is true?
 A. Snakes are reptiles.
 B. Dogs are mammals.
 C. Both are true.
@@ -143,7 +143,7 @@ Answer: C
 
 %%%%
 
-All of the following are true EXCEPT:
+Question: All of the following are true EXCEPT:
 A. Athens is the capital of Morocco.
 B. Paris is the capital of France.
 C. Chicago is a city in the US.
@@ -162,7 +162,7 @@ Instructions: Convert the information in the text into academic multiple choice 
 
 For format, use questions that provide options within the question and give choices for which options are true. Examples:
 
-Dogs have which of the following properties?
+Question: Dogs have which of the following properties?
 
 I. They are mammals
 II. They have five legs.
@@ -177,7 +177,7 @@ Answer: D
 
 %%%%
 
-Which of the following are cities in the US?
+Question: Which of the following are cities in the US?
 
 I. Paris
 II. Athens
