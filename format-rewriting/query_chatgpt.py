@@ -143,10 +143,10 @@ DemSocs "merely" believe that a free market needs to be regulated in a way that 
     ]
 
     prompts = []
-    with open("/home/ec2-user/batch_prompts_ht_mini/part-014-00000_f2.jsonl") as f:
+    with open("/Users/allysone/Desktop/research/reddit/test_rewrite_outputs/merged_qa_prefilter_densesubs_lowthresh-0001_f0.jsonl") as f:
         for i,line in enumerate(f):
             d = json.loads(line.strip())
-            prompts.append((d["body"]["messages"][1]["content"],d["body"]["max_tokens"],d["body"]["model"]))
+            prompts.append((d["body"]["messages"][1]["content"],d["body"]["max_tokens"],d["body"]["model"],d["custom_id"]))
             if i > 15: break
 
     tokenizer = GPT2Tokenizer.from_pretrained("gpt2")
@@ -159,11 +159,12 @@ DemSocs "merely" believe that a free market needs to be regulated in a way that 
     orig_total_len = 0
     resp_total_len = 0
     prev_text = ""
-    for prompt,mt,model in prompts:
+    for prompt,mt,model,cid in prompts:
         m = re.match(".*Here is the text:\n\n(.*)Instructions: Convert the information",prompt,re.DOTALL)
         bare_text = m.groups()[0]
+        print(cid)
+        print(model)
         if bare_text != prev_text:
-            print(model)
             print(prompt)
             print(f"%%%%\n{mt}\n%%%%")
             print(f"MAX TOK: {mt}")

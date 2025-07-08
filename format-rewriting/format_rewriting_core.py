@@ -9,16 +9,25 @@ import flex_prompt_templates as flex
 
 def text_to_prompt(text,model):
 
-
     distribution = [
-        (OPEN_ENDED,.25),
-        (STATEMENT_COMPLETION,.15),
-        (FILL_IN_BLANK,.15),
-        (TWO_STATEMENT,.05),
-        (WHICH_HAS_PROPERTY,.15),
-        (WHICH_TRUE,.15),
-        (IN_QUESTION_OPTIONS,.1)
+        ('OPEN_ENDED',.25),
+        ('STATEMENT_COMPLETION',.15),
+        ('FILL_IN_BLANK',.15),
+        ('TWO_STATEMENT',.05),
+        ('WHICH_HAS_PROPERTY',.15),
+        ('WHICH_TRUE',.15),
+        ('IN_QUESTION_OPTIONS',.1)
     ]
+    tempname_to_temp = {
+        'OPEN_ENDED': OPEN_ENDED,
+        'STATEMENT_COMPLETION': STATEMENT_COMPLETION,
+        'FILL_IN_BLANK': FILL_IN_BLANK,
+        'TWO_STATEMENT': TWO_STATEMENT,
+        'WHICH_HAS_PROPERTY': WHICH_HAS_PROPERTY,
+        'WHICH_TRUE': WHICH_TRUE,
+        'IN_QUESTION_OPTIONS': IN_QUESTION_OPTIONS
+    }
+
     values,probs = zip(*distribution)
 
     if model == "gpt-4o": 
@@ -26,10 +35,11 @@ def text_to_prompt(text,model):
     else:
         extra = ""
 
-    template = random.choices(values,weights = probs, k=1)[0]
+    template_name = random.choices(values,weights = probs, k=1)[0]
+    template = tempname_to_temp[template_name]
     prompt = template.format(text=text,extra=extra)
 
-    return prompt
+    return prompt,template_name
 
 format_options = {
     'q_pref':["Question: ", "Q: ", ""],
@@ -106,12 +116,12 @@ def write_batch_files(text_iterator,batchfiles_basename,model,outdir,tokenizer):
 
     for i,(text,text_id) in enumerate(text_iterator):
 
-        prompt = text_to_prompt(text,model)
+        prompt,template_name = text_to_prompt(text,model)
         
         text_len = len(tokenizer.tokenize(text))
         max_tokens = round(max(text_len+(.1*text_len),150))
         output_dict = {
-            "custom_id": f"{batchfiles_basename}_{i}_{text_id}",
+            "custom_id": f"{batchfiles_basename}_{i}_{text_id}_{template_name}",
             "method": "POST",
             "url": "/v1/chat/completions",
             "body": {
