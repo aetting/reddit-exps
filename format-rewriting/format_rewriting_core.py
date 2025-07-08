@@ -43,6 +43,12 @@ format_options = {
     'opt_formatb': ["period","parens"]
 }
 
+format_options = {
+    "base" : ("Question: ","period","Answer: "),
+    "simple": ("Q: ", "A: "),
+    "gpq": ("Question")
+}
+
 option_prefixes = {
     "period" : ("A. ", "B. ", "C. ", "D. "),
     "colon": ("A: ", "B: ", "C: ", "D: "),
