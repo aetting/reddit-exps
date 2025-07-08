@@ -11,12 +11,12 @@ def text_to_prompt(text,model):
 
 
     distribution = [
-        (OPEN_ENDED,.17),
-        (STATEMENT_COMPLETION,.17),
-        (FILL_IN_BLANK,.17),
+        (OPEN_ENDED,.25),
+        (STATEMENT_COMPLETION,.15),
+        (FILL_IN_BLANK,.15),
         (TWO_STATEMENT,.05),
-        (WHICH_HAS_PROPERTY,.17),
-        (WHICH_TRUE,.17),
+        (WHICH_HAS_PROPERTY,.15),
+        (WHICH_TRUE,.15),
         (IN_QUESTION_OPTIONS,.1)
     ]
     values,probs = zip(*distribution)
