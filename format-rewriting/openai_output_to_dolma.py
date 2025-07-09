@@ -63,6 +63,55 @@ def convert_file_to_dolma(input_filename,outputdir):
                 }
                 out.write(json.dumps(out_object) + "\n")
 
+format_options = {
+    'q_pref':["Question: ", "Q: ", ""],
+    'a_pref': ["Answer: ", 
+               "A: ", 
+               "The correct answer is ",
+               "Answer is ",
+               "The final answer is "],
+    'choices_pref': [("Choices:\n",.1), ("",.9)],
+    'opt_format': ["period","colon","parens"],
+    'opt_formatb': ["period","parens"]
+}
+
+format_options = {
+    "base" : ("Question: ","period","Answer: "),
+    "simple": ("Q: ", "A: "),
+    "gpq": ("Question")
+}
+
+option_prefixes = {
+    "period" : ("A. ", "B. ", "C. ", "D. "),
+    "colon": ("A: ", "B: ", "C: ", "D: "),
+    "parens": ("(A) ", "(B) ", "(C) ", "(D) ")
+}
+
+def convert_file_to_dolma_diversify(input_filename,outputdir):
+
+    basename = os.path.basename(input_filename)
+    print(f"Processing {input_filename}")
+    
+    with smart_open.open(os.path.join(input_filename)) as f, gzip.open(os.path.join(outputdir,basename+".gz"),"wt") as out:
+        for line in f:
+            d = json.loads(line.strip())
+            idx = d["custom_id"]
+            response_text = d["response"]["body"]["choices"][0]["message"]["content"]
+            parsed_text = response_text.split("%%%%")
+            for i,q_text in enumerate(parsed_text):
+                if not re.match(".*Answer:",q_text,re.DOTALL):
+                    continue
+                add_q = random.choices([0,1])[0]
+                text = q_text.strip()
+                if add_q:
+                    text = "Question: " + text
+                qid = f"{idx}_{i}"
+                out_object = {
+                    "id":qid,
+                    "text":text 
+                }
+                out.write(json.dumps(out_object) + "\n")
+
 if __name__ == "__main__":
 
     parser = argparse.ArgumentParser()
