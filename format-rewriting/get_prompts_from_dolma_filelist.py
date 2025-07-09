@@ -86,6 +86,6 @@ if __name__ == "__main__":
     print(file_list)
     print(len(file_list))
 
-    convert_file_to_batch_files(file_list[0],args)
+    # convert_file_to_batch_files(file_list[0],args)
 
-    # process_files_parallel(args,file_list)
+    process_files_parallel(args,file_list)
