@@ -84,7 +84,8 @@ if __name__ == "__main__":
 
     file_list = list_s3_files(args.input_dir)
     print(file_list)
+    print(len(file_list))
 
-    # convert_file_to_batch_files(file_list[0],args)
+    convert_file_to_batch_files(file_list[0],args)
 
-    process_files_parallel(args,file_list[:5])
+    # process_files_parallel(args,file_list)
