@@ -93,7 +93,7 @@ option_prefixes = {
     "parens": ("(A) ", "(B) ", "(C) ", "(D) ")
 }
 
-def format_sampling(text):
+def format_sampling(match_object):
     qa_distribution = [
         ("STANDARD_MC_EVAL",0),
         ("GPQA", .1),
@@ -116,8 +116,7 @@ def format_sampling(text):
         "C": 2,
         "D": 3
     }
-    m = re.match("(.*)\nA.( .*)\nB.(.*)\nC.(.*)\nD.(.*)\n+Answer:(.*)", text, re.DOTALL)
-    extracted = [e.strip() for e in m.groups()]
+    extracted = [e.strip() for e in match_object.groups()]
     question,opta,optb,optc,optd,answer = extracted
     tempv,tempp = zip(*qa_distribution)
     template_name = random.choices(tempv,weights = tempp, k=1)[0]
@@ -138,7 +137,7 @@ def format_sampling(text):
     new_text = template.format(question=question,opta=opta,optb=optb,optc=optc,optd=optd,answer=answer,answer_full=answer_full,answer_pref=answer_pref)
     # print(template_name)
     # print(new_text)
-    return new_text
+    return new_text,template_name
 
 def convert_file_to_dolma_diversify(input_filename,outputdir):
 
@@ -158,13 +157,18 @@ def convert_file_to_dolma_diversify(input_filename,outputdir):
                     continue
                 # add_q = random.choices([0,1])[0]
                 text = q_text.strip()
-                text = format_sampling(text)
+                m = re.match("(.*)\nA.( .*)\nB.(.*)\nC.(.*)\nD.(.*)\n+Answer:(.*)", text, re.DOTALL)
+                if m is not None:
+                    text,template_name = format_sampling(m)
+                else:
+                    text = text
+                    template_name = "ORIG"
                 # if add_q:
                 #     text = "Question: " + text
-                qid = f"{idx}_{i}"
+                qid = f"{idx}_{i}_{template_name}"
                 out_object = {
-                    "id":qid,
-                    "text":text 
+                    "id": qid,
+                    "text": text 
                 }
                 out.write(json.dumps(out_object) + "\n")
 
