@@ -120,7 +120,6 @@ def format_sampling(text):
     extracted = [e.strip() for e in m.groups()]
     question,opta,optb,optc,optd,answer = extracted
     tempv,tempp = zip(*qa_distribution)
-    random.seed(42)
     template_name = random.choices(tempv,weights = tempp, k=1)[0]
     template = tempname_to_temp[template_name]
     if template_name in ("STANDARD_NON_MC","POPQA_NON_MC"):
@@ -145,6 +144,8 @@ def convert_file_to_dolma_diversify(input_filename,outputdir):
 
     basename = os.path.basename(input_filename)
     print(f"Processing {input_filename}")
+
+    random.seed(42)
     
     with smart_open.open(os.path.join(input_filename)) as f, gzip.open(os.path.join(outputdir,basename+".gz"),"wt") as out:
         for line in f:
