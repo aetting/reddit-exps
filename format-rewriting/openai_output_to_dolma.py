@@ -53,10 +53,10 @@ def convert_file_to_dolma(input_filename,outputdir):
             for i,q_text in enumerate(parsed_text):
                 if not re.match(".*Answer:",q_text,re.DOTALL):
                     continue
-                add_q = random.choices([0,1])[0]
+                # add_q = random.choices([0,1])[0]
                 text = q_text.strip()
-                if add_q:
-                    text = "Question: " + text
+                # if add_q:
+                #     text = "Question: " + text
                 qid = f"{idx}_{i}"
                 out_object = {
                     "id":qid,
