@@ -43,6 +43,7 @@ def convert_file_to_dolma(input_filename,outputdir):
     basename = os.path.basename(input_filename)
     print(f"Processing {input_filename}")
     
+    random.seed(42)
     with smart_open.open(os.path.join(input_filename)) as f, gzip.open(os.path.join(outputdir,basename+".gz"),"wt") as out:
         for line in f:
             d = json.loads(line.strip())
