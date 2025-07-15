@@ -35,7 +35,7 @@ def iterate_over_files(input_file_folder,output_dir, num_processes=1):
     # convert_file_to_dolma_non_mc(filenames[0],output_dir)
     with mp.Pool(processes=num_processes) as pool:
         for filename in filenames:
-            pool.apply_async(convert_file_to_dolma_diversify, (filename,output_dir))
+            pool.apply_async(convert_file_to_dolma_non_mc, (filename,output_dir))
         pool.close()
         pool.join()
 
