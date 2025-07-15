@@ -33,11 +33,11 @@ def iterate_over_files(input_file_folder,output_dir, num_processes=1):
         filenames = [os.path.join(input_file_folder,f) for f in os.listdir(input_file_folder) if ".jsonl" in f]
     
     convert_file_to_dolma_non_mc(filenames[0],output_dir)
-    with mp.Pool(processes=num_processes) as pool:
-        for filename in filenames:
-            pool.apply_async(convert_file_to_dolma_diversify, (filename,output_dir))
-        pool.close()
-        pool.join()
+    # with mp.Pool(processes=num_processes) as pool:
+    #     for filename in filenames:
+    #         pool.apply_async(convert_file_to_dolma_diversify, (filename,output_dir))
+    #     pool.close()
+    #     pool.join()
 
 
 def convert_file_to_dolma(input_filename,outputdir):
@@ -175,6 +175,7 @@ def make_non_mc(match_object):
         ("POPQA_NON_MC", .3),
     ]
     extracted = [e.strip() for e in match_object.groups()]
+    # print(extracted)
     question,opta,optb,optc,optd,answer = extracted
     tempv,tempp = zip(*qa_distribution)
     template_name = random.choices(tempv,weights = tempp, k=1)[0]
@@ -198,7 +199,9 @@ def convert_file_to_dolma_non_mc(input_filename,outputdir):
         for line in f:
             d = json.loads(line.strip())
             idx = d["custom_id"]
-            prompt_temp = idx.split("_")[-1]
+            idm = re.match(".*[0-9]+_[0-9]+_(.*)",idx) 
+            prompt_temp = '_'.join(idm.groups()[0].split("_")[2:])
+            # prompt_temp = idm.groups()[0].split("_")[-1]
             if prompt_temp not in ["OPEN_ENDED","STATEMENT_COMPLETION"]:
                 continue
             response_text = d["response"]["body"]["choices"][0]["message"]["content"]
@@ -208,7 +211,7 @@ def convert_file_to_dolma_non_mc(input_filename,outputdir):
                     continue
                 # add_q = random.choices([0,1])[0]
                 text = q_text.strip()
-                m = re.match("(.*)\nA.( .*)\nB.(.*)\nC.(.*)\nD.(.*)\n+Answer:(.*)", text, re.DOTALL)
+                m = re.match("Question:(.*)\nA.( .*)\nB.(.*)\nC.(.*)\nD.(.*)\n+Answer:\s*([ABCD])", text, re.DOTALL)
                 if m is not None:
                     text,template_name = make_non_mc(m)
                 # else:
