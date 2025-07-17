@@ -49,7 +49,7 @@ if __name__ == "__main__":
     elif args.s3_subdir:
         files_list = []
         bucket = "ai2-llm"
-        filedir = f"pretraining-data/sources/reddit/dolma_raw/merged_versions/merged_qa_all/tokenized/{args.s3_subdir}"
+        filedir = {args.s3_subdir}
         paginator = client.get_paginator('list_objects_v2')
         pages = paginator.paginate(Bucket=bucket, Prefix=filedir)
         for page in pages:
