@@ -32,12 +32,12 @@ def iterate_over_files(input_file_folder,output_dir, num_processes=1):
     else:
         filenames = [os.path.join(input_file_folder,f) for f in os.listdir(input_file_folder) if ".jsonl" in f]
     
-    # convert_file_to_dolma_non_mc(filenames[0],output_dir)
-    with mp.Pool(processes=num_processes) as pool:
-        for filename in filenames:
-            pool.apply_async(convert_file_to_dolma_non_mc, (filename,output_dir))
-        pool.close()
-        pool.join()
+    convert_file_to_dolma_non_mc(filenames[0],output_dir,mcplus=True)
+    # with mp.Pool(processes=num_processes) as pool:
+    #     for filename in filenames:
+    #         pool.apply_async(convert_file_to_dolma_non_mc, (filename,output_dir))
+    #     pool.close()
+    #     pool.join()
 
 
 def convert_file_to_dolma(input_filename,outputdir):
@@ -81,7 +81,8 @@ answer_options = ["Answer:",
             #    "A:", 
                "The correct answer is",
                "Answer is",
-               "The final answer is"]
+               "The final answer is",
+               "The answer is"]
 format_options = {
     "base" : ("Question: ","period","Answer: "),
     "simple": ("Q: ", "A: "),
@@ -123,10 +124,10 @@ def format_sampling(match_object):
     tempv,tempp = zip(*qa_distribution)
     template_name = random.choices(tempv,weights = tempp, k=1)[0]
     template = tempname_to_temp[template_name]
-    if template_name in ("STANDARD_NON_MC","POPQA_NON_MC"):
-        answer_full = [opta,optb,optc,optd][letter_to_index[answer]]
-    else:
-        answer_full = None
+    # if template_name in ("STANDARD_NON_MC","POPQA_NON_MC"):
+    #     answer_full = [opta,optb,optc,optd][letter_to_index[answer]]
+    # else:
+    #     answer_full = None
 
     if template_name in ["STANDARD_PERIOD_AFLEX","STANDARD_PARENS_AFLEX"]:
         answer_pref = random.choices(answer_options)[0]
@@ -187,8 +188,35 @@ def make_non_mc(match_object):
 
     return new_text,template_name
 
+def mc_plus_full_answer(match_object):
+    qa_distribution = [
+        ("STANDARD_MC_EVAL",0),
+        ("GPQA", .1),
+        ("STANDARD_NON_MC", 0),
+        ("POPQA_NON_MC", 0),
+        ("STANDARD_PERIOD_AFLEX", .7),
+        ("STANDARD_PARENS_AFLEX", .2)
+    ]
+    extracted = [e.strip() for e in match_object.groups()]
+    question,opta,optb,optc,optd,answer = extracted
+    tempv,tempp = zip(*qa_distribution)
+    template_name = random.choices(tempv,weights = tempp, k=1)[0]
+    template = tempname_to_temp[template_name]
+    # if template_name in ("STANDARD_NON_MC","POPQA_NON_MC"):
+    #     answer_full = [opta,optb,optc,optd][letter_to_index[answer]]
+    # else:
+    #     answer_full = None
+    answer_full = [opta,optb,optc,optd][letter_to_index[answer]]
+    if template_name in ["STANDARD_PERIOD_AFLEX","STANDARD_PARENS_AFLEX"]:
+        answer_pref = random.choices(answer_options)[0]
+    else:
+        answer_pref = None
+    
+    new_text = template.format(question=question,opta=opta,optb=optb,optc=optc,optd=optd,answer=answer,answer_full=answer_full,answer_pref=answer_pref)
+    return new_text,template_name
 
-def convert_file_to_dolma_non_mc(input_filename,outputdir):
+
+def convert_file_to_dolma_non_mc(input_filename,outputdir,mcplus=False):
 
     basename = os.path.basename(input_filename)
     print(f"Processing {input_filename}")
@@ -212,8 +240,12 @@ def convert_file_to_dolma_non_mc(input_filename,outputdir):
                 # add_q = random.choices([0,1])[0]
                 text = q_text.strip()
                 m = re.match("Question:(.*)\nA.( .*)\nB.(.*)\nC.(.*)\nD.(.*)\n+Answer:\s*([ABCD])", text, re.DOTALL)
-                if m is not None:
-                    text,template_name = make_non_mc(m)
+                if mcplus:
+                    if m is not None:
+                        text,template_name = mc_plus_full_answer(m)
+                else:
+                    if m is not None:
+                        text,template_name = make_non_mc(m)
                 # else:
                 #     text = text
                 #     template_name = "ORIG"
@@ -229,7 +261,7 @@ def convert_file_to_dolma_non_mc(input_filename,outputdir):
 if __name__ == "__main__":
 
     parser = argparse.ArgumentParser()
-    parser.add_argument("--num_processes",type=int)
+    parser.add_argument("--num_processes",type=int,default=1)
     parser.add_argument("--input_dir",type=str)
     parser.add_argument("--output_dir",type=str)
     args = parser.parse_args()

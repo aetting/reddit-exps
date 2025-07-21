@@ -3,7 +3,7 @@ A. {opta}
 B. {optb}
 C. {optc}
 D. {optd}
-Answer: {answer}"""
+Answer: {answer}. {answer_full}"""
 
 GPQA="""Question: {question}
 Choices:
@@ -11,21 +11,21 @@ Choices:
 (B) {optb}
 (C) {optc}
 (D) {optd}
-Answer: ({answer})"""
+Answer: ({answer}) {answer_full}"""
 
 STANDARD_PERIOD_AFLEX="""Question: {question}
 A. {opta}
 B. {optb}
 C. {optc}
 D. {optd}
-{answer_pref} {answer}"""
+{answer_pref} {answer}. {answer_full}"""
 
 STANDARD_PARENS_AFLEX="""Question: {question}
 (A) {opta}
 (B) {optb}
 (C) {optc}
 (D) {optd}
-{answer_pref} ({answer})"""
+{answer_pref} ({answer}) {answer_full}"""
 
 STANDARD_NON_MC="""Question: {question}
 Answer: {answer_full}"""
