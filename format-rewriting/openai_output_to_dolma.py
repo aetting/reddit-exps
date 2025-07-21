@@ -32,12 +32,12 @@ def iterate_over_files(input_file_folder,output_dir, num_processes=1):
     else:
         filenames = [os.path.join(input_file_folder,f) for f in os.listdir(input_file_folder) if ".jsonl" in f]
     
-    convert_file_to_dolma_non_mc(filenames[0],output_dir,mcplus=True)
-    # with mp.Pool(processes=num_processes) as pool:
-    #     for filename in filenames:
-    #         pool.apply_async(convert_file_to_dolma_non_mc, (filename,output_dir))
-    #     pool.close()
-    #     pool.join()
+    # convert_file_to_dolma_non_mc(filenames[0],output_dir,mcplus=True)
+    with mp.Pool(processes=num_processes) as pool:
+        for filename in filenames:
+            pool.apply_async(convert_file_to_dolma_non_mc, (filename,output_dir,True,))
+        pool.close()
+        pool.join()
 
 
 def convert_file_to_dolma(input_filename,outputdir):
