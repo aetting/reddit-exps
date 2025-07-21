@@ -31,3 +31,7 @@ STANDARD_NON_MC="""Question: {question}
 Answer: {answer_full}"""
 
 POPQA_NON_MC="""Q: {question} A: {answer_full}"""
+
+STANDARD_NON_MC_PSG="""Passage: {orig_text}
+Question: {question}
+Answer: {answer_full}"""
