@@ -32,7 +32,7 @@ def iterate_over_files(input_file_folder,output_dir, num_processes=1,orig_texts_
     else:
         filenames = [os.path.join(input_file_folder,f) for f in os.listdir(input_file_folder) if ".jsonl" in f]
     
-    convert_file_to_dolma_non_mc(filenames[0],output_dir,mcplus=False,orig_texts_dir=orig_texts_dir)
+    # convert_file_to_dolma_non_mc(filenames[0],output_dir,mcplus=False,orig_texts_dir=orig_texts_dir)
     with mp.Pool(processes=num_processes) as pool:
         for filename in filenames:
             pool.apply_async(convert_file_to_dolma_non_mc, (filename,output_dir,False,orig_texts_dir))
@@ -263,7 +263,6 @@ def convert_file_to_dolma_non_mc(input_filename,outputdir,mcplus=False,orig_text
         for line in f:
             d = json.loads(line.strip())
             idx = d["custom_id"]
-            print(idx)
             idm = re.match(".*-[0-9]+_[0-9]+_([0-9a-zA-Z]+_[0-9a-zA-Z]+)_(.*)",idx) 
             prompt_temp = '_'.join(idm.groups()[1].split("_"))
             orig_id = idm.groups()[0]
