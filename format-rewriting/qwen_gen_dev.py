@@ -18,20 +18,6 @@ def generate_text_with_qwen(prompt, max_length=512, temperature=0.7, do_sample=T
         str: Generated text
     """
     
-    # Load model and tokenizer
-    model_name = "Qwen/Qwen2.5-32B-Instruct"
-    
-    print("Loading tokenizer...")
-    tokenizer = AutoTokenizer.from_pretrained(model_name)
-    
-    print("Loading model...")
-    model = AutoModelForCausalLM.from_pretrained(
-        model_name,
-        torch_dtype=torch.float16,  # Use half precision to save memory
-        device_map="auto",          # Automatically distribute across available GPUs
-        trust_remote_code=True
-    )
-    
     # Prepare the prompt in chat format
     messages = [
         {"role": "system", "content": "You are a helpful assistant."},
@@ -67,8 +53,29 @@ def generate_text_with_qwen(prompt, max_length=512, temperature=0.7, do_sample=T
     response = tokenizer.batch_decode(generated_ids, skip_special_tokens=True)[0]
     return response
 
+def load_model_tokenizer(model_name):
+    # Load model and tokenizer
+    
+    print("Loading tokenizer...")
+    tokenizer = AutoTokenizer.from_pretrained(model_name)
+    
+    print("Loading model...")
+    model = AutoModelForCausalLM.from_pretrained(
+        model_name,
+        torch_dtype=torch.float16,  # Use half precision to save memory
+        device_map="auto",          # Automatically distribute across available GPUs
+        trust_remote_code=True
+    )
+
+    return model,tokenizer
+
 # Example usage
 if __name__ == "__main__":
+
+    model_name = "Qwen/Qwen2.5-32B-Instruct"
+    model,tokenizer = load_model_tokenizer(model_name)
+
+
     psgs=["""The Daily News Building (also the News Building) is a skyscraper at 220 East 42nd Street in the East Midtown neighborhood of Manhattan, New York City, United States. The original tower, designed by Raymond Hood and John Mead Howells in the Art Deco style and completed in 1930, was one of several major developments constructed on 42nd Street around that time. A similarly-styled expansion, designed by Harrison & Abramovitz, was completed in 1960. When it originally opened, the building received mixed reviews and was described as having a utilitarian design. The Daily News Building is a National Historic Landmark, and its exterior and lobby are New York City designated landmarks.
 
 The edifice occupies a rectangular site adjoined by 41st Street to the south, Second Avenue to the east, and 42nd Street to the north. It consists of a 36-story tower rising 476 feet (145 m), along with a 14-story printing plant on 41st Street and an 18-story annex on 42nd Street. There is a large carved-granite entrance at 42nd Street, leading to a rotunda lobby with a rotating painted globe. The facade is divided vertically into bays of windows separated by white-brick sections of wall, with brick spandrel panels between windows on different stories. The massing, or general shape, includes several setbacks on higher floors.""",
