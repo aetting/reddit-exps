@@ -86,19 +86,20 @@ With his team trailing 7-6, on fourth down with 22 seconds left in the game, Ste
 
 The communists dominated the left wing of the KMT and struggled for power with the party's right-wing factions.[26] When Sun Yat-sen died in March 1925, he was succeeded by a rightist, Chiang Kai-shek, who initiated moves to marginalize the position of the communists.[26] Chiang, Sun's former assistant, was not actively anti-communist at that time,[33] even though he hated the theory of class struggle and the CCP's seizure of power.[27] The communists proposed removing Chiang's power.[34] When Chiang gradually gained the support of Western countries, the conflict between him and the communists became more and more intense. Chiang asked the Kuomintang to join the Comintern to rule out the secret expansion of communists within the KMT, while Chen Duxiu hoped that the communists would completely withdraw from the KMT.[35]""",
     ]
-    for psg in psgs:
-        prompt = OPEN_ENDED.format(text=psg,number=random.choices([2,3,4,5,6,7,8,9,10])[0])
-        print(prompt)
-        try:
-            response = generate_text_with_qwen(prompt, max_length=256, temperature=0.7)
-            print(f"\nPrompt: {prompt}")
-            print(f"\nResponse: {response}")
-            print("\n\n%%%%%%\n\n")
-            
-        except Exception as e:
-            print(f"Error: {e}")
-            print("\nNote: This model requires significant GPU memory (32GB+ recommended)")
-            print("Consider using quantized versions or smaller models if you have limited resources")
+    for template in [OPEN_ENDED,DROP]:
+        for psg in psgs:
+            prompt = template.format(text=psg,number=random.choices([2,3,4,5,6,7,8,9,10])[0])
+            print(prompt)
+            try:
+                response = generate_text_with_qwen(prompt, max_length=256, temperature=0.7)
+                print(f"\nPrompt: {prompt}")
+                print(f"\nResponse: {response}")
+                print("\n\n%%%%%%\n\n")
+                
+            except Exception as e:
+                print(f"Error: {e}")
+                print("\nNote: This model requires significant GPU memory (32GB+ recommended)")
+                print("Consider using quantized versions or smaller models if you have limited resources")
 
 # # Alternative: Using transformers pipeline (simpler but less control)
 # def simple_qwen_generation(prompt):
