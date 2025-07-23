@@ -2,7 +2,7 @@ import os
 import random
 import json
 
-from prompt_templates import *
+from psg_qa_prompt_templates import *
 
 def text_to_prompt(text,model):
     distribution = [
@@ -16,10 +16,10 @@ def text_to_prompt(text,model):
     ]
     values,probs = zip(*distribution)
 
-    if model == "gpt-4o": 
-        extra = " If the text doesn't contain any information relevant for an academic question, make academic questions inspired by words, phrases, or themes in the text."
-    else:
-        extra = ""
+    # if model == "gpt-4o": 
+    #     extra = " If the text doesn't contain any information relevant for an academic question, make academic questions inspired by words, phrases, or themes in the text."
+    # else:
+    #     extra = ""
 
     template = random.choices(values,weights = probs, k=1)[0]
     prompt = template.format(text=text,extra=extra)
