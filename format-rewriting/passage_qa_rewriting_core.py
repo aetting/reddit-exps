@@ -6,13 +6,17 @@ from psg_qa_prompt_templates import *
 
 def text_to_prompt(text,model):
     distribution = [
-        (OPEN_ENDED,.17),
-        (STATEMENT_COMPLETION,.17),
-        (FILL_IN_BLANK,.17),
-        (TWO_STATEMENT,.05),
-        (WHICH_HAS_PROPERTY,.17),
-        (WHICH_TRUE,.17),
-        (IN_QUESTION_OPTIONS,.1)
+        (DEFAULT,.2),
+        (SPAN,.2),
+        (PPHRASE,.2),
+        (DROP,.2),
+        (DROPR,.2)
+        # (STATEMENT_COMPLETION,.17),
+        # (FILL_IN_BLANK,.17),
+        # (TWO_STATEMENT,.05),
+        # (WHICH_HAS_PROPERTY,.17),
+        # (WHICH_TRUE,.17),
+        # (IN_QUESTION_OPTIONS,.1)
     ]
     values,probs = zip(*distribution)
 
@@ -22,7 +26,13 @@ def text_to_prompt(text,model):
     #     extra = ""
 
     template = random.choices(values,weights = probs, k=1)[0]
-    prompt = template.format(text=text,extra=extra)
+    qnum_prop = round(len(text.split())/15)
+    if qnum_prop < 2:
+        qnum = 1
+    else:
+        qnum = max(1,min(8,random.choices(range(qnum_prop-2,qnum_prop+2))[0]))
+    num_quest = f"{qnum} questions" if qnum > 1 else "1 question"
+    prompt = template.format(text=text,num_quest=num_quest)
 
     return prompt
 
@@ -36,10 +46,14 @@ def write_batch_files(text_iterator,batchfiles_basename,model,outdir,tokenizer):
 
     for i,(text,text_id) in enumerate(text_iterator):
 
+        # print(text_id)
+        # print(text)
+        # print("\n%%%%\n")
         prompt = text_to_prompt(text,model)
         
         text_len = len(tokenizer.tokenize(text))
-        max_tokens = round(max(text_len+(.1*text_len),150))
+        # max_tokens = round(max(text_len+(.1*text_len),150))
+        max_tokens=500
         output_dict = {
             "custom_id": f"{batchfiles_basename}_{i}_{text_id}",
             "method": "POST",
@@ -55,7 +69,7 @@ def write_batch_files(text_iterator,batchfiles_basename,model,outdir,tokenizer):
         json_string = json.dumps(output_dict) + "\n"
         size_in_bytes = len(json_string.encode('utf-8'))  # Get the size in bytes
         size_in_mb = size_in_bytes / (1024 * 1024)
-        if (num_written_requests + 1 < 50000) and (total_size_mb + size_in_mb < 200):
+        if (num_written_requests + 1 < 1000) and (total_size_mb + size_in_mb < 200):
             total_size_mb += size_in_mb
             num_written_requests += 1
             current_file.write(json_string)
