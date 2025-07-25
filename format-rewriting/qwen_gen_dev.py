@@ -2,6 +2,7 @@ from transformers import AutoModelForCausalLM, AutoTokenizer
 import torch
 import random
 import json
+import argparse
 
 from psg_qa_prompt_templates import *
 
