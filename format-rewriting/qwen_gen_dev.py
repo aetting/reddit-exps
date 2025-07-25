@@ -86,7 +86,8 @@ def parse_args():
 # Example usage
 if __name__ == "__main__":
 
-    model_name = "Qwen/Qwen3-32B"
+    # model_name = "Qwen/Qwen3-32B"
+    model_name = "Qwen/Qwen2.5-32B-Instruct"
     model,tokenizer = load_model_tokenizer(model_name)
 
 
