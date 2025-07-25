@@ -44,7 +44,7 @@ def yield_text_from_wiki_attributes(filename):
 def convert_file_to_batch_files(filename):
     text_iterator = yield_text_from_wiki_attributes(filename)
     
-    batch_files_basename = filename.split("/")[-1].replace(".json.gz","")
+    batch_files_basename = filename.split("/")[-1].replace(".gz","")
     tokenizer_for_length_estimates = GPT2Tokenizer.from_pretrained("gpt2")
     
     write_batch_files(text_iterator,batch_files_basename,args.model,args.outdir,tokenizer_for_length_estimates)

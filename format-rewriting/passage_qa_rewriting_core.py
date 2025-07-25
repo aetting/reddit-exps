@@ -38,6 +38,8 @@ def write_batch_files(text_iterator,batchfiles_basename,model,outdir,tokenizer):
 
     num_written_requests = 0
 
+    random.seed(42)
+
     for i,(text,text_id) in enumerate(text_iterator):
 
         # print(text_id)
@@ -50,7 +52,7 @@ def write_batch_files(text_iterator,batchfiles_basename,model,outdir,tokenizer):
         # max_tokens = round(max(text_len+(.1*text_len),150))
         max_tokens=500
         output_dict = {
-            "custom_id": f"{batchfiles_basename}_{i}_{text_id}",
+            "custom_id": f"f{batchfiles_basename}_p{i}_w{text_id}",
             "method": "POST",
             "url": "/v1/chat/completions",
             "body": {
