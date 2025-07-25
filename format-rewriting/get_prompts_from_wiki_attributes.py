@@ -97,7 +97,7 @@ if __name__ == "__main__":
     args = parse_args()
 
     file_list = list_s3_files(args.input_dir)
-    Path(args.outdir).mkdir(parents=True, exist_ok=True)
-    convert_file_to_batch_files(file_list[0])
+    # Path(args.outdir).mkdir(parents=True, exist_ok=True)
+    # convert_file_to_batch_files(file_list[0])
 
-    # process_files_parallel(file_list)
+    process_files_parallel(file_list)
