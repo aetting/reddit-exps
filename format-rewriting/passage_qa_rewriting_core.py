@@ -20,11 +20,11 @@ def text_to_prompt(text,model):
     #     extra = ""
 
     template = random.choices(values,weights = probs, k=1)[0]
-    qnum_prop = round(len(text.split())/50)
+    qnum_prop = round(len(text.split())/40)
     if qnum_prop < 2:
         qnum = 1
     else:
-        qnum = max(1,min(8,random.choices(range(qnum_prop-4,qnum_prop+2))[0]))
+        qnum = max(1,min(8,random.choices(range(qnum_prop-4,qnum_prop))[0]))
     num_quest = f"{qnum} questions" if qnum > 1 else "1 question"
     prompt = template.format(text=text,num_quest=num_quest)
 
