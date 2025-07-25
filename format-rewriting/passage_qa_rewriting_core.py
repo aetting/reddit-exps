@@ -20,7 +20,7 @@ def text_to_prompt(text,model):
     #     extra = ""
 
     template = random.choices(values,weights = probs, k=1)[0]
-    qnum_prop = round(len(text.split())/15)
+    qnum_prop = round(len(text.split())/50)
     if qnum_prop < 2:
         qnum = 1
     else:
