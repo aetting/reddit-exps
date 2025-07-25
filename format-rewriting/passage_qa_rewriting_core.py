@@ -7,9 +7,9 @@ from psg_qa_prompt_templates import *
 def text_to_prompt(text,model):
     distribution = [
         (DEFAULT,.1),
-        (SPAN,.3),
-        (PPHRASE,.3),
-        (DROP,.3),
+        (SPAN,.25),
+        (PPHRASE,.25),
+        (DROP,.4),
         # (DROPR,.2)
     ]
     values,probs = zip(*distribution)
