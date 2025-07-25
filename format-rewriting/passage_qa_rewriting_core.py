@@ -6,17 +6,11 @@ from psg_qa_prompt_templates import *
 
 def text_to_prompt(text,model):
     distribution = [
-        (DEFAULT,.2),
-        (SPAN,.2),
-        (PPHRASE,.2),
-        (DROP,.2),
-        (DROPR,.2)
-        # (STATEMENT_COMPLETION,.17),
-        # (FILL_IN_BLANK,.17),
-        # (TWO_STATEMENT,.05),
-        # (WHICH_HAS_PROPERTY,.17),
-        # (WHICH_TRUE,.17),
-        # (IN_QUESTION_OPTIONS,.1)
+        (DEFAULT,1),
+        # (SPAN,.2),
+        # (PPHRASE,.2),
+        # (DROP,.2),
+        # (DROPR,.2)
     ]
     values,probs = zip(*distribution)
 
