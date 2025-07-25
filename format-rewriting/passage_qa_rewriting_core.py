@@ -44,7 +44,7 @@ def write_batch_files(text_iterator,batchfiles_basename,model,outdir,tokenizer):
         # print(text)
         # print("\n%%%%\n")
         prompt = text_to_prompt(text,model)
-        print(prompt)
+        # print(prompt)
         
         text_len = len(tokenizer.tokenize(text))
         # max_tokens = round(max(text_len+(.1*text_len),150))
