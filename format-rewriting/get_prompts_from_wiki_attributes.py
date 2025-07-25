@@ -24,14 +24,14 @@ def yield_text_from_wiki_attributes(filename):
             sections = text.split("\n\n")
             passages = [summary]
             for section in sections:
-                if len(section.split()) < 100:
+                if len(section.split()) < 300:
                     passages.append(section)
                 else:
                     for para in section.split("\n"):
                         passages.append(para)
             # if num_words > 500:
             for psg in passages:
-                if len(psg.split()) < 10:
+                if len(psg.split()) < 20:
                     continue
                 yield psg,d["id"] 
 
