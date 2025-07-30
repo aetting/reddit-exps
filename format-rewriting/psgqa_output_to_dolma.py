@@ -58,7 +58,7 @@ def convert_file_to_dolma(input_filename,psg_input_dir,outputdir):
     # basename = os.path.basename(input_filename)
     print(f"Processing {input_filename}")
     
-    orig_file_name = input_filename.split("format_rewriting_batches1_")[1]
+    orig_file_name = input_filename.split("wiki_psgqa_batches1_")[1]
 
     psg_dict = get_passages(os.path.join(psg_input_dir,orig_file_name))
     
@@ -100,12 +100,10 @@ if __name__ == "__main__":
 
     os.makedirs(args.output_dir,exist_ok=True)
 
-    psg_input_dir = "s3://ai2-llm/pretraining-data/sources/reddit/dolma_raw/format_rewriting/wiki_psgqa_batches1/"
-    gen_input_dir = "s3://ai2-llm/pretraining-data/sources/reddit/dolma_raw/format_rewriting/wiki_psgqa_batches1_generations/"
+    # gen_input_dir = "s3://ai2-llm/pretraining-data/sources/reddit/dolma_raw/format_rewriting/wiki_psgqa_batches1_generations/"
 
-    gen_filelist = get_filelist(gen_input_dir)
-    # psg_filelist = get_filelist(psg_input_dir)
-    # print(psg_filelist[0])
+    gen_filelist = get_filelist(args.gen_input_dir)
+
 
     # convert_file_to_dolma(gen_filelist[0],psg_input_dir,args.output_dir)
-    iterate_over_files(gen_filelist,psg_input_dir,args.output_dir,num_processes = args.num_processes)
+    iterate_over_files(gen_filelist,args.psg_input_dir,args.output_dir,num_processes = args.num_processes)
