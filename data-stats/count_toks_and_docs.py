@@ -35,7 +35,7 @@ def process_list(listfile):
 if __name__ == "__main__":
 
     parser = argparse.ArgumentParser()
-    parser.add_argument("--num_processes",default=1,type=int)
+    parser.add_argument("--num_processes",default=mp.cpu_count(),type=int)
     parser.add_argument("--s3_subdir",type=str,default=None)
     parser.add_argument("--from_config",type=str,default=None)
     args = parser.parse_args()
