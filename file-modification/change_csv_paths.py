@@ -9,6 +9,7 @@ import multiprocessing as mp
 import argparse 
 import re
 import math
+import pathlib
 
 """
 open csv file
