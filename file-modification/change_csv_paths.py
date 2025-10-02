@@ -10,6 +10,7 @@ import argparse
 import re
 import math
 import pathlib
+import os
 
 """
 open csv file
