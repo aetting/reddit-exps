@@ -47,7 +47,7 @@ def process_manifest(csvfilename):
     with open(csvfilename) as csvf:
         reader = csv.reader(csvf)
         for row in reader:
-            binname,fname,_ = manifest_row 
+            binname,fname,_ = row 
             fname = fname.replace(".zst","")
             bin_lookup[fname] = binname
     return bin_lookup 
