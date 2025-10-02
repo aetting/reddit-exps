@@ -85,7 +85,9 @@ if __name__ == "__main__":
     #     "wiki_to_rcqa-part3"]:
     #     pathlib.Path(f'{outdir}/{folder}').mkdir(parents=True, exist_ok=True)
 
-    pathlib.Path(args.outdir).mkdir(parents=True, exist_ok=True)
+    outdir = args.outdir
+
+    pathlib.Path(outdir).mkdir(parents=True, exist_ok=True)
     
     bin_lookup = process_manifest(args.manifest)
     convert_file(files_list[0],bin_lookup,outdir)
