@@ -94,8 +94,9 @@ if __name__ == "__main__":
     pathlib.Path(outdir).mkdir(parents=True, exist_ok=True)
     
     bin_lookup = process_manifest(args.manifest)
-    convert_file(files_list[0],bin_lookup,outdir)
-    import pdb; pdb.set_trace()
+
+    # convert_file(files_list[0],bin_lookup,outdir)
+    # import pdb; pdb.set_trace()
     
     with mp.Pool(processes=num_processes) as pool:
         for filepath in files_list:
