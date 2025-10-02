@@ -21,10 +21,11 @@ extract the basename to lookup in manifest
 def convert_file(filepath,bin_lookup,outdir):
     # okey = obj["Key"]
     filename = filepath.split("/")[-1]
-    with smart_open.open(f"s3://{bucket}/{okey}") as f_in, \
+    # with smart_open.open(f"s3://{bucket}/{okey}",'rt', encoding='utf-8') as f_in, \
+    #     gzip.open(f"{outdir}/{filename}", 'wt', encoding='utf-8', newline='') as f_out:
+    
+    with gzip.open(input_file, 'rt', encoding='utf-8') as f_in, \
         gzip.open(f"{outdir}/{filename}", 'wt', encoding='utf-8', newline='') as f_out:
-    # with gzip.open(input_file, 'rt', encoding='utf-8') as f_in, \
-    #     gzip.open(output_file, 'wt', encoding='utf-8', newline='') as f_out:
         
         reader = csv.reader(f_in)
         writer = csv.writer(f_out)
@@ -60,21 +61,22 @@ if __name__ == "__main__":
     parser.add_argument("--s3_subdir",type=str,default=None)
     parser.add_argument("--manifest",type=str,default=None)
     parser.add_argument("--outdir",type=str,default=None)
+    parser.add_argument("--indir",type=str,default=None)
     args = parser.parse_args()
 
     num_processes = args.num_processes
     client = boto3.client('s3')
 
-    files_list = []
-    bucket = "ai2-llm"
-    filedir = args.s3_subdir
-    paginator = client.get_paginator('list_objects_v2')
-    pages = paginator.paginate(Bucket=bucket, Prefix=filedir)
-    for page in pages:
-        for obj in page["Contents"]:
-            okey = obj["Key"]
-            if "csv.gz" not in okey: continue
-            files_list.append(f"s3://{bucket}/{okey}")
+    files_list = [f"{args.indir}/{e}" for e in os.listdir(args.indir)]
+    # bucket = "ai2-llm"
+    # filedir = args.s3_subdir
+    # paginator = client.get_paginator('list_objects_v2')
+    # pages = paginator.paginate(Bucket=bucket, Prefix=filedir)
+    # for page in pages:
+    #     for obj in page["Contents"]:
+    #         okey = obj["Key"]
+    #         if "csv.gz" not in okey: continue
+    #         files_list.append(f"s3://{bucket}/{okey}")
 
     results = []
 
