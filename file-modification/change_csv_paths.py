@@ -68,7 +68,7 @@ if __name__ == "__main__":
     num_processes = args.num_processes
     client = boto3.client('s3')
 
-    files_list = [f"{args.indir}/{e}" for e in os.listdir(args.indir)]
+    files_list = [f"{args.indir}/{e}" for e in os.listdir(args.indir) if "csv.gz" in e]
     # bucket = "ai2-llm"
     # filedir = args.s3_subdir
     # paginator = client.get_paginator('list_objects_v2')
