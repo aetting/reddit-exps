@@ -25,7 +25,7 @@ def convert_file(filepath,bin_lookup,outdir):
     # with smart_open.open(f"s3://{bucket}/{okey}",'rt', encoding='utf-8') as f_in, \
     #     gzip.open(f"{outdir}/{filename}", 'wt', encoding='utf-8', newline='') as f_out:
     
-    with gzip.open(input_file, 'rt', encoding='utf-8') as f_in, \
+    with gzip.open(filepath, 'rt', encoding='utf-8') as f_in, \
         gzip.open(f"{outdir}/{filename}", 'wt', encoding='utf-8', newline='') as f_out:
         
         reader = csv.reader(f_in)
