@@ -35,12 +35,13 @@ def convert_file(filepath,bin_lookup,outdir):
             # Check if row has at least 4 columns (index 3)
             if len(row) > 3:
                 # Substitute string in column 4 (index 3)
-                m = re.match("/mnt/raid0/ai2-llm/pretraining-data/sources/wiki_psgqa_rewrites/psgqa_rewrites_v1-decon-sparkle-motion/(.*).gz") 
+                m = re.match("/mnt/raid0/ai2-llm/pretraining-data/sources/wiki_psgqa_rewrites/psgqa_rewrites_v1-decon-sparkle-motion/(.*).gz",row[3]) 
                 source_basename = m.groups()[0]
                 binname = bin_lookup[source_basename]
-                old_string = "/mnt/raid0/ai2-llm/pretraining-data/sources/wiki_psgqa_rewrites/psgqa_rewrites_v1-decon-sparkle-motion/"
+                # old_string = "/mnt/raid0/ai2-llm/pretraining-data/sources/wiki_psgqa_rewrites/psgqa_rewrites_v1-decon-sparkle-motion/"
                 new_string = f"wiki_to_rcqa-{binname}"
-                row[3] = row[3].replace(old_string, new_string).replace(".gz",".zst")
+                # row[3] = row[3].replace(old_string, new_string).replace(".gz",".zst")
+                row[3] = f"{new_string}/{source_basename}.zst"
             
             writer.writerow(row)
 
