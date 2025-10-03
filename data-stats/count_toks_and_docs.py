@@ -21,41 +21,33 @@ def convert_file(obj: str):
     
     return (file_total,ct,obj) 
 
-def process_list(listfile):
-    files_list = []
-    with open(listfile) as f:
-        for line in f:
-            m = re.match(".*(s3://.*)\.npy.*",line,re.DOTALL)
-            if m:
-                files_list.append(m.groups()[0] + ".csv.gz")
+# def process_list(listfile):
+#     files_list = []
+#     with open(listfile) as f:
+#         for line in f:
+#             m = re.match(".*(s3://.*)\.npy.*",line,re.DOTALL)
+#             if m:
+#                 files_list.append(m.groups()[0] + ".csv.gz")
 
-    return files_list
+#     return files_list
 
-
-if __name__ == "__main__":
-
-    parser = argparse.ArgumentParser()
-    parser.add_argument("--num_processes",default=mp.cpu_count(),type=int)
-    parser.add_argument("--s3_subdir",type=str,default=None)
-    parser.add_argument("--from_config",type=str,default=None)
-    args = parser.parse_args()
-
-    num_processes = args.num_processes
+def main(s3dir,num_processes):
     client = boto3.client('s3')
 
-    if args.from_config:
-        files_list = process_list(args.from_config)
-    elif args.s3_subdir:
-        files_list = []
-        bucket = "ai2-llm"
-        filedir = args.s3_subdir
-        paginator = client.get_paginator('list_objects_v2')
-        pages = paginator.paginate(Bucket=bucket, Prefix=filedir)
-        for page in pages:
-            for obj in page["Contents"]:
-                okey = obj["Key"]
-                if "csv.gz" not in okey: continue
-                files_list.append(f"s3://{bucket}/{okey}")
+    # if args.from_config:
+    #     files_list = process_list(args.from_config)
+    files_list = []
+    
+    path_components = s3dir.replace("s3://","").split("/",1)
+    bucket = path_components[0]
+    filedir = path_components[0]
+    paginator = client.get_paginator('list_objects_v2')
+    pages = paginator.paginate(Bucket=bucket, Prefix=filedir)
+    for page in pages:
+        for obj in page["Contents"]:
+            okey = obj["Key"]
+            if "csv.gz" not in okey: continue
+            files_list.append(f"s3://{bucket}/{okey}")
 
     results = []
     with mp.Pool(processes=num_processes) as pool:
@@ -76,3 +68,32 @@ if __name__ == "__main__":
 
         pool.close()
         pool.join()
+
+    return tok_total,doc_total
+
+
+if __name__ == "__main__":
+
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--num_processes",default=mp.cpu_count(),type=int)
+    parser.add_argument("--s3dir",type=str,default=None)
+    parser.add_argument("--s3listfile",type=str,default=None)
+    # parser.add_argument("--from_config",type=str,default=None)
+    args = parser.parse_args()
+
+    if args.s3dir:
+        main(args.s3dir,args.num_processes)
+    elif args.s3listfile:
+        all_paths = []
+        with open(args.s3listfile) as slist:
+            for line in slist:
+                if "s3://" in line:
+                    s3path = line.strip()
+                    tok_num, doc_num = main(s3path)
+                    all_paths.append((s3path,tok_num,doc_num))
+        print("\n\nALL PATH STATS\n\n")
+        for s3path,toks,docs in all_paths:
+            print(f"{s3path},{toks},{docs}")
+
+
+    
