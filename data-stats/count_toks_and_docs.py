@@ -40,7 +40,7 @@ def main(s3dir,num_processes):
     
     path_components = s3dir.replace("s3://","").split("/",1)
     bucket = path_components[0]
-    filedir = path_components[0]
+    filedir = path_components[1]
     paginator = client.get_paginator('list_objects_v2')
     pages = paginator.paginate(Bucket=bucket, Prefix=filedir)
     for page in pages:
@@ -89,7 +89,8 @@ if __name__ == "__main__":
             for line in slist:
                 if "s3://" in line:
                     s3path = line.strip()
-                    tok_num, doc_num = main(s3path)
+                    print(f"\n\n{s3path}\n\n")
+                    tok_num, doc_num = main(s3path,args.num_processes)
                     all_paths.append((s3path,tok_num,doc_num))
         print("\n\nALL PATH STATS\n\n")
         for s3path,toks,docs in all_paths:
